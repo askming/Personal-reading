@@ -1,0 +1,42 @@
+name: deploy-book
+
+on:
+  push:
+    branches:
+    - master
+
+Jobs:
+  deploy-book:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Configure pip cache
+        uses: actions/cache@v1
+        id: pip-cache
+        with:
+          path: venv
+          key: pip-1-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            pip-
+
+      - name: Install dependecies
+        run: |
+          pip install -r requirements.txt
+        if: steps.pip-cache.outputs.cache-hit != 'true'
+
+      - name: Build the book
+        run: |
+          jupyter-book build --all ./book/
+
+      - name: Deploy htmls to gh-pages branch 
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.PERSONAL-READING }}
+          publish_dir: ./book/_build/html
