@@ -7,6 +7,7 @@ parts:
   - caption: "2021"
     chapters:
     - file: "2021/How to win friends and influence people"
+    - file: "2021/The Unwinding"
     - file: "2021/\u547D\u8FD0\u7684\u5185\u6838"
     - file: "2021/\u6295\u8D44\u6700\u91CD\u8981\u7684\u4E8B"
     - file: "2021/\u6307\u6570\u57FA\u91D1\u6295\u8D44\u6307\u5357"
@@ -28,6 +29,7 @@ parts:
 
   - caption: Others
     chapters:
+    - file: "\u5F85\u8BFB\u4E66\u5355"
     - file: markdown
     - file: notebooks
 
