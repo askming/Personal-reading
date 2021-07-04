@@ -1,5 +1,6 @@
 # Personal-reading
 
-A repo to store personal reading hilights & summaries. 
+A repo stores personal reading highlights & summaries. A static site powered by Jupyter Book is built based on this repo for ease of browsing and review. 
 
-A static site powered by Jupyter Book is built based on this repo. Visit: https://askming.github.io/Personal-reading/
+Visit https://askming.github.io/Personal-reading/ for contents.
+
