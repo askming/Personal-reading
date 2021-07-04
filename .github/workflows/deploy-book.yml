@@ -5,9 +5,9 @@ on:
     branches:
       - master
     paths:
-      - book/**
+      - ./book/**
 
-Jobs:
+jobs:
   deploy-book:
     runs-on: ubuntu-latest
     steps:
