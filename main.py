@@ -34,10 +34,8 @@ def get_to_save_dir(issue):
 
 def get_to_generate_issues(repo, dir_name, issue_number=None):
     md_files = os.listdir(dir_name)
-    print(md_files)
-    generated_issues_names = [
-        i.split("_")[1] for i in md_files
-    ]
+    generated_issues_names = md_files
+
     to_generate_issues = [
         i
         for i in list(repo.get_issues())
@@ -70,7 +68,6 @@ def main(token, repo_name, issue_number=None):
     issues = repo.get_issues() 
     for i in issues:
         to_save_dir = get_to_save_dir(i)
-        print(to_save_dir)
         if not os.path.exists(to_save_dir):
             os.mkdir(to_save_dir)
 
