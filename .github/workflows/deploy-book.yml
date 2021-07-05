@@ -34,7 +34,7 @@ jobs:
         id: pip-cache
         with:
           path: venv
-          key: pip-2-${{ hashFiles('**/requirements.txt') }}
+          key: pip-1-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             pip-
 
