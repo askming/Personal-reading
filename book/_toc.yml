@@ -6,15 +6,16 @@ root: intro
 parts:
   - caption: "2021"
     chapters:
-    - file: "2021/How to win friends and influence people"
-    - file: "2021/The Unwinding"
-    - file: "2021/\u547D\u8FD0\u7684\u5185\u6838"
-    - file: "2021/\u6295\u8D44\u6700\u91CD\u8981\u7684\u4E8B"
-    - file: "2021/\u6307\u6570\u57FA\u91D1\u6295\u8D44\u6307\u5357"
-    - file: "2021/\u65E0\u9650\u53EF\u80FD"
-    - file: "2021/\u6BB5\u6C38\u5E73\u6295\u8D44\u601D\u8DEF\u68B3\u7406"
-    - file: "2021/\u7B80\u8BFB\u4E2D\u56FD\u53F2\u4E16\u754C\u53F2\u5750\u6807\u4E0B\
-      \u7684\u4E2D\u56FD"
+      - glob: "2021/*"
+    # - file: "2021/How to win friends and influence people"
+    # - file: "2021/The Unwinding"
+    # - file: "2021/\u547D\u8FD0\u7684\u5185\u6838"
+    # - file: "2021/\u6295\u8D44\u6700\u91CD\u8981\u7684\u4E8B"
+    # - file: "2021/\u6307\u6570\u57FA\u91D1\u6295\u8D44\u6307\u5357"
+    # - file: "2021/\u65E0\u9650\u53EF\u80FD"
+    # - file: "2021/\u6BB5\u6C38\u5E73\u6295\u8D44\u601D\u8DEF\u68B3\u7406"
+    # - file: "2021/\u7B80\u8BFB\u4E2D\u56FD\u53F2\u4E16\u754C\u53F2\u5750\u6807\u4E0B\
+    #   \u7684\u4E2D\u56FD"
       
   - caption: "2020"
     chapters:
