@@ -34,7 +34,7 @@ jobs:
         id: pip-cache
         with:
           path: venv
-          key: pip-1-${{ hashFiles('**/requirements-jb.txt') }}
+          key: pip-${{ secrets.PERSONAL_READING }}-${{ hashFiles('**/requirements-jb.txt') }}
           restore-keys: |
             pip-
 
