@@ -34,15 +34,14 @@ jobs:
         id: pip-cache
         with:
           path: venv
-          key: pip-${{ secrets.PERSONAL_READING }}-${{ hashFiles('**/requirements-jb.txt') }}
+          key: pip-${{ secrets.PERSONAL_READING }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             pip-
 
       - name: Install dependecies
         run: |
-          pip install --upgrade pip
-          pip install -r requirements-jb.txt
-        if: steps.pip-cache.outputs.cache-hit != 'true'
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Build the book
         run: |
