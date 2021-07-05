@@ -52,7 +52,7 @@ jobs:
       - name: Push md to folder
         uses: github-actions-x/commit@v2.6
         with:
-          github-token: ${{ secrets.LBN }}
+          github-token: ${{ secrets.PERSONAL_READING }}
           commit-message: "Create/Refresh reading note"
           files: book/
           rebase: 'true'

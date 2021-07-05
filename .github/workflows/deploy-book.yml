@@ -6,6 +6,10 @@ on:
       - master
     paths:
       - book/**
+  workflow_run:
+    workflows: ["Generate reading note from issue"]
+    types:
+      - completed
 
 jobs:
   deploy-book:
