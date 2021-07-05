@@ -42,7 +42,7 @@ def get_to_generate_issues(repo, dir_name, issue_number=None):
         if i.title + '.md' not in generated_issues_names
     ]
     if issue_number:
-        to_generate_issues.append(repo.get_issues(int(issue_number)))
+        to_generate_issues.append(repo.get_issue(int(issue_number)))
     return to_generate_issues
 
 
