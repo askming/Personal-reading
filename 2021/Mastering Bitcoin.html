@@ -366,13 +366,11 @@
   <a class="reference internal nav-link" href="#bitcoin-mining">
    Bitcoin mining
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#chapter-3-the-bitcoin-client">
-     Chapter 3. The Bitcoin Client
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#chapter-3-the-bitcoin-client">
+   Chapter 3. The Bitcoin Client
+  </a>
  </li>
 </ul>
 
@@ -402,8 +400,9 @@
 </ul>
 <hr class="docutils" />
 <p><em>2021-07-25</em></p>
+</div>
 <div class="section" id="chapter-3-the-bitcoin-client">
-<h3>Chapter 3. The Bitcoin Client<a class="headerlink" href="#chapter-3-the-bitcoin-client" title="Permalink to this headline">¶</a></h3>
+<h2>Chapter 3. The Bitcoin Client<a class="headerlink" href="#chapter-3-the-bitcoin-client" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>Reference client: <em>Bitcoin Core</em>, also known as the “Satoshi Client”. <a class="reference external" href="http://bitcoin.org">bitcoin.org</a></p>
 <ul class="simple">
@@ -451,10 +450,17 @@
 <li><p>The Bitcoin Core client implements a JSON-RPC interface that can also be accessed using the command-line helper bitcoin-cli. The command line allows us to experiment interactively with the capabilities that are also available programmatically via the API.</p>
 <ul class="simple">
 <li><p>invoke the help command to see a list of the available bitcoin RPC commands: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">help</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getinfo</span></code>: displays basic info about the status of the bitcoin network node, the wallet, and the blockchain database.</p></li>
 </ul>
 </li>
+<li><p>Before you proceed with creating keys and other commands, you should first encrypt the wallet with a password: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">encryptwallet</span> <span class="pre">password</span></code></p></li>
+<li><p>To unlock the wallet, issue the walletpassphrase command, which takes two parameters—the password and a number of seconds until the wallet is locked again automatically (a time counter): <code class="docutils literal notranslate"><span class="pre">bitcoin-cli</span> <span class="pre">walletpassphrase</span> <span class="pre">password</span> <span class="pre">360</span></code></p></li>
+<li><p>To get wallet address: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getnewaddress</span></code></p></li>
+<li><p>To get all addresses in the entire wallet: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getaddressbyaccount</span></code></p></li>
+<li><p>To display transactions received by the entire wallet: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">listtransactions</span></code></p></li>
+<li><p>To show transaction by address: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getreceivedbyaddress</span> <span class="pre">some-address</span> <span class="pre">0</span></code></p></li>
+<li><p>To show total balance of the wallet: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getbalance</span></code></p></li>
 </ul>
-</div>
 </div>
 </div>
 
