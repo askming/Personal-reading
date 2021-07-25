@@ -11,7 +11,7 @@
 
 *2021-07-25*
 
-### Chapter 3. The Bitcoin Client
+## Chapter 3. The Bitcoin Client
 
 - Reference client: _Bitcoin Core_, also known as the "Satoshi Client". bitcoin.org
   - It implements all aspects of the bitcoin system, including wallets, a transaction verification engine with a full copy of the entire transaction ledger (blockchain), and full network node in the peer-to-peer bitcoin network.
@@ -40,3 +40,11 @@
   - Run bitcoind in the background with the option `-daemon`: `$ bitcoind -daemon`
 - The Bitcoin Core client implements a JSON-RPC interface that can also be accessed using the command-line helper bitcoin-cli. The command line allows us to experiment interactively with the capabilities that are also available programmatically via the API.
   - invoke the help command to see a list of the available bitcoin RPC commands: `$ bitcoin-cli help`
+  - `$ bitcoin-cli getinfo`: displays basic info about the status of the bitcoin network node, the wallet, and the blockchain database.
+- Before you proceed with creating keys and other commands, you should first encrypt the wallet with a password: `$ bitcoin-cli encryptwallet password`
+- To unlock the wallet, issue the walletpassphrase command, which takes two parameters—the password and a number of seconds until the wallet is locked again automatically (a time counter): `bitcoin-cli walletpassphrase password 360`
+- To get wallet address: `$ bitcoin-cli getnewaddress`
+- To get all addresses in the entire wallet: `$ bitcoin-cli getaddressbyaccount`
+- To display transactions received by the entire wallet: `$ bitcoin-cli listtransactions`
+- To show transaction by address: `$ bitcoin-cli getreceivedbyaddress some-address 0`
+- To show total balance of the wallet: `$ bitcoin-cli getbalance`
