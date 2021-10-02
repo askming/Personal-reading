@@ -12,3 +12,11 @@
 - Page 51, 1st paragraph,associative activation; associatively coherent
 - Page 52, bottom, the priming effect
 - Page 53, bottom, the ideomotor effect
+
+---
+
+*2021-10-02*
+
+#Cognitive ease
+
+- Page 59, cognitive ease and cognitive strain
