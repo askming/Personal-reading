@@ -17,6 +17,7 @@
 
 *2021-10-02*
 
-#Cognitive ease
+# Cognitive ease
 
 - Page 59, cognitive ease and cognitive strain
+- Page 62-63, how to write a pervasive message
