@@ -1,5 +1,7 @@
 # [Thinking, fast and slow](https://github.com/askming/Personal-reading/issues/3)
 
+_2021-09-30_
+
 - Page 29, two systems
 - Page 32, 2nd paragraph, purple of the eye as a window to the soul
 - Page 27, bottom, cognitive illusion
