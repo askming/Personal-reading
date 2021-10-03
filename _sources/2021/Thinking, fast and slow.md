@@ -19,10 +19,11 @@ _2021-09-30_
 
 *2021-10-02*
 
-# Cognitive ease
+## Cognitive ease
 
 - Page 59, cognitive ease and cognitive strain
 - Page 62-63, how to write a pervasive message
 
-# Norms, surprises, and Causes
+## Norms, surprises, and Causes
 - Page 71, bottom, Surprise is the most sensitive indication of how we understand our world and what we expect from it. Two main varieties of surprises. 
+- P77, top, humans in born readiness to separate physical and intentional causality and the origins of religion
