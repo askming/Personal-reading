@@ -26,4 +26,5 @@ _2021-09-30_
 
 ## Norms, surprises, and Causes
 - Page 71, bottom, Surprise is the most sensitive indication of how we understand our world and what we expect from it. Two main varieties of surprises. 
-- P77, top, humans in born readiness to separate physical and intentional causality and the origins of religion
+- P77, top, humans in born readiness to separate physical and intentional causality and the origins of religion; 
+- P77, bottom, statistical reasoning vs causal intuition of humans
