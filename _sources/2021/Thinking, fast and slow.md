@@ -37,3 +37,4 @@ _2021-09-30_
 
 - P79, top, "Her favorite position is beside herself, and her favorite sport is jumping to conclusions. " Danny Kaye
 - P82, top, halo effect-exaggerated emotional conference
+- P85, top, using the principle of independent judgement (and decor related errors) in conducting meetings
