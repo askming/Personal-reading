@@ -36,3 +36,4 @@ _2021-09-30_
 ## A machine for jumping to conclusions
 
 - P79, top, "Her favorite position is beside herself, and her favorite sport is jumping to conclusions. " Danny Kaye
+- P82, top, halo effect-exaggerated emotional conference
