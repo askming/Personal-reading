@@ -28,3 +28,11 @@ _2021-09-30_
 - Page 71, bottom, Surprise is the most sensitive indication of how we understand our world and what we expect from it. Two main varieties of surprises. 
 - P77, top, humans in born readiness to separate physical and intentional causality and the origins of religion; 
 - P77, bottom, statistical reasoning vs causal intuition of humans
+
+---
+
+*2021-10-04*
+
+## A machine for jumping to conclusions
+
+- P79, top, "Her favorite position is beside herself, and her favorite sport is jumping to conclusions. " Danny Kaye
