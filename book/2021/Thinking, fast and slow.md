@@ -47,10 +47,6 @@ _2021-09-30_
 
 - System 1 can't deal with sum-like variables effectively; it works well with averages
 
----
-
-*2021-10-05*
-
 ## Answering an easier question
 
 - P97, bottom, the concept of substitution
