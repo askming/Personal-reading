@@ -53,3 +53,5 @@ _2021-09-30_
 
 ## Answering an easier question
 
+- P97, bottom, the concept of substitution
+- P98, top, the definition of heuristic
