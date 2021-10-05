@@ -45,3 +45,4 @@ _2021-09-30_
 
 ## How judgements happen
 
+- System 1 can't deal with sum-like variables effectively; it works well with averages
