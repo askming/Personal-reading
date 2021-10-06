@@ -82,3 +82,5 @@ _2021-09-30_
 
 ## The law of small numbers
 
+- P112, middle, for a research psychologist, sampling variation is not a curiosity; it is a nuisance and a costly obstacle, which turns the undertaking of every research project into a gamble.
+
