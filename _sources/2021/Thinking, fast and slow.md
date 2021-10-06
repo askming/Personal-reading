@@ -75,3 +75,10 @@ _2021-09-30_
 - shows diminishing sensitivity to quantity (psychophysics)
 - responds more strongly to losses than to gains (loss aversion)
 - frames decision problems narrowly, in isolation from one another
+
+---
+
+*2021-10-06*
+
+## The law of small numbers
+
