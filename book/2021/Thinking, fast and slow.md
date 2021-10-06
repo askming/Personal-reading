@@ -84,3 +84,5 @@ _2021-09-30_
 
 - P112, middle, for a research psychologist, sampling variation is not a curiosity; it is a nuisance and a costly obstacle, which turns the undertaking of every research project into a gamble.
 
+- P115, top, Instead of focusing on how the event at hand came to be, the statistical view relates it to what could have happened instead. Nothing in particular caused it to be what it is - chance selected it from among its alternatives.
+
