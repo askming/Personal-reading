@@ -86,4 +86,12 @@ _2021-09-30_
 
 - P115, top, Instead of focusing on how the event at hand came to be, the statistical view relates it to what could have happened instead. Nothing in particular caused it to be what it is - chance selected it from among its alternatives.
 
-- P116, bottom, there is no such a thing as hot hand in professional basketball - research showed
+- P116, bottom, there is no such a thing as hot hand in professional basketball - research showed. It's related with the tendency to see patterns in randomness.
+
+---
+
+*2021-10-07*
+
+## Anchors
+
+P119, bottom, anchoring effect
