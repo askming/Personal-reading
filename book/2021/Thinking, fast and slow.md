@@ -95,3 +95,10 @@ _2021-09-30_
 ## Anchors
 
 P119, bottom, anchoring effect
+
+---
+
+*2021-10-08*
+
+## The science of availability
+
