@@ -122,3 +122,6 @@ P129, bottom, availability heuristic
 
 - Base rate vs detailed description
 - impact of Representativeness in decision making
+- P154, bottom, the essential keys to disciplined Bayesian reasoning can be simply summarized:
+  - Anchor your judgement of the probability of an outcome on a plausible base rate
+  - Question the diagnosticity of your evidence 
