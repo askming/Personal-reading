@@ -110,4 +110,4 @@ P129, bottom, availability heuristic
 
 ## Availability, emotion, and risk
 
-- 
+- P139, top, people form opinions and make choices that directly express their feelings and their basic tendency to approach or avoid, often without knowing that they are doing so. 
