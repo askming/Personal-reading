@@ -103,3 +103,11 @@ P119, bottom, anchoring effect
 ## The science of availability
 
 P129, bottom, availability heuristic
+
+---
+
+*2021-10-09*
+
+## Availability, emotion, and risk
+
+- 
