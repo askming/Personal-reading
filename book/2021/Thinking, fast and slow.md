@@ -113,3 +113,10 @@ P129, bottom, availability heuristic
 - P139, top, people form opinions and make choices that directly express their feelings and their basic tendency to approach or avoid, often without knowing that they are doing so. 
 - The emotional tail wags the rational dog. Jonathan Haidt
 - P142, top, the availability cascade
+
+---
+
+*2021-10-09*
+
+## Tom W's specialty
+
