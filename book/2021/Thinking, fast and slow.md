@@ -114,10 +114,6 @@ P129, bottom, availability heuristic
 - The emotional tail wags the rational dog. Jonathan Haidt
 - P142, top, the availability cascade
 
----
-
-*2021-10-09*
-
 ## Tom W's specialty
 
 - Base rate vs detailed description
