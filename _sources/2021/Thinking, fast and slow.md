@@ -121,3 +121,11 @@ P129, bottom, availability heuristic
 - P154, bottom, the essential keys to disciplined Bayesian reasoning can be simply summarized:
   - Anchor your judgement of the probability of an outcome on a plausible base rate
   - Question the diagnosticity of your evidence 
+
+---
+
+*2021-10-09*
+
+## Linda: less is more
+
+- P158, bottom, conjunction fallacy: people commit when they judge a conjunction of two events to be more probable than one of the events in a direct comparison
