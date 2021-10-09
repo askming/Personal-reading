@@ -120,3 +120,5 @@ P129, bottom, availability heuristic
 
 ## Tom W's specialty
 
+- Base rate vs detailed description
+- impact of Representativeness in decision making
