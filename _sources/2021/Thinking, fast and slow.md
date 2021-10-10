@@ -129,3 +129,6 @@ P129, bottom, availability heuristic
 ## Linda: less is more
 
 - P158, bottom, conjunction fallacy: people commit when they judge a conjunction of two events to be more probable than one of the events in a direct comparison
+
+## Causes trump statistics
+
