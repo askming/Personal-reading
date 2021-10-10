@@ -130,3 +130,13 @@ P129, bottom, availability heuristic
 
 - P158, bottom, conjunction fallacy: people commit when they judge a conjunction of two events to be more probable than one of the events in a direct comparison
 
+
+
+---
+
+*2021-10-10*
+
+## Causes trump statistics
+
+- P174, top, subject's unwillingness to deduce particular to general was matched only by willingness to infer the general from the particular. 
+- P174, bottom, surprising individual cases have a powerful impact and are more effective tool for teaching psychology because the incongruity must be resolved and embedded in causal story. 
