@@ -150,3 +150,4 @@ P129, bottom, availability heuristic
 - P177, top, 
 > success = talent + luck
 > great success = a little more talent + a lot of luck
+- P181, bottom, regression and correlation are not two concepts; whenever the correlation between two scores is imperfect, there will be regression to the mean
