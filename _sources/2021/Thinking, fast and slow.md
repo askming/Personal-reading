@@ -147,3 +147,6 @@ P129, bottom, availability heuristic
 
 ## Regression to the mean
 
+- P177, top, 
+> success = talent + luck
+> great success = a little more talent + a lot of luck
