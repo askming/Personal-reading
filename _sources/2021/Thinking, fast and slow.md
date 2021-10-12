@@ -155,3 +155,4 @@ P129, bottom, availability heuristic
 ## Taming intuitive predictions
 
 - P192, top, intuitive predictions tend to be overconfident and overly extreme. 
+- Extreme predictions and willingness to predict rare events from rare evidence are both manifestations of System 1. 
