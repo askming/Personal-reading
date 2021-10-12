@@ -151,3 +151,7 @@ P129, bottom, availability heuristic
 > success = talent + luck
 > great success = a little more talent + a lot of luck
 - P181, bottom, regression and correlation are not two concepts; whenever the correlation between two scores is imperfect, there will be regression to the mean
+
+## Taming intuitive predictions
+
+- P192, top, intuitive predictions tend to be overconfident and overly extreme. 
