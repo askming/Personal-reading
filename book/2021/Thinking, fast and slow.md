@@ -163,3 +163,4 @@ P129, bottom, availability heuristic
 
 ## The illusion of understanding
 
+- P199, top, narrative fallacy
