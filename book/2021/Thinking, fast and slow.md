@@ -164,3 +164,4 @@ P129, bottom, availability heuristic
 ## The illusion of understanding
 
 - P199, top, narrative fallacy
+- P202, middle, once you adopt a new view of the world (out of any part of it), you immediately lose much of your ability to recall what you used to believe before your mind changed. 
