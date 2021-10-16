@@ -166,3 +166,10 @@ P129, bottom, availability heuristic
 - P199, top, narrative fallacy
 - P202, middle, once you adopt a new view of the world (out of any part of it), you immediately lose much of your ability to recall what you used to believe before your mind changed. 
 - P203, bottom, outcome bias
+
+---
+
+*2021-10-16*
+
+## The illusion of validity
+
