@@ -175,3 +175,6 @@ P129, bottom, availability heuristic
 
 -  P211, bottom, the illusion of validity
 - P212, middle, Subjective confidence in a juagment is not a reasoned evaluation of the probability that this judgment is correct. Confidence is a feeling, which reflects the coherence of the information and cognitive ease of processing it. It is wise to take admissions of uncertainty seriously, but declarations of high confidence mainly tell you that an individual has constructed a coherent story in his mind, not necessarily that the story is true.
+- _A Random Walk Down Wall Street_ by Burton Malkiel
+- P218, 2nd paragraph, march of history
+- P220, top, hedgehog vs fox analogy
