@@ -178,3 +178,12 @@ P129, bottom, availability heuristic
 - _A Random Walk Down Wall Street_ by Burton Malkiel
 - P218, 2nd paragraph, march of history
 - P220, top, hedgehog vs fox analogy
+
+---
+
+*2021-10-19*
+
+## Intuitions Vs formulas
+
+- P225, top, inconsistency in personal evaluation is typical, which may be the main reason that leads to bad performance in human prediction
+- P225, middle, inconsistency is destructive of any predictive ability
