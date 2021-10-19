@@ -188,3 +188,14 @@ P129, bottom, availability heuristic
 - Paul Meehl, clinical vs statistical prediction:a theoretical analysis and a review of the evidence
 - P225, top, inconsistency in personal evaluation is typical, which may be the main reason that leads to bad performance in human prediction
 - P225, middle, inconsistency is destructive of any predictive ability
+
+## Expert intuition: when to trust it?
+- Malcolm Gladwell: _Blink_
+- P236, bottom, recognition-primed decision 
+- P237, top, Herbert Simon's definition of intuition: the situation has provided a cue; this cue has given the expert access to information stored in memory, and the information provides the answer. Intuition is nothing more and nothing less than recognition. 
+- P240, top, confidence that people have in their intuition is not a reliable guide to their validity
+- P240, 2nd paragraph, two basic conditions for acquiring a skill:
+  - an environment that is sufficiently regular to be predictable
+  - an opportunity to learn these regularities through prolonged practice
+- P241, middle, intuition can't be trusted in the absence of stable regularities in the environment. 
+- P241, bottom, whether professionals have a chance to develop intuitive expertise depends essentially on the quality and speed of feedback,as well as on sufficient opportunity to practice. 
