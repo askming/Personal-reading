@@ -185,5 +185,6 @@ P129, bottom, availability heuristic
 
 ## Intuitions Vs formulas
 
+- Paul Meehl, clinical vs statistical prediction:a theoretical analysis and a review of the evidence
 - P225, top, inconsistency in personal evaluation is typical, which may be the main reason that leads to bad performance in human prediction
 - P225, middle, inconsistency is destructive of any predictive ability
