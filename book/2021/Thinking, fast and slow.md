@@ -214,3 +214,12 @@ P129, bottom, availability heuristic
   - Identify an appropriate reference class (kitchen renovations, large railway projects, etc.)
   - Obtain the statistics of the reference class (in terms of cost per mile of railway, or of the percentage by which expenditures exceeded budget), Use the statistics to generate a baseline prediction.
   - Use specific information about the case to adjust the baseline prediction, if there are particular reasons to expect the optimistic bias to be more or less pronounced in this project than in others of the same type.
+
+## The engine of capitalism
+- P259, bottom, cognitive biases play an important role, notably the System 1 feature WYSIATI.
+  - We focus on our goal, anchor on our plan, and neglect relevant base rates, exposing ourselves to the planning fallacy
+  - We focus on what we want to do and can do, neglecting the plans and skills of others
+  - Both in explaining the past and in predicting the future, we focus on the. causal role of skill and neglect the role of luck. We are therefore prone to an _illusion of control_.
+  - We focus on what we know and neglect what we don't know, which makes us overly confident in our beliefs.
+- P262, bottom, "one-arm economist" who will take a clear stand and won't keep saying "On the other hand..." in his/her reasoning
+- P264, bottom, Gary Klein's proposal of _premortem_. When the organization has almost come to an important decision but has not formally committed itself, Klein proposes gathering for a brief session a group of individuals who are knowledgeable about the decision. The premise of the session is a short speech: "_Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster._"
