@@ -148,8 +148,8 @@ P129, bottom, availability heuristic
 ## Regression to the mean
 
 - P177, top, 
-> success = talent + luck
-> great success = a little more talent + a lot of luck
+  > success = talent + luck
+  > great success = a little more talent + a lot of luck
 - P181, bottom, regression and correlation are not two concepts; whenever the correlation between two scores is imperfect, there will be regression to the mean
 
 ## Taming intuitive predictions
@@ -185,7 +185,7 @@ P129, bottom, availability heuristic
 
 ## Intuitions Vs formulas
 
-- Paul Meehl, clinical vs statistical prediction:a theoretical analysis and a review of the evidence
+- Paul Meehl, _clinical vs statistical prediction:a theoretical analysis and a review of the evidence_
 - P225, top, inconsistency in personal evaluation is typical, which may be the main reason that leads to bad performance in human prediction
 - P225, middle, inconsistency is destructive of any predictive ability
 
