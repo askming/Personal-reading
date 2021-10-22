@@ -199,3 +199,18 @@ P129, bottom, availability heuristic
   - an opportunity to learn these regularities through prolonged practice
 - P241, middle, intuition can't be trusted in the absence of stable regularities in the environment. 
 - P241, bottom, whether professionals have a chance to develop intuitive expertise depends essentially on the quality and speed of feedback,as well as on sufficient opportunity to practice. 
+
+---
+
+*2021-10-22*
+
+## The outside view
+- P249, 2nd paragraph, people who have information about an individual case rarely feel the need to know the statistics of the  class to which the case belongs.
+- P250, top, _planning fallacy_, plans and forecasts that
+  - are unrealistically close to best-case scenarios
+  - could be improved by consulting the statistics of similar cases
+- P251, bottom, _reference class forecasting_ (the treatment for the planning fallacy)
+- P251, bottom, practices to overcome best-rate neglect:
+  - Identify an appropriate reference class (kitchen renovations, large railway projects, etc.)
+  - Obtain the statistics of the reference class (in terms of cost per mile of railway, or of the percentage by which expenditures exceeded budget), Use the statistics to generate a baseline prediction.
+  - Use specific information about the case to adjust the baseline prediction, if there are particular reasons to expect the optimistic bias to be more or less pronounced in this project than in others of the same type.
