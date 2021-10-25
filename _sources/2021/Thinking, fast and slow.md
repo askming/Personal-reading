@@ -223,3 +223,25 @@ P129, bottom, availability heuristic
   - We focus on what we know and neglect what we don't know, which makes us overly confident in our beliefs.
 - P262, bottom, "one-arm economist" who will take a clear stand and won't keep saying "On the other hand..." in his/her reasoning
 - P264, bottom, Gary Klein's proposal of _premortem_. When the organization has almost come to an important decision but has not formally committed itself, Klein proposes gathering for a brief session a group of individuals who are knowledgeable about the decision. The premise of the session is a short speech: "_Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster._"
+
+---
+
+*2021-10-25*
+
+## Bernoulli's errors
+- P270, middle, _expected utility theory_, which was the foundation of the _rational-agent model_ (to this day the most important theory in the social sciences.)
+- P272, top, _prospect theory_; developed as a modified expected utility theory just enough to explain authors' collection of observation.
+- P273, bottom, 
+  - Bernoulli invented psychophysics to explain the aversion to risk: people's choices are based not on dollar values but on the psychological values of outcomes, their _utilities_.
+  - The psychological value of a gamble is therefore not the weighted average of its possible dollar outcomes; it is the average of the utilities of these outcomes, each weighted by its probability
+ - P277, top, theory-induced blindness: once you have accepted a theory and used it as a tool in your thinking, it is extraordinarily difficult to notice its flaws (refers to Bernoulli's error)
+
+## Prospect theory
+-  P281, bottom, Bernoulli's model is too simple and lacks a moving part. The missing variable is the _reference point_, the earlier state relative to which gains and losses are evaluated.
+- P282, top, operating characteristics of System 1
+  - Evaluation is the relative to a neutral reference point, which is sometimes referred to as an "adaptation level".
+  - A principle of diminishing sensitivity applies to both sensory dimensions and the evaluation of changes of wealth.
+  - The third principle is loss aversion. When directly compared or weighted against each other, losses loom larger than gains.
+- P284, top, the "loss aversion ration"
+- P287, bottom, prospect theory cannot deal with disappointment. 
+- P287, bottom, prospect theory and utility theory also fail to allow for regret.
