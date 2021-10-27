@@ -245,3 +245,10 @@ P129, bottom, availability heuristic
 - P284, top, the "loss aversion ration"
 - P287, bottom, prospect theory cannot deal with disappointment. 
 - P287, bottom, prospect theory and utility theory also fail to allow for regret.
+
+---
+
+*2021-10-27*
+
+## Bad events
+- P301, middle, the brains of humans and other animals contain a mechanism that is designed to give priority to bad news. By shaving a few hundredths of a second from the time needed to detect a predator, this circuit improves the animal's odds of living long enough to reproduce. 
