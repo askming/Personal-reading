@@ -252,3 +252,11 @@ P129, bottom, availability heuristic
 
 ## Bad events
 - P301, middle, the brains of humans and other animals contain a mechanism that is designed to give priority to bad news. By shaving a few hundredths of a second from the time needed to detect a predator, this circuit improves the animal's odds of living long enough to reproduce. 
+
+---
+
+*2021-10-29*
+
+## The fourfold pattern
+
+## Rare events 
