@@ -259,4 +259,14 @@ P129, bottom, availability heuristic
 
 ## The fourfold pattern
 
+- P311, bottom, _possibility effect_ and _certainty effect_
+- P312, 3rd paragraph, The conclusion is straightforward: the decision weights that people assign to outcomes are not identical to the probabilities of these outcomes, contrary to the expectation principle.
+- P312, bottom, Allais's paradox
+- P317, top, fourfold pattern of preference (figure 13)
+
 ## Rare events 
+
+- P324, top, Although overestimation and overweighting are distinct phenomena, the same psychological mechanisms are involved in both: focused attention, confirmation bias, and cognitive ease
+- P325, top, The probability of a rare event is most likely to be overestimated when the alternative is not fully specified.
+- P328, top, a rich and vivid representation of the outcome, whether or not it is emotional, reduces the role of probability in the evaluation of an uncertain prospect.
+- P329, top, _denominator neglect_. people pay little attention to the denominator (total) but just to the changes in numerator (absolute number of chances)
