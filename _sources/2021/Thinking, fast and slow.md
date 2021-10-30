@@ -250,6 +250,13 @@ P129, bottom, availability heuristic
 
 *2021-10-27*
 
+## The endowment effect
+
+- P289, Fig. 11, indifference curves
+- P292, top, two aspects of choice that the standard model of indifference curves does not predict.
+  - First, tastes are not fixed; they vary with the reference point
+  - Second, the disadvantages of a change loom larger than its advantages, inducing a bias that favors the status quo.
+
 ## Bad events
 - P301, middle, the brains of humans and other animals contain a mechanism that is designed to give priority to bad news. By shaving a few hundredths of a second from the time needed to detect a predator, this circuit improves the animal's odds of living long enough to reproduce. 
 
