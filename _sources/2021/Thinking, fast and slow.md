@@ -277,3 +277,30 @@ P129, bottom, availability heuristic
 - P325, top, The probability of a rare event is most likely to be overestimated when the alternative is not fully specified.
 - P328, top, a rich and vivid representation of the outcome, whether or not it is emotional, reduces the role of probability in the evaluation of an uncertain prospect.
 - P329, top, _denominator neglect_. people pay little attention to the denominator (total) but just to the changes in numerator (absolute number of chances)
+
+---
+
+*2021-10-31*
+
+## Risk policies
+
+- P336, top, there are two ways of constructing decisions i and ii:
+  - narrow framing: a sequence of two simple decisions, considered separately
+  - broad framing: a single comprehensive decision, with four options
+
+- P339, middle, In the narrow-framing condition, they were told to "make each decision as if it were the only one" and to accept their emotions. The instructions for broad framing of a decision included the phrases "imagine yourself as a trader", "you do this all the time", and "treat it as one of many monetary decision, which will sum together to produce a 'portfolio'".
+- P339, bottom, broad framing blunted the emotional reaction to looses and increased the willingness to take risks.
+- P339, bottom, The combination of loss aversion and narrow framing is a costly curse. Individual investors can avoid that curse, achieving the emotional benefits of broad framing while also saving time and agony, by reducing the frequency with which they check how well their investments are doing.
+- P340, bottom, The outside view and the risk policy are remedies against two distinct biases that affect many decisions: the exaggerated optimism of the planning fallacy and the exaggerated caution induced by loss aversion.
+
+## Keeping score
+
+- P344, 4th paragraph, the _disposition effect_ is an instance of narrow framing
+- P345, top, The decision to invest additional resources in a losing account, when better investments are available, is known as the _sunk-cost fallacy_.
+- P348, top, people expect to have stronger emotional reactions (including regret) to an outcome that is produced by action than to the same outcome when it is produced by inaction.
+- P351, bottom, The dilemma between intensely loss-averse moral attitudes, and efficient risk management does not have a simple and compelling solution
+- P352, bottom, Daniel Gilbert and his colleagues provocatively claim that people generally anticipate more regret than they will actually experience, because they underestimate the efficacy of the psychological defenses they will deploy-- with they label the "psychological immune system". Their recommendation is that you should not put too much weight on regret; even if you have some, it will hurt less than you now think.
+
+## Reversals
+
+- P360, top, _evaluability hypothesis_: the number of entries is given no weight in single evaluation, because the numbers are not "evaluable" on their own. 
