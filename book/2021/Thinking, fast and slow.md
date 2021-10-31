@@ -304,3 +304,18 @@ P129, bottom, availability heuristic
 ## Reversals
 
 - P360, top, _evaluability hypothesis_: the number of entries is given no weight in single evaluation, because the numbers are not "evaluable" on their own. 
+
+---
+
+*2021-10-31*
+
+## Frames and reality
+
+- P366, The framing study yielded three main findings:
+  - A region that is commonly associated with emotional arousal (the amygdala) was most likely to be active when subjects' choices conformed to the frame.
+  - A brain region known to be associates with conflict and self-control (the anterior cingulate) was more active when subjects did not do what comes naturally - when they chose the sure thing in spite of its being labeled LOSE. Resisting the inclination of System 1 apparently involves conflict.
+  - The most "rational" subjects - those who were the least susceptible to framing effects - showed enhanced activity in a frontal area of the brain that is implicated in combining emotion and reasoning to guide decisions.
+
+- P367, bottom, Unless there is an obvious reason to do otherwise, most of us passively accept decision problems as they are framed and therefore rarely have an opportunity to discover the extent to which our preferences are frame-bound rather than reality-bound.
+- P368, bottom, Decision makers tend to prefer the sure thing over the gamble (they are risk averse) when the outcomes are good. They tend to reject the sure thing and accept the gamble (they are risk seeking) when both outcomes are negative.
+- P373, middle, example that illustrates how the default option as opt-out vs opt-in affects the rate of willing to donate organ in culturally similar countries
