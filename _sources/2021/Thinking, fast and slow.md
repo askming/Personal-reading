@@ -319,3 +319,34 @@ P129, bottom, availability heuristic
 - P367, bottom, Unless there is an obvious reason to do otherwise, most of us passively accept decision problems as they are framed and therefore rarely have an opportunity to discover the extent to which our preferences are frame-bound rather than reality-bound.
 - P368, bottom, Decision makers tend to prefer the sure thing over the gamble (they are risk averse) when the outcomes are good. They tend to reject the sure thing and accept the gamble (they are risk seeking) when both outcomes are negative.
 - P373, middle, example that illustrates how the default option as opt-out vs opt-in affects the rate of willing to donate organ in culturally similar countries
+
+---
+
+*2021-11-04*
+
+## Two selves
+
+- P377, _experienced utility_ vs _decision utility_
+- P381, top, two selves, experiencing self and remembering self
+- P384, 2nd to the last paragraph, peak-end rule, duration neglect
+
+## Life as a story
+
+- _NA_
+
+## Experienced well-beings
+
+- P395, middle, The feeling associated with different activities suggest that another way to improve experience is to switch time from passive leisure, such as TV watching, to more active forms of leisure, including socializing and exercise.
+- P397, bottom, The easiest way to increase happiness is to control your use of time. Can you find more time to do the things you enjoy doing?
+
+## Thinking about life
+
+- P399, top, _affective forecasting_
+- P402, bottom, The essence of the focusing illusion, can be described as: _Nothing in life is as important as you think it is when you are thinking about it._
+- P406, top, _miswanting_: bad choices that arise from errors of affective forecasting.
+
+## Conclusion
+
+- P412, Richard Thaler & Cass Sunstein, _Nudge_
+
+_Whole book completed._
