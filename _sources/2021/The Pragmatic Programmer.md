@@ -41,3 +41,50 @@ _Started in Nov. 4, 2021_
     - Stay current
   - _**Communicate!**_
       > The meaning of your communication is the response you get
+
+---
+
+*2021-11-09*
+
+## 2. A Pragmatic Approach
+
+- 💡 tips: 
+  - Good Design Is Easier to Change Than Bad Design
+  - DRY—Don’t Repeat Yourself
+  - Make It Easy to Reuse
+  - Eliminate Effects Between Unrelated Things
+  - There Are No Final Decisions
+  - Forgo Following Fads
+  - Use Tracer Bullets to Find the Target
+  - Prototype to Learn
+  - Program Close to the Problem Domain
+  - Estimate to Avoid Surprises
+  - Iterate the Schedule with the Code
+  
+- **_The Essence of Good Design_**
+  - ETC: easier to change
+  - Values are things that help you make decisions: should I do this, or that?
+  - What if you have no clue what changes may come up?
+    - First, fall back on the ultimate "easy to change" path: try to make what you write replaceable
+    - Second, treat this as a way to develop instincts.
+
+- **_DRY—The Evils of Duplication_**
+  - DRY principle: _Every piece of knowledge must have a single, unambiguous, authoritative, representation within a system_.
+  
+- **_Orthogonality_**
+  - In computing, the term has come to signify a kind of independence or decoupling. Two or more things are orthogonal if changes in one do not affect any of the others.
+  - Two major benefits if you write orthogonal systems: increased productivity and reduced risk.
+  - Coding techniques to maintain orthogonality:
+    - Keep your code decoupled
+    - Avoid global data
+    - Avoid similar functions
+  - _Refactoring_: Look for any opportunities to reorganize the code to improve its structure and orthogonality.
+
+- **_Tracer Bullets_**
+  - Advantages of tracer code approach
+    - Users get to see something working early
+    - Developers build a structure to work in
+    - You have an integration platform
+    - You have something to demonstrate
+    - You have a better feel for progress
+  - Tracer code vs prototyping: Prototyping generates disposable code. Tracer code is lean but complete, and forms part of the skeleton of the final system. Think of prototyping as the reconnaissance and intelligence gathering that takes place before a single tracer bullet is fired.
