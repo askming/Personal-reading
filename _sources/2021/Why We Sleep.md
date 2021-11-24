@@ -22,3 +22,17 @@ sleep_. It is an active, deliberate, but highly synchronous state of brain activ
 - P52, top, We therefore consider waking brainwave activity as that principally concerned with the _reception_ of the outside sensory world, while the state of deep NREM slow-wave sleep donates a state of inward _reflection_—one that fosters information transfer and the distillation of memories.
 - P52, bottom, REM sleep has also been called _paradoxical sleep_: a brain that appears awake, yet a body that is clearly asleep.
 - P53, middle, When it comes to information processing, think of the wake state principally as _reception_ (experiencing and constantly learning the world around you), NREM sleep as _reflection_ (storing and strengthening those raw ingredients of new facts and skills), and REM sleep as _integration_ (interconnecting these raw ingredients with each other, with all past experiences, and, in doing so, building an ever more accurate model of how the world works, including innovative insights and problem-solving abilities).
+
+---
+
+*2021-11-24*
+
+## Chapter 4 Ape Beds, Dinosaurs, and Napping with Half a Brain
+
+- P58, top, there are truly remarkable differences in sleep from one species to another. Four such differences
+  1. _Total amount of time_. 
+      - the relationship b/t the size of the nervous system, the complexity of the nervous system, and total body mass appears to be a somewhat meaningful predictor. increasing brain complexity relative to body size resulting in greater sleeping amounts
+      - (P59, bottom) For now, our most accurate estimate of why different species need different sleep amounts involves a complex hybrid of factors, such as dietary type (omnivore, herbivore, carnivore), predator/prey balance within a habitat, the presence and nature of a social network, metabolic rate, and nervous system complexity. 
+  2. _Composition_ (P60, middle).
+  3. _The way in which we all do it_. (P64, top)
+  4. _Sleep pattern_. (P66, bottom)
