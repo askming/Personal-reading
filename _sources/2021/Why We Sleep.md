@@ -33,6 +33,32 @@ sleep_. It is an active, deliberate, but highly synchronous state of brain activ
   1. _Total amount of time_. 
       - the relationship b/t the size of the nervous system, the complexity of the nervous system, and total body mass appears to be a somewhat meaningful predictor. increasing brain complexity relative to body size resulting in greater sleeping amounts
       - (P59, bottom) For now, our most accurate estimate of why different species need different sleep amounts involves a complex hybrid of factors, such as dietary type (omnivore, herbivore, carnivore), predator/prey balance within a habitat, the presence and nature of a social network, metabolic rate, and nervous system complexity. 
+      
   2. _Composition_ (P60, middle).
+      - P63, middle, Sleep rebound after sleep deprivation; NREM and REM rebound at different times 
+      - P64, top, That humans (and all other species) can never “sleep back” that which we have previously lost is one of the most important take-homes of this book, the saddening consequences of which I will describe in chapters 7 and 8.
+      
   3. _The way in which we all do it_. (P64, top)
+      - P64, top, Take cetaceans, such as dolphins and whales, for example. Their sleep, of which there is only NREM, can be unihemispheric, meaning they will sleep with half a brain at a time! 
+      - P65, 2nd, The gift of split-brain deep NREM sleep is not entirely unique to aquatic mammals. Birds can do it, too. However, there is a somewhat different, though equally life-preserving, reason: it allows them to keep an eye on things, quite literally.
+      - P65, bottom, Two recently published reports suggest humans have a very mild version of unihemispheric sleep—one that is drawn out for similar reasons.
+      - P66, middle, REM sleep is strangely immune to being split across sides of the brain, no matter who you are. 
+
   4. _Sleep pattern_. (P66, bottom)
+      - P66, bottom, The infrequent situation happens only in response to extreme environmental pressures or challenges. Starvation is one example.
+
+- P69, m, The practice of biphasic sleep is not cultural in origin, however. It is deeply biological. All humans, irrespective of culture or geographical location, have a genetically hardwired dip in alertness that occurs in the midafternoon hours.
+- P69, b, post-prandial alertness dip (from the Latin _prandium_, “meal”).
+- P70, b, the true pattern of biphasic sleep—for which there is anthropological, biological, and genetic evidence, and which remains measurable in all human beings to date—is one consisting of a longer bout of continuous sleep at night, followed by a shorter midafternoon nap.
+
+- P72, 2nd, As it turns out, we humans are special when it comes to sleep. Compared to Old- and New- World monkeys, as well as apes, such as chimpanzees, orangutans, and gorillas, human sleep sticks out like the proverbial sore thumb. 
+- P73, 2nd, _Homo erectus_, the predecessor of _Homo sapiens_, was the first obligate biped, walking freely upright on two legs. We believe that _Homo erectus_ was also the first dedicated ground sleeper.
+
+- P74, 2nd, I offer a theorem: the tree-to-ground reengineering of sleep was a key trigger that rocketed Homo sapiens to the top of evolution’s lofty pyramid. At least two features define human beings relative to other primates.
+    1. our degree of sociocultural complexity
+    2. our cognitive intelligence. 
+    - To the first of these points, we have discovered that REM sleep exquisitely recalibrates and fine-tunes the emotional circuits of the human brain (discussed in detail in part 3 of the book). 
+      - Related, the REM-sleep gift of facilitating accurate recognition and comprehension allows us to make more intelligent decisions and actions as a consequence. 
+      - Second, and more critical, if you multiply these individual benefits within and across groups and tribes, all of which are experiencing an ever-increasing intensity and richness of REM sleep over millennia, we can start to see how this nightly REM-sleep recalibration of our emotional brains could have scaled rapidly and exponentially. 
+      - I will go a step further and suggest that this is the most influential function of REM sleep in mammals, perhaps the most influential function of all types of sleep in all mammals, and even the most eminent advantage ever gifted by sleep in the annals of all planetary life.
+    - The second evolutionary contribution that the REM-sleep dreaming state fuels is creativity.
