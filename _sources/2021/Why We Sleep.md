@@ -103,3 +103,17 @@ sleep_. It is an active, deliberate, but highly synchronous state of brain activ
   2. The second is early school start times.
 
 ### Sleep in midlife and old age
+
+- P95, b, That older adults simply need less sleep is a myth. Older adults appear to need just as much sleep as they do in midlife, but are simply less able to generate that (still necessary) sleep.
+- P95, b, core impairments of sleep that occur with aging are due to three key changes: (1) reduced quantity/quality, (2) reduced sleep efficiency, and (3) disrupted timing of sleep.
+  - As you enter your fourth decade of life, there is a palpable reduction in the electrical quantity and quality of that deep NREM sleep. You obtain fewer hours of deep sleep, and those deep NREM brainwaves become smaller, less powerful, and fewer in number. Passing into your mid- and late forties, age will have stripped you of 60 to 70 percent of the deep sleep you were enjoying as a young teenager. By the time you reach seventy years old, you will have lost 80 to 90 percent of your youthful deep sleep.
+  - The older we get, the more frequently we wake up throughout the night. There are many causes, including interacting medications and diseases, but chief among them is a weakened bladder.
+  - _sleep efficiency_, defined as the percent of time you were asleep while in bed. 
+    - As healthy teenagers, we enjoyed a sleep efficiency of about 95 percent. As a reference anchor, most sleep doctors consider good-quality sleep to involve a sleep efficiency of 90 percent or above. By the time we reach our eighties, sleep efficiency has often dropped below 70 or 80 percent
+    - the lower an older individual’s sleep efficiency score, the higher their mortality risk, the worse their physical health, the more likely they are to suffer from depression, the less energy they report, and the lower their cognitive function, typified by forgetfulness
+  - In sharp contrast to adolescents, seniors commonly experience a regression in sleep timing, leading to earlier and earlier bedtimes.
+
+- P100, b, The change in circadian rhythm as we get older, together with more frequent trips to the bathroom, help to explain two of the three key nighttime issues in the elderly: early sleep onset/offset and sleep fragmentation. They do not, however, explain the first key change in sleep with advancing age: the loss of deep-sleep quantity and quality.
+  - First, the areas of the brain that suffer the most dramatic deterioration with aging are, unfortunately, the very same deep-sleep-generating regions—the middle-frontal regions seated above the bridge of the nose
+  - Second, and unsurprisingly, older adults suffered a 70 percent loss of deep sleep, compared with matched young individuals.
+  - Third, and most critical, we discovered that these changes were not independent, but instead significantly connected with one another: the more severe the deterioration that an older adult suffers within this specific mid-frontal region of their brain, the more dramatic their loss of deep NREM sleep. 
