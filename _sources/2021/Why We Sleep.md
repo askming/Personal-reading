@@ -62,3 +62,44 @@ sleep_. It is an active, deliberate, but highly synchronous state of brain activ
       - Second, and more critical, if you multiply these individual benefits within and across groups and tribes, all of which are experiencing an ever-increasing intensity and richness of REM sleep over millennia, we can start to see how this nightly REM-sleep recalibration of our emotional brains could have scaled rapidly and exponentially. 
       - I will go a step further and suggest that this is the most influential function of REM sleep in mammals, perhaps the most influential function of all types of sleep in all mammals, and even the most eminent advantage ever gifted by sleep in the annals of all planetary life.
     - The second evolutionary contribution that the REM-sleep dreaming state fuels is creativity.
+
+
+---
+
+*2021-11-26*
+
+## Chapter 5 Changes in Sleep Across the Life Span
+
+### Sleep before birth
+
+- P79, b, Detailed creation of the brain and its component parts occurs at a rapid pace during the second and third trimesters of human development—precisely the time window when REM-sleep amounts skyrocket. 
+  - REM sleep acts as an electrical fertilizer during this critical phase of early life. Dazzling bursts of electrical activity during REM sleep stimulate the lush growth of neural pathways all over the developing brain, and then furnish each with a healthy bouquet of connecting ends, or synaptic terminals. 
+- P80, top, This phase of development, which infuses the brain with masses of neural connections, is called _synaptogenesis_, as it involves the creation of millions of wiring links, or synapses, between neurons. 
+- **ASD**: autism spectrum disorder; **ADHD**: attention deficit hyper-activity disorder
+- P81, b, sleep of individuals with autism is atypical.
+  - Infants and young children who show signs of autism, or who are diagnosed with autism, do not have normal sleep patterns or amounts. The circadian rhythms of autistic children are also weaker than their non-autistic counterparts, showing a flatter profile of melatonin across the twenty-four-hour period rather than a powerful rise in concentration at night and rapid fall throughout the day
+  - Most notable, however, is the significant shortage of REM sleep. Autistic individuals show a 30 to 50 percent deficit in the amount of REM sleep they obtain, relative to children without autism.
+- P82, m, Alcohol is one of the most powerful suppressors of REM sleep that we know of.
+  - P83, t, Newborns of heavy-drinking mothers did not have the same electrical quality of REM sleep.
+  - P83, t, the infants of heavy-drinking mothers showed a 200 percent reduction in this measure of vibrant electrical activity relative to the infants born of non-alcohol-consuming mothers. 
+
+### Childhood Sleep
+
+- P87, t, During the fourteen hours of total shut-eye per day that a six-month-old infant obtains, there is a 50/50 timeshare between NREM and REM sleep. A five-year-old, however, will have a 70/30 split between NREM and REM sleep across the eleven hours of total daily slumber. In other words, the proportion of REM sleep decreases in early childhood while the proportion of NREM sleep actually increases, even though total sleep time decreases.
+  - The downgrading of the REM-sleep portion, and the upswing in NREM-sleep dominance, continues, throughout early and midchildhood. That balance will finally stabilize to an 80/20 NREM/REM sleep split by the late teen years, and remain so throughout early and midadulthood.
+
+### Sleep and adolescence
+
+- P88, 3rd, The human brain undergoes a similar, use-determined transformation during late childhood and adolescence. Much of the original structure laid down early in life will persist, since Mother Nature has, by now, learned to create a quite accurate first-pass wiring of a brain after billions of attempts over many thousands of years of evolution. 
+  - The unique experiences of a child during their formative years translate to a set of personal usage statistics. Those experiences, or those statistics, provide the bespoke blueprint for a last round of brain refinement, capitalizing on the opportunity left open by nature. A (somewhat) generic brain becomes ever more individualized, based on the personalized use of the owner.
+  - P89, t, To help with the job of refinement and downscaling of connectivity, the brain employs the services of deep NREM sleep. Of the many functions carried out by deep NREM sleep—the full roster of which we will discuss in the next chapter—it is that of synaptic pruning that features prominently during adolescence.
+
+- P90, 2nd, The changes in deep NREM sleep always precede the cognitive and developmental milestones within the brain by several weeks or months, implying a direction of influence: _deep sleep may be a driving force of brain maturation, not the other way around._
+- Feinberg's second seminal discovery.
+  - the rise- and-fall pattern of maturation always began at the back of the brain, which performs the functions of visual and spatial perception, and then progressed steadily forward as adolescence progressed. Most striking, the very last stop on the maturational journey was the tip of the frontal lobe, which enables rational thinking and critical decision-making. Therefore, the back of the brain of an adolescent was more adult-like, while the front of the brain remained more child-like at any one moment during this developmental window of time.
+- Adolescents face two other harmful challenges in their struggle to obtain sufficient sleep as their brains continue to develop. 
+  1. The first is a change in their circadian rhythm.
+    -Adolescent teenagers have a different circadian rhythm from their young siblings. By the time an individual has reached sixteen years of age, their circadian rhythm has undergone a dramatic shift forward in its cycling phase. The rising tide of melatonin, and the instruction of darkness and sleep, is many hours away (to a much later time in the night). 
+  2. The second is early school start times.
+
+### Sleep in midlife and old age
