@@ -117,3 +117,48 @@ sleep_. It is an active, deliberate, but highly synchronous state of brain activ
   - First, the areas of the brain that suffer the most dramatic deterioration with aging are, unfortunately, the very same deep-sleep-generating regions—the middle-frontal regions seated above the bridge of the nose
   - Second, and unsurprisingly, older adults suffered a 70 percent loss of deep sleep, compared with matched young individuals.
   - Third, and most critical, we discovered that these changes were not independent, but instead significantly connected with one another: the more severe the deterioration that an older adult suffers within this specific mid-frontal region of their brain, the more dramatic their loss of deep NREM sleep. 
+
+---
+
+*2021-11-29*
+
+## Chapter 6 Your Mother and Shakespeare Knew
+
+- P108, b, Of the many advantages conferred by sleep on the brain, that of memory is especially impressive, and particularly well understood. Sleep has proven itself time and again as a memory aid: both before learning, to prepare your brain for initially making new memories, and after learning, to cement those memories and prevent forgetting.
+
+### Sleep-the-night-before learning
+
+- P109, 2nd, A long, finger-shaped structure tucked deep on either side of your brain, the hippocampus offers a short-term reservoir, or temporary information store, for accumulating new memories. 
+  - Unfortunately, the hippocampus has a limited storage capacity, almost like a USB memory stick. 
+  - Exceed its capacity and you run the risk of not being able to add more information or, equally bad, overwriting one memory with another: a mishap called _interference forgetting_.
+
+- P110, 3rd, The memory refreshment was related to lighter, stage 2 NREM sleep, and specifically the short, powerful bursts of electrical activity called **sleep spindles**.
+  - The more sleep spindles an individual obtained during the nap, the greater the restoration of their learning when they woke up.
+  - Importantly, sleep spindles did not predict someone’s innate learning aptitude. That would be a less interesting result, as it would imply that inherent learning ability and spindles simply go hand in hand. Instead, it was specifically the _change in learning_ from before relative to after sleep, which is to say the replenishment of learning ability, that spindles predicted.
+
+- P111, 3rd, We have found that seniors (aged sixty to eighty years old) are unable to generate sleep spindles to the same degree as young, healthy adults, suffering a 40 percent deficit.
+  - We conducted the study, and that is precisely what we found: the fewer the number of spindles an elderly brain produced on a particular night, the lower the learning capacity of that older individual the next day, making it more difficult for them to memorize the list of facts we presented.
+
+- P112, t, Of broader societal relevance, the concentration of NREM-sleep spindles is especially rich in the late-morning hours, sandwiched between long periods of REM sleep. 
+
+### Sleep-the-night-after learning
+
+- P112, 2nd, The second benefit of sleep for memory comes after learning, one that effectively clicks the “save” button on those newly created files. In doing so, sleep protects newly acquired information, affording immunity against forgetting: an operation called **consolidation.**
+- P113, b, It was early-night sleep, rich in deep NREM, that won out in terms of providing superior memory retention savings relative to late-night, REM-rich sleep.
+- P114, 3rd, We had observed a real-estate transaction that takes place each night when we sleep. Fitting the notion of a long-wave radio signal that carries information across large geographical distances, the slow brainwaves of deep NREM had served as a courier service, transporting memory packets from a temporary storage hold (hippocampus) to a more secure, permanent home (the cortex). In doing so, sleep had helped future-proof those memories.
+- P116, 2nd, Not only does sleep maintain those memories you have successfully learned before bed (“the vision that was planted in my brain / Still remains”), but it will even salvage those that appeared to have been lost soon after learning. 
+- P117, footnote, tDCS: trans cranial direct current brain stimulation
+- P119, t, You can (via some means) selectively enhanced only those individual memories that you want to keep. It all sounds like the stuff of science fiction, but it is now science fact: the method is called **targeted memory reactivation**.
+
+### Sleep to forget?
+
+- P121, b,  Instead, sleep is able to offer a far more discerning hand in memory improvement: one that preferentially picks and chooses what information is, and is not, ultimately strengthened. Sleep accomplishes this by using meaningful tags that have been hung onto those memories during initial learning, or potentially identified during sleep itself. 
+
+### Sleep for other types of memory
+
+- P127, 2nd, Indeed, it was the number of those wonderful sleep spindles in the last two hours of the late morning—the time of night with the richest spindle bursts of brainwave activity—that were linked with the offline memory boost.
+- P127, 3rd, When it comes to motor-skill memories, the brainwaves of sleep were acting like a good masseuse—you still get a full body massage, but they will place special focus on areas of the body that need the most help. In the same way, sleep spindles bathe all parts of the brain, but a disproportionate emphasis will be placed on those parts of the brain that have been worked hardest with learning during the day.
+
+### Sleep for creativity
+
+- P132, 2nd, If you ponder the type of conscious experience such outlandish memory blending would produce, you may not be surprised to learn that it happens during the dreaming state—REM sleep
