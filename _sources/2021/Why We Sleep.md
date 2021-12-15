@@ -162,3 +162,38 @@ sleep_. It is an active, deliberate, but highly synchronous state of brain activ
 ### Sleep for creativity
 
 - P132, 2nd, If you ponder the type of conscious experience such outlandish memory blending would produce, you may not be surprised to learn that it happens during the dreaming state—REM sleep
+
+---
+
+*2021-12-15*
+
+## Chapter 7 Too Extreme for the _Guinness Book of World Records_ (_Sleep Deprivation and the Brain_)
+
+- P134, 3rd, _microsleep_. These last for just a few seconds, during which time the eyelid will either partially or fully close. They are usually suffered by individuals who are chronically sleep restricted, defined as getting less than seven hours of sleep a night on a routine basis.
+- Accumulated sleep deprivation leads to some impairment to the brain function as does with complete sleep deprivation.
+- P135 - P137, Dinges's 3 findings from his research experiments
+  1. although sleep deprivation of all these varied amounts caused a slowing in reaction time, there was something more telling: participants would, for brief moments, stop responding altogether.
+  2. Those in the three-night total sleep deprivation group suffered catastrophic impairment; these impairments continued to escalate at the same ballistic rate after a second and third night of total sleep deprivation, as if they would continue to escalate in severity if more nights of sleep were lost, showing no signs of flattening out.
+  3. When participants were asked about their subjective sense of how impaired they were, they consistently underestimated their degree of performance disability.
+
+- P140, 2nd, The recycle rate of a human being is around sixteen hours. After sixteen hours of being awake, the brain begins to fail.
+- P146, b, A structure located in the left and right sides of the brain, called the _amygdala_ ([əˈmɪɡdələ], 杏仁核)—a key hot spot for triggering strong emotions such as anger and rage, and linked to the fight-or-flight response
+- P147, t, It was as though, without sleep, our brain reverts to a primitive pattern of uncontrolled reactivity. We produce unmetered, inappropriate emotional reactions, and are unable to place events into a broader or considered context.
+  - With a full night of plentiful sleep, we have a balanced mix between our emotional gas pedal (amygdala) and brake (prefrontal cortex). Without sleep, however, the strong coupling between these two brain regions is lost. We cannot rein in our atavistic impulses—too much emotional gas pedal (amygdala) and not enough regulatory brake (prefrontal cortex)
+  - P148, 2nd, different deep emotional centers in the brain just above and behind the amygdala, called the _striatum_ (纹状体，终脑的皮层)—associated with impulsivity and reward, and bathed by the chemical dopamine
+  - P148, 3rd, Insufficient sleep does not, therefore, push the brain into a negative mood state and hold it there. Rather, the under-slept brain swings excessively to both extremes of emotional valence, positive and negative.
+  - 148, b, extreme swings in positive mood, though the consequences are different. Hypersensitivity to pleasurable experiences can lead to sensationseeking, risk-taking, and addiction.
+    - Sleep disturbance is a recognized hallmark associated with addictive substance use. Insufficient sleep also determines relapse rates in numerous addiction disorders, associated with reward cravings that are unmetered, lacking control from the rational head office of the brain’s prefrontal cortex.
+    - Relevant from a prevention standpoint, insufficient sleep during childhood significantly predicts early onset of drug and alcohol use in that same child during their later adolescent years, even when controlling for other high-risk traits, such as anxiety, attention deficits, and parental history of drug use.
+
+- P149, PTSD: post-traumatic stress disorder
+- P151, last, Depression is not, as you may think, just about the excess presence of negative feelings. Major depression has as much to do with absence of positive emotions, a feature described as anhedonia: the inability to gain pleasure from normally pleasurable experiences, such as food, socializing, or sex.
+- P152, 3rd, "_The best bridge between despair and hope is a good night’s sleep._" - E. Joseph Cossman
+- P154, 2nd, hippocampus—the information “in-box” of the brain that acquires new facts. There was lots of healthy, learning-related activity in the hippocampus in the participants who had slept the night before. However, when we looked at this same brain structure in the sleep-deprived participants, we could not find any significant learning activity whatsoever. It was as though sleep deprivation had shut down their memory in-box, and any new incoming information was simply being bounced.
+- P156, t, theories, beliefs, and practices die one generation at a time.
+- P157, t, if you don’t sleep the very first night after learning, you lose the chance to consolidate those memories, even if you get lots of “catch-up” sleep thereafter. In terms of memory, then, sleep is not like the bank. You cannot accumulate a debt and hope to pay it off at a later point in time.
+- P158, 2nd, While much remains to be understood, we now recognize that sleep disruption and Alzheimer’s disease interact in a selffulfilling, negative spiral that can initiate and/or accelerate the condition.
+- P158, b, The more amyloid deposits there were in the middle regions of the frontal lobe, the more impaired the deep-sleep quality was in that older individual.
+- P160, t, Those individuals with the highest levels of amyloid deposits in the frontal regions of the brain had the most severe loss of deep sleep and, as a knock-on consequence, failed to successfully consolidate those new memories. Overnight forgetting, rather than remembering, had taken place. The disruption of deep NREM sleep was therefore a hidden middleman brokering the bad deal between amyloid and memory impairment in Alzheimer’s disease. A missing link.
+- P160, 4th, Glial cells are distributed throughout your entire brain, situated side by side with the neurons that generate the electrical impulses of your brain. Just as the lymphatic system drains contaminants from your body, the glymphatic system collects and removes dangerous metabolic contaminants generated by the hard work performed by neurons in your brain, rather like a support team surrounding an elite athlete.
+- P161, 3rd, More amyloid (淀粉样蛋白), less deep sleep, less deep sleep, more amyloid, and so on and so forth.
