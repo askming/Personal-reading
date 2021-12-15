@@ -226,3 +226,21 @@ foods), decrease feelings of food satisfaction after eating, and prevent effecti
 - P186, 4th, Poor sleep quality therefore increases the risk of cancer development and, if cancer is established, provides a virulent fertilizer for its rapid and more rampant growth. Not getting sufficient sleep when fighting a battle against cancer can be likened to pouring gasoline on an already aggressive fire. That may sound alarmist, but the scientific evidence linking sleep disruption and cancer is now so damning that the World Health Organization has officially classified nighttime shift work as a “probable carcinogen.”
 - P188, top, Interestingly, the effect went in both directions: about half of those 711 genes had been abnormally revved up in their expression by the loss of sleep, while the other half had been diminished in their expression, or shut down entirely. The genes that were increased included those linked to chronic inflammation, cellular stress, and various factors that cause cardiovascular disease. Among those turned down were genes that help maintain stable metabolism and optimal immune responses.
 
+
+
+---
+
+*2021-12-15*
+
+## Chapter 9 Routinely Psychotic (_REM-Sleep Dreaming_)
+
+- P195, 3rd, there are four main clusters of the brain that spike in activity when someone starts dreaming in REM sleep: 
+  - (1) the visuospatial regions at the back of the brain, which enable complex visual perception; 
+  - (2) the motor cortex, which instigates movement; 
+  - (3) the hippocampus and surrounding regions that we have spoken about before, which support your autobiographical memory; and 
+  - (4) the deep emotional centers of the brain—the amygdala and the cingulate cortex, a ribbon of tissue that sits above the amygdala and lines the inner surface of your brain—both of which help generate and process emotions.
+
+- P201, 2nd, The problem with Freud's theory
+  - The problem, however, was the lack of any clear predictions from Freud’s theory. Scientists could not design an experiment that would test any tenets of his theory in order to help support or falsify it.
+
+- P204, 3rd, Of a total of 299 dream reports that Stickgold collected from these individuals across the fourteen days, a clear rerun of prior waking life events—day residue—was found in just 1 to 2 percent. Dreams are not, therefore, a wholesale replay of our waking lives. We do not simply rewind the video of the day’s recorded experience and relive it at night, projected on the big screen of our cortex. If there is such a thing as “day residue,” there are but a few drops of the stuff in our otherwise arid dreams.
