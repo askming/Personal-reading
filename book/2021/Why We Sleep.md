@@ -271,3 +271,54 @@ foods), decrease feelings of food satisfaction after eating, and prevent effecti
 - P227, last, It is sleep that builds connections between distantly related informational elements that are not obvious in the light of the waking day. Our participants went to bed with disparate pieces of the jigsaw and woke up with the puzzle complete. It is the difference between knowledge (retention of individual facts) and wisdom (knowing what they all mean when you fit them together). Or, said more simply, learning versus comprehension. REM sleep allows your brain to move beyond the former and truly grasp the latter.
 
 - P232, Lucid dream, Lucid dreaming occurs at the moment when an individual becomes aware that he or she is dreaming. However, the term is more colloquially used to describe gaining volitional control of what an individual is dreaming, and the ability to manipulate that experience, such as deciding to fly, or perhaps even the functions of it, such as problem solving.
+
+
+---
+
+*2021-12-16*
+
+## Chapter 12 Things That Go Bump in the Night (_Sleep Disorders and Death Caused by No Sleep_)
+
+- P239, 2nd, story of Ken Parks
+- P240, b, 
+  - Being sleep deprived is not insomnia. In the field of medicine, sleep deprivation is considered as
+    - (i) having the adequate ability to sleep; yet
+    - (ii) giving oneself an inadequate opportunity to sleep—that is, sleep-deprived individuals can sleep, if only they would take the appropriate time to do so.
+  - Insomnia is the opposite
+    - (i) suffering from an inadequate _ability to generate sleep_, despite
+    - (ii) allowing oneself the _adequate opportunity_ to get sleep.
+  - _paradoxical insomnia_ (i.e. 睡了感觉自己好像没睡过一样): patients will report having slept poorly throughout the night, or even not sleeping at all. However, when these individuals have their sleep monitored objectively using electrodes or other accurate sleep monitoring devices, there is a mismatch. The sleep recordings indicate that the patient has slept far better than they themselves believe, and sometimes indicate that a completely full and healthy night of sleep occurred.
+
+- P241, 3rd, types of insomnia
+  - sleep _onset_ insomnia: difficulty falling asleep
+  - sleep _maintenance_ insomnia: difficulty staying asleep
+  - Sleep onset and sleep maintenance insomnia are not mutually exclusive: you can
+have one or the other, or both.
+
+- P241, b, sleep medicine has very specific clinical boxes that must be checked for a patient to receive a diagnosis of insomnia.
+  - Dissatisfaction with sleep quantity or quality (e.g., difficulty falling asleep, staying sleep, early-morning awakening)
+  - Suffering significant distress or daytime impairment
+  - Has insomnia at least three nights each week for more than three months
+  - Does not have any coexisting mental disorders or medical conditions that could otherwise cause what appears to be insomnia
+
+- P242, 3rd, Even with this strict definition, chronic insomnia is disarmingly common. Approximately _one out of every nine_ people you pass on the street will meet the strict clinical criteria for insomnia, which translates to more than 40 million Americans struggling to make it through their waking days due to wide-eyed nights.
+- P242, b, Race and ethnicity also make a significant difference, with African Americans and Hispanic Americans suffering higher rates of insomnia than Caucasian Americans—findings that have important implications for well-recognized health disparities in these communities, such as diabetes, obesity, and cardiovascular disease, which have known links to a lack of sleep.
+
+- P244, t, The two most common triggers of chronic insomnia are psychological:
+  - (1) emotional concerns, or worry, and
+  - (2) emotional distress, or anxiety
+
+- P244-245, why overactive fight-or-flight nervous system prevents good sleep
+  - First, the raised metabolic rate triggered by fight-or-flight nervous system activity, which is common in insomnia patients, results in a higher core body temperature.
+  - Second are higher levels of the alertness-promoting hormone cortisol, and sister neuro-chemicals adrenaline and noradrenaline.
+  - Third, and related to these chemicals, are altered patterns of brain activity linked with the body’s sympathetic nervous system.
+  - Simply put, the insomnia patients could not disengage from a pattern of altering, worrisome, ruminative brain activity.
+
+- P247, 4th, 3 core symptoms of narcolepsy (嗜睡症)
+  - (1) excessive daytime sleepiness, 
+  - (2) sleep paralysis: the frightening loss of ability to talk or move when waking up from sleep.
+  - (3) cataplexy (猝倒): a falling-down seizure. 
+
+- P258, 2nd, why sleep deprivation causes death
+  - Unlike starvation, where the cause of death is easily identified, the researchers could not determine why the rats had died following sleep’s absence, despite how quickly death had arrived. Some hints emerged from assessments made during the experiment, as well as the later postmortems.
+  - P259, 4th, The fatal final straw turned out to be septicemia—a toxic and systemic (whole organism) bacterial infection that coursed through the rats’ bloodstream and ravaged the entire body until death. Far from a vicious infection that came from the outside, however, it was simple bacteria from the rats’ very own gut that inflicted the mortal blow—one that an otherwise healthy immune system would have easily quelled when fortified by sleep.
