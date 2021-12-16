@@ -366,3 +366,19 @@ your head.
   - Many of us know of the deep, sound sleep we often experience after sustained physical activity, such as a daylong hike, an extended bike ride, or even an exhausting day of working in the garden. Scientific studies dating back to the 1970s support some of this subjective wisdom, though perhaps not as strongly as you’d hope.
   - Unexpected, however, was the lack of a tight relationship between exercise and subsequent sleep from one day to the next. That is, subjects did not consistently sleep better at night on the days they exercised compared with the days when they were not required to exercise, as one would expect.
   - One brief note of caution regarding physical activity: try not to exercise right before bed.
+
+---
+
+*2021-12-16*
+
+## Chapter 15 Sleep and Society: _What Medicine and Education Are Doing Wrong; What Google and NASA Are Doing Right_
+
+- P301, 2nd, Under-slept employees are not only less productive, less motivated, less creative, less happy, and lazier, but they are also more unethical.
+- P301, 4th, Ethical deviance linked to a lack of sleep also weasels its way onto the work stage in a different guise, called _social loafing_.
+
+---
+
+*2021-12-16*
+
+## Chapter 16 A New Vision for Sleep in the Twenty-First Century
+- P335, 2nd, The less sleep you have had, or the more fragmented your sleep, the more sensitive you are to pain of all kinds.
