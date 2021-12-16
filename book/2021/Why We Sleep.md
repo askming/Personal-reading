@@ -259,3 +259,15 @@ foods), decrease feelings of food satisfaction after eating, and prevent effecti
 - P215, 1st, Accurately reading expressions and emotions of faces is a prerequisite of being a functional human being, and indeed, a functional higher primate of most kinds. Facial expressions represent one of the most important signals in our environment. They communicate the emotional state and intent of an individual and, if we interpret them correctly, influence our behavior in return. There are regions of your brain whose job it is to read and decode the value and meaning of emotional signals, especially faces. And it is that very same essential set of brain regions, or network, that REM sleep recalibrates at night.
 
 - P217, 3rd, Looking across the life span, we have discovered that this REM-sleep recalibration service comes into its own just prior to the transition into adolescence. Before that, when children are still under close watch from their parents, and many salient assessments and decisions are made by Mom and/or Dad, REM sleep provides less of a re-tuning benefit to a child’s brain. But come the early teenage years and the inflection point of parental independence wherein an adolescent must navigate the socioemotional world for himself, now we see the young brain feasting on this emotional recalibration benefit of REM sleep.
+
+---
+
+*2021-12-16*
+
+### Chapter 11 Dream Creativity and Dream Control
+
+- P225, 3rd, When you wake the brain from NREM or measure performance during the day, the operating principles of the brain are closely and logically connected, just as pictured in figure 14. However, wake the brain up from REM sleep and the operating algorithm was completely different. Gone is the hierarchy of logical associative connection. The REM-sleep dreaming brain was utterly uninterested in bland, commonsense links—the one-step-to-the-next associations. Instead, the REM-sleep brain was shortcutting the obvious links and favoring very distantly related concepts. The logic guards had left the REM-sleep dreaming brain. Wonderfully eclectic lunatics were now running the associative memory asylum. From the REM-sleep dreaming state, almost anything goes—and the more bizarre the better, the results suggested.
+
+- P227, last, It is sleep that builds connections between distantly related informational elements that are not obvious in the light of the waking day. Our participants went to bed with disparate pieces of the jigsaw and woke up with the puzzle complete. It is the difference between knowledge (retention of individual facts) and wisdom (knowing what they all mean when you fit them together). Or, said more simply, learning versus comprehension. REM sleep allows your brain to move beyond the former and truly grasp the latter.
+
+- P232, Lucid dream, Lucid dreaming occurs at the moment when an individual becomes aware that he or she is dreaming. However, the term is more colloquially used to describe gaining volitional control of what an individual is dreaming, and the ability to manipulate that experience, such as deciding to fly, or perhaps even the functions of it, such as problem solving.
