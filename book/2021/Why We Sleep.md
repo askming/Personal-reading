@@ -352,3 +352,17 @@ have one or the other, or both.
 your head.
 
 - P277, 3rd, A bedroom temperature of around 65 degrees Fahrenheit (18.3°C) is ideal for the sleep of most people, assuming standard bedding and clothing.
+
+---
+
+*2021-12-16*
+
+## Chapter 14 Hurting and Helping Your Sleep (_Pills vs. Therapy_)
+
+- P282, 3rd, Sleeping pills, old and new, target the same system in the brain that alcohol does—the receptors that stop your brain cells from firing—and are thus part of the same general class of drugs: sedatives. Sleeping pills effectively knock out the higher regions of your brain’s cortex.
+- P283, 3rd, The cause of _rebound insomnia_ is a type of dependency in which the brain alters its balance of receptors as a reaction to the increased drug dose, trying to become somewhat less sensitive as a way of countering the foreign chemical within the brain.
+- P290, b, CBT-I: cognitive behavioral therapy for insomnia
+- P293, 3rd, Sleep and physical exertion have a bidirectional relationship.
+  - Many of us know of the deep, sound sleep we often experience after sustained physical activity, such as a daylong hike, an extended bike ride, or even an exhausting day of working in the garden. Scientific studies dating back to the 1970s support some of this subjective wisdom, though perhaps not as strongly as you’d hope.
+  - Unexpected, however, was the lack of a tight relationship between exercise and subsequent sleep from one day to the next. That is, subjects did not consistently sleep better at night on the days they exercised compared with the days when they were not required to exercise, as one would expect.
+  - One brief note of caution regarding physical activity: try not to exercise right before bed.
