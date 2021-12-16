@@ -322,3 +322,33 @@ have one or the other, or both.
 - P258, 2nd, why sleep deprivation causes death
   - Unlike starvation, where the cause of death is easily identified, the researchers could not determine why the rats had died following sleep’s absence, despite how quickly death had arrived. Some hints emerged from assessments made during the experiment, as well as the later postmortems.
   - P259, 4th, The fatal final straw turned out to be septicemia—a toxic and systemic (whole organism) bacterial infection that coursed through the rats’ bloodstream and ravaged the entire body until death. Far from a vicious infection that came from the outside, however, it was simple bacteria from the rats’ very own gut that inflicted the mortal blow—one that an otherwise healthy immune system would have easily quelled when fortified by sleep.
+
+---
+
+*2021-12-16*
+
+## Chapter 13 iPads, Factory Whistles, and Nightcaps (_What’s Stopping You from Sleeping?_)
+
+- P265, 2nd, five key factors have powerfully changed how much and how well we sleep
+  - (1) constant electric light as well as LED light,
+  - (2) regularized temperature, 
+  - (3) caffeine
+  - (4) alcohol,
+  - (5) a legacy of punching time cards
+
+- P267, b, The degree to which evening electric light winds back your internal twenty-four-hour clock is important: usually two to three hours each evening, on average.
+- P269, 3rd, One of the earliest studies found that using an iPad—an electronic tablet enriched with blue LED light—for two hours prior to bed blocked the otherwise rising levels of melatonin by a significant 23 percent.
+  - Compared to reading a printed book, reading on an iPad suppressed melatonin release by over 50 percent at night.
+
+- P271, 2nd, Alcohol is in a class of drugs called sedatives. It binds to receptors within the brain that prevent neurons from firing their electrical impulses.
+- P271, last, 
+  - alcohol fragments sleep, littering the night with brief awakenings. Alcohol-infused sleep is therefore not continuous and, as a result, not restorative.
+  - alcohol is one of the most powerful suppressors of REM sleep that we know of.
+
+- P275, 3rd, To successfully initiate sleep, as described in chapter 2, your core temperature needs to decrease by 2 to 3 degrees Fahrenheit, or about 1 degree Celsius.
+  - For this reason, you will always find it easier to fall asleep in a room that is too cold than too hot, since a room that is too cold is at least dragging your brain and body in the correct (downward) temperature direction for sleep. (飞机起飞后会调低机舱内空调温度的原因)
+
+- P276, 1st, Most of the thermic work is performed by three parts of your body in particular: your hands, your feet, and
+your head.
+
+- P277, 3rd, A bedroom temperature of around 65 degrees Fahrenheit (18.3°C) is ideal for the sleep of most people, assuming standard bedding and clothing.
