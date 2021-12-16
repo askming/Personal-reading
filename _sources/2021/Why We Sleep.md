@@ -382,3 +382,24 @@ your head.
 
 ## Chapter 16 A New Vision for Sleep in the Twenty-First Century
 - P335, 2nd, The less sleep you have had, or the more fragmented your sleep, the more sensitive you are to pain of all kinds.
+
+---
+
+*2021-12-16*
+
+## Appendix _Twelve Tips for Healthy Sleep_
+
+1. Stick to a sleep schedule
+2. Exercise is great, but not too late in the day. Try to exercise at least thirty minutes on most days but not later than two to three hours before your bedtime.
+3. Avoid caffeine and nicotine.
+4. Avoid alcoholic drinks before bed.
+5. Avoid large meals and beverages late at night
+6. If possible, avoid medicines that delay or disrupt your sleep.
+7. Don’t take naps after 3 p.m.
+8. Relax before bed. Don’t overschedule your day so that no time is left for unwinding.
+9. Take a hot bath before bed.
+10. Dark bedroom, cool bedroom, gadget-free bedroom.
+11. Have the right sunlight exposure
+12. Don’t lie in bed awake.
+
+_Book completed on 2021-12-14_
