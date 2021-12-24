@@ -403,3 +403,11 @@ your head.
 12. Don’t lie in bed awake.
 
 _Book completed on 2021-12-14_
+
+---
+
+*2021-12-24*
+
+## 相关研究报道
+
+- [你的DNA时刻都在断裂，只有睡觉能拯救它](https://m.huxiu.com/article/475755.html)
