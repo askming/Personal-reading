@@ -246,4 +246,26 @@ _Started on 2021-12-15_
 
 ## 11 The Sports Analogy
 
-- P157, 3rd, 
+- P157, 3rd, When a person is not doing his job, there can only be two reasons for it. The person either can’t do it or won’t do it; he is either not capable or not motivated.
+- P158, The single most important task of a manager is to elicit peak performance from his subordinates. 
+- P158, 2nd, all a manager can do is create an environment in which motivated people can flourish.
+- P159, 4th, Abraham Maslow’s theory of motivation
+  -  motivation is closely tied to the idea of needs, which cause people to have drives, which in turn result in motivation. 
+  ![00025](https://user-images.githubusercontent.com/5671771/147905130-4e7215b8-8d9c-4073-ad71-b225252f7ee3.jpeg)
+
+- P164, 2nd, _self-actualization_ means: the need to achieve one’s utter personal best in a chosen field of endeavor.
+- P164, 3rd, Two inner forces can drive a person to use all of his capabilities. He can be _competence-driven_ or _achievement-driven_. 
+  - The former concerns itself with job or task mastery.
+  - The latter refers to people moved by an abstract need to achieve in all that they do
+
+- P165, 2nd, Researchers classified the three types of behavior. 
+  - _gamblers_, took high risks but exerted no influence on the outcome of events. 
+  - _conservatives_, were people who took very little risk
+  - _achievers_, had to test the limits of what they could do, and with no prompting demonstrated the point of the experiment: namely, that some people simply must test themselves
+
+- P165, 4th, if we want to cultivate achievement-driven motivation, we need to create an environment that values and emphasizes output.
+
+- P167, 2nd, A simple test can be used to determine where someone is in the motivational hierarchy. If the absolute sum of a raise in salary an individual receives is important to him, he is working mostly within the physiological or safety modes. If, however, what matters to him is how his raise stacks up against what other people got, he is motivated by esteem/recognition or self-actualization, because in this case money is clearly a measure.
+
+- P168, 1st,  The most important form of such task-relevant feedback is the performance review every subordinate should receive from his supervisor. More about this later.
+- P168, 3rd, You cannot stay in the self-actualized mode if you’re always worried about failure.  
