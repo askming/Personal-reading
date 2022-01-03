@@ -319,3 +319,31 @@ _Started on 2021-12-15_
   - Statement supported by examples
   - Complements with examples
   - How to improve in the future
+
+---
+
+*2022-01-03*
+
+## 14 Two Difficult Tasks
+
+- P204, 3rd, The applicant should do 80 percent of the talking during the interview, and what he talks about should be your main concern. 
+- P206, 4 interview assessment categories
+  1. _Technical/Skills_: describe some projects
+  2. _What He Did With Knowledge_: past achievements/failures
+  3. _Discrepancies_: what did you learn from failures; problems in current position
+  4. _Operational Values_: why are you ready for new job; why should my company hire you
+
+## 15 Compensation as Task-Relevant Feedback
+
+- P215, 3rd, At one extreme, the dollar level is determined by experience only; at the other, by merit alone. 
+   ![00031](https://user-images.githubusercontent.com/5671771/147966341-89ed7410-e547-4cfb-b655-4904a1243c92.jpeg)
+
+- P218, 3rd, Peter Principle, which says that when someone is good at his job, he is promoted; he keeps getting promoted until he reaches his level of incompetence and then stays there. Like all good caricatures, this one captures at least some of what really happens in a merit-based promotion system.
+
+## 16 Why Training Is the Boss’s Job
+
+- P224, 1st, training should be a process, not an event.
+
+<hr>
+
+_Book completed on 2022-01-02_ 
