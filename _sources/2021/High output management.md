@@ -216,3 +216,26 @@ _Started on 2021-12-15_
 - P130, 2nd, For middle managers to succeed at this high-leverage task, two things are necessary. 
   - First, they must accept the inevitability of the hybrid organizational form if they are to serve its workings. 
   - Second, they must develop and master the practice through which a hybrid organization can be managed. This is dual reporting, the subject of our next chapter.
+
+---
+
+*2022-01-03*
+
+## 9 Dual Reporting
+
+- P134, 3rd, To make such a body work requires the _voluntary surrender of individual decision-making to the group_. Being a member means you no longer have complete freedom of individual action, because you must go along with the decisions of your peers in most instances. 
+- P140, ![00022](https://user-images.githubusercontent.com/5671771/147895667-2ad1d500-3305-49e8-a3a6-34605790648c.jpeg)
+  _Cindy’s name appears on two organization charts—coordinating groups are a means for know-how managers to increase their leverage._
+ 
+## 10 Modes of Control
+
+- P145, 2nd, our behavior in a work environment can be controlled by three invisible and pervasive means. These are:
+  - free-market forces
+  -  contractual obligations
+  - cultural values
+
+- P148, 3rd, there is always a most appropriate mode of control, and there are two variables here: first, the nature of a person’s **motivation**; and second, the **nature of the environment** in which he works. 
+- P148, 3rd, CUA (complexity, uncertainty, and ambiguity) factor
+   ![00023](https://user-images.githubusercontent.com/5671771/147895793-99f57b44-0665-47a2-a0dd-eeca85cfdcb4.jpeg)
+
+- P150, 2nd, promotion from within tends to be the approach favored by corporations with strong corporate cultures. Bring young people in at relatively low-level, well-defined jobs with low CUA factors, and over time they will share experiences with their peers, supervisors, and subordinates and will learn the values, objectives, and methods of the organization. They will gradually accept, even flourish in, the complex world of multiple bosses and peer decision-making.
