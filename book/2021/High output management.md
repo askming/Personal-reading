@@ -142,3 +142,35 @@ _Started on 2021-12-15_
   - supervisor’s most important roles are being a meeting’s moderator and facilitator, and controller of its pace and thrust. 
 
 - P84, 3rd, for mission-oriented meetings, the chairman must have a clear understanding of the meeting’s objective—what needs to happen and what decision has to be made. The absolute truth is that if you don’t know what you want, you won’t get it. So before calling a meeting, ask yourself: What am I trying to accomplish? Then ask, is a meeting necessary? Or desirable? Or justifiable? Don’t call a meeting if all the answers aren’t yes.
+
+---
+
+*2022-01-03*
+
+## 5 Decisions, Decisions
+
+- P88, 2nd, authority (to make decisions) went with responsibility (position in the management hierarchy). 
+- P88, b, a rapid divergence develops between power based on position and power based on knowledge, which occurs because the base of knowledge that constitutes the foundation of the business changes rapidly.
+- P89, 3rd, The key to success is again the middle manager, who not only is a link in the chain of command but also can see to it that the holders of the two types of power mesh smoothly.
+- P90, ![00017](https://user-images.githubusercontent.com/5671771/147894080-46844ccb-fca6-4b87-bb6b-56ff27a49ec1.jpeg)
+  _The ideal decision-making process._
+ 
+- P91, 3rd, an organization does not live by its members agreeing with one another at all times about everything. It lives instead by people committing to support the decisions and the moves of the business. All a manager can expect is that the commitment to support is honestly present, and this is something he can and must get from everyone.
+
+- P92, 2nd, Another desirable and important feature of the model is that any decision be worked out and reached at the _lowest competent level_. 
+  - ideally, decision-making should occur in the middle ground, between reliance on technical knowledge on the one hand, and on the bruises one has received from having tried to implement and apply such knowledge on the other. 
+
+- P93, 3rd, The most common problem is something we call the _peer-group syndrome_. 
+  - _peer-plus-one approach_ is used to aid decision-making where we must. Peers tend to look for a more senior manager, even if he is not the most competent or knowledgeable person involved, to take over and shape a meeting.
+
+- P95, 4th, One thing that paralyzes both knowledge and position power possessors is the fear of simply _sounding dumb_.
+- P95, last,  related phenomenon influences lower-level people present in the meeting. This group has to overcome the fear of _being overruled_, which might mean embarrassment: if the rest of the group or a senior-level manager vetoed a junior person or opposed a position he was advocating, the junior manager might lose face in front of his peers.
+
+- P97, 2nd, If you either enter the decision-making stage too early or wait too long, you won’t derive the full benefit of open discussion. The criterion to follow is this: don’t push for a decision prematurely.
+- P97, one of the manager’s key tasks is to settle six important questions in advance:
+  - What decision needs to be made?
+  - When does it have to be made?
+  - Who will decide?
+  - Who will need to be consulted prior to making the decision?
+  - Who will ratify or veto the decision?
+  - Who will need to be informed of the decision?
