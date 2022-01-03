@@ -285,3 +285,37 @@ _Started on 2021-12-15_
 
 - P175, 2nd, A word of caution is in order: do not make a value judgment and consider a structured management style less worthy than a communication-oriented one. What is “nice” or “not nice” should have no place in how you think or what you do. Remember, we are after what is most effective.
 - P179, 2nd, We tend to see ourselves more as communicators and delegators than we really are, certainly much more than do our subordinates.
+
+---
+
+*2022-01-03*
+
+## 13 Performance Appraisal: Manager as Judge and Jury
+
+- P182, 5th, giving such reviews is the single most important form of task-relevant feedback we as supervisors can provide. 
+- P182, 6th, there is one that is more important purpose of review than any of the others: it is to improve the subordinate’s performance. 
+- P183, 1st, The review is usually dedicated to two things: 
+  - first, the skill level of the subordinate, to determine what skills are missing and to find ways to remedy that lack; 
+  - and second, to intensify the subordinate’s motivation in order to get him on a higher performance curve for the same skill level
+
+- P184, 4th, a supervisor should clarify in his own mind in advance what it is that he expects from a subordinate and then attempt to judge whether he performed to expectations. The biggest problem with most reviews is that we don’t usually define what it is we want from our subordinates, and, as noted earlier, if we don’t know what we want, we are surely not going to get it.
+
+- P184, 5th, we can characterize performance by _output measures_ and _internal measures_
+- P187, 4th, the performance rating of a manager cannot be higher than the one we would accord to his organization!
+- P188, 4th, There are three L’s to keep in mind when delivering a review: Level, listen, and leave yourself out.
+- P190 -, three types of performance review
+  - “On the One Hand…On the Other Hand…”: containing both positive and negative assessments.
+  - The Blast: a major performance problem
+  - Reviewing the Ace: 
+
+- P194, _The stages of problem-solving: The transition from blaming others to assuming responsibility is an emotional step._
+  ![00028](https://user-images.githubusercontent.com/5671771/147965496-45caa4b7-848f-4129-8c7b-b17e3b88be82.jpeg)
+ 
+- P195, 3rd, To make things work, people do not need to side with you; you only need them to commit themselves to pursue a course of action that has been decided upon. 
+- P199, 2nd, In my experience, the best thing to do is to give your subordinate the written review sometime before the face-to-face discussion. He can then read the whole thing privately and digest it. He can react or overreact and then look at the “messages” again. By the time the two of you get together, he will be much more prepared, both emotionally and rationally.
+- P200, performance report example
+  - Output measure: good part
+  - Output measure: lacking/not so good part
+  - Statement supported by examples
+  - Complements with examples
+  - How to improve in the future
