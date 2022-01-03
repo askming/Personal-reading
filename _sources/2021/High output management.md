@@ -194,3 +194,25 @@ _Started on 2021-12-15_
 
 ## 7 The Breakfast Factory Goes National
 - P120, management is not just a team game, it is a game in which we have to fashion a team of teams, where the various individual teams exist in some suitable and mutually supportive relationship with each other.
+
+---
+
+*2022-01-03*
+
+## 8 Hybrid Organizations
+
+- P212, 3rd, Though most are mixed, organizations can come in two extreme forms: in totally _mission-oriented_ form or in totally _functional_ form. 
+  - ![00018](https://user-images.githubusercontent.com/5671771/147895220-0653bae8-975f-4be7-bc29-0c20709ce713.jpeg)
+  _The Breakfast Factory network organized in (a) totally mission-oriented and (b) totally functional forms._
+ 
+- P123, 1st, Alfred Sloan summed up decades of experience at General Motors by saying, “Good management rests on a reconciliation of centralization and decentralization.” Or, we might say, on a balancing act to get the best combination of responsiveness and leverage.
+
+- P126, 2nd, What are some of the advantages of organizing much of a company in a mission-oriented form? 
+  - There is only one. It is that the individual units can stay in touch with the needs of their business or product areas and initiate changes rapidly when those needs change.
+
+- P126, 3rd, no matter how many times we have examined possible organizational forms, we have always concluded that there is simply no alternative to the hybrid organizational structure.
+  - P127, 4th, Here I would like to propose Grove’s Law: _All large organizations with a common business purpose end up in a hybrid organizational form_.
+
+- P130, 2nd, For middle managers to succeed at this high-leverage task, two things are necessary. 
+  - First, they must accept the inevitability of the hybrid organizational form if they are to serve its workings. 
+  - Second, they must develop and master the practice through which a hybrid organization can be managed. This is dual reporting, the subject of our next chapter.
