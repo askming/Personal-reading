@@ -239,3 +239,11 @@ _Started on 2021-12-15_
    ![00023](https://user-images.githubusercontent.com/5671771/147895793-99f57b44-0665-47a2-a0dd-eeca85cfdcb4.jpeg)
 
 - P150, 2nd, promotion from within tends to be the approach favored by corporations with strong corporate cultures. Bring young people in at relatively low-level, well-defined jobs with low CUA factors, and over time they will share experiences with their peers, supervisors, and subordinates and will learn the values, objectives, and methods of the organization. They will gradually accept, even flourish in, the complex world of multiple bosses and peer decision-making.
+
+---
+
+*2022-01-03*
+
+## 11 The Sports Analogy
+
+- P157, 3rd, 
