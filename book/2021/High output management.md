@@ -174,3 +174,23 @@ _Started on 2021-12-15_
   - Who will need to be consulted prior to making the decision?
   - Who will ratify or veto the decision?
   - Who will need to be informed of the decision?
+
+---
+
+*2022-01-03*
+
+## 6 Planning: Today’s Actions for Tomorrow’s Output
+
+- P104, 3rd, _difference analysis_
+  - the difference between what your environment demands from you now and what you expect it to demand from you a year from now.
+
+- P105, last, difference between strategy and tactics
+  - As you formulate in words what you plan to do, the most abstract and general summary of those actions meaningful to you is your strategy
+  - What you’ll do to implement the strategy is your tactics.
+
+- P109, 2nd, the true output of the planning process is the set of tasks it causes to be implemented.
+
+- P110, 3rd, MBO: management by objectives
+
+## 7 The Breakfast Factory Goes National
+- P120, management is not just a team game, it is a game in which we have to fashion a team of teams, where the various individual teams exist in some suitable and mutually supportive relationship with each other.
