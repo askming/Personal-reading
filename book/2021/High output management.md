@@ -269,3 +269,19 @@ _Started on 2021-12-15_
 
 - P168, 1st,  The most important form of such task-relevant feedback is the performance review every subordinate should receive from his supervisor. More about this later.
 - P168, 3rd, You cannot stay in the self-actualized mode if you’re always worried about failure.  
+
+---
+
+*2022-01-03*
+
+## 12 Task-Relevant Maturity
+
+- P173, 3rd, TRM: task relevant maturity
+  - Some researchers in this field argue that there is a fundamental variable that tells you what the best management style is in a particular situation.
+  - which is a combination of the degree of their achievement orientation and readiness to take responsibility, as well as their education, training, and experience. 
+
+- P174, 3rd, varying management styles are needed as task-relevant maturity varies. Specifically, when the TRM is low, the most effective approach is one that offers very precise and detailed instructions, wherein the supervisor tells the subordinate what needs to be done, when, and how: in other words, a highly structured approach. As the TRM of the subordinate grows, the most effective style moves from the structured to one more given to communication, emotional support, and encouragement, in which the manager pays more attention to the subordinate as an individual than to the task at hand. As the TRM becomes even greater, the effective management style changes again. Here the manager’s involvement should be kept to a minimum, and should primarily consist of making sure that the objectives toward which the subordinate is working are mutually agreed upon.
+  ![image](https://user-images.githubusercontent.com/5671771/147906723-a7093ad0-4a0a-4c66-9d03-915546700d5a.png)
+
+- P175, 2nd, A word of caution is in order: do not make a value judgment and consider a structured management style less worthy than a communication-oriented one. What is “nice” or “not nice” should have no place in how you think or what you do. Remember, we are after what is most effective.
+- P179, 2nd, We tend to see ourselves more as communicators and delegators than we really are, certainly much more than do our subordinates.
