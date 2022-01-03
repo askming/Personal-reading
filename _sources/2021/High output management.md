@@ -117,3 +117,28 @@ _Started on 2021-12-15_
 - P66, 2nd, a manager should allocate about a half day per week to each of his subordinates. (Two days a week per subordinate would probably lead to meddling; an hour a week does not provide enough opportunity for monitoring.)
 - P70, 2nd, channel the time needed to deal with them into organized, scheduled form by providing an alternative to interruption—a scheduled meeting or an office hour.
 - P70, The point is to impose a pattern on the way a manager copes with problems. To make something regular that was once irregular is a fundamental production principle, and that’s how you should try to handle the interruptions that plague you.
+
+---
+
+*2022-01-03*
+
+## 4 Meetings—The Medium of Managerial Work
+
+- P71, 2nd, meeting is nothing less than the _medium_ through which managerial work is performed. 
+- P72, 1st, The two basic managerial roles produce two basic kinds of meetings. In the first kind of meeting, called a _process-oriented meeting_, knowledge is shared and information is exchanged. Such meetings take place on a regularly scheduled basis. The purpose of the second kind of meeting is to solve a specific problem. Meetings of this sort, called _mission-oriented_, frequently produce a decision. They are ad hoc affairs, not scheduled long in advance, because they usually can’t be.
+- P75, 2nd, A key point about a one-on-one: It should be regarded as the _subordinate’s meeting_, with its agenda and tone set by him. 
+
+- P75, 3rd, What should be covered in a one-on-one?
+  - We can start with performance figures, indicators used by the subordinate, such as incoming order rates, production output, or project status.
+  - The meeting should also cover anything important that has happened since the last meeting: current hiring problems, people problems in general, organizational problems and future plans, and—very, very important—_potential_ problems.
+
+- P76, 3rd, mechanical hints for effective one-on-one meetings. 
+  - First, both the supervisor and subordinate should have a copy of the outline and both should take notes on it, which serves a number of purposes.
+  - The supervisor should also encourage the discussion of heart-to-heart issues during one-on-ones, because this is the perfect forum for getting at subtle and deep work-related problems affecting his subordinate.
+
+- P77, 3rd, One-on-ones should be scheduled on a rolling basis—setting up the next one as the meeting taking place ends. 
+- P80, 3rd, Staff meetings should be mostly controlled, with an agenda issued far enough in advance that the subordinates will have had the chance to prepare their thoughts for the meeting. But it should also include an “open session”—a designated period of time for the staff to bring up anything they want. 
+- P80, 4th, A supervisor should never use staff meetings to pontificate, which is the surest way to undermine free discussion and hence the meeting’s basic purpose.
+  - supervisor’s most important roles are being a meeting’s moderator and facilitator, and controller of its pace and thrust. 
+
+- P84, 3rd, for mission-oriented meetings, the chairman must have a clear understanding of the meeting’s objective—what needs to happen and what decision has to be made. The absolute truth is that if you don’t know what you want, you won’t get it. So before calling a meeting, ask yourself: What am I trying to accomplish? Then ask, is a meeting necessary? Or desirable? Or justifiable? Don’t call a meeting if all the answers aren’t yes.
