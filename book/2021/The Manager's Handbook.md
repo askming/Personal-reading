@@ -51,4 +51,25 @@ To learn how to identify your priorities and then categorize your recent activit
 - Each Sunday afternoon, write down your top 3 priorities for the week and design your calendar to spend 80%+ of your time on those priorities.
 
 - In order to maximize your team’s output, you need to spend time on the activities that will influence that output the most.
-- use a color coding system when creating calendar events to group activities.
+- Use a color coding system when creating calendar events to group activities.
+- An _energy audit_ is simply looking through your calendar and reflecting on which meetings give you energy, and which take energy from you. Then try to eliminate the latter category by hiring, delegating, and redistributing work.
+
+### Getting things done
+- All GTD systems all share two key insights.
+  1. Your mind is made for having ideas, not for holding ideas.
+  2. Creative work takes long periods of uninterrupted time. It is disrupted by context switching.
+
+- How GTD works
+  - Capture: capture 100% of everything that has your attention. Little, big, personal, and professional. 
+  - Clarify: For everything you capture, decide if it is actionable.
+  - Organize: Organize those actionable tasks by category and priority. 
+  - Reflect: Look over your lists frequently to determine what to do next. Do a weekly review to bring yourself current, update your lists, and clear your mind.
+  - Engage: Get to work. Choose your next action and get to it. 
+
+- The good news is that you can apply GTD to email fairly simply. The key is to asynchronously batch process your email. Turn off all push notifications and only look at your email twice a day.
+
+### Top goal
+- Greg McKeown, who wrote a phenomenal book on productivity called Essentialism, boils this down to one key concept: Schedule an hour each day (that is, put an Event in your calendar) to work on your Top Goal only.
+
+### Coaching
+- Setting up your advisory board: Pick three to six people in your network who are either a few years ahead of you in their careers or are semi-retired.
