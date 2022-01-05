@@ -88,3 +88,22 @@ _Started in Nov. 4, 2021_
     - You have something to demonstrate
     - You have a better feel for progress
   - Tracer code vs prototyping: Prototyping generates disposable code. Tracer code is lean but complete, and forms part of the skeleton of the final system. Think of prototyping as the reconnaissance and intelligence gathering that takes place before a single tracer bullet is fired.
+
+---
+
+*2022-01-05*
+
+## 3.The Basic Tools
+
+### Power of plain text
+- Insurance against obsolescence
+- Leverage existing tools
+- Easier testing
+
+### Shell games
+- A benefit of GUIs is WYSIWYG--what you see is what you get. The disadvantage is WYSIAYG-what you see is all you get.
+
+### Power editing
+- In the first edition of this book we recommended using a single editor for everything: code, documentation, memos, system administration, and so on. We've softened that position a little. We're happy for you to use as many editors as you want. We'd just like you to be working toward fluency in each.
+
+### Version control
