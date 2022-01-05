@@ -41,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -353,7 +353,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -387,12 +387,88 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>一本小小的红色写作书</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
+<h1>一本小小的红色写作书<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<hr>
+<p><em>(加) 布兰登•罗伊尔著; 周丽萍译</em></p>
+<ul>
+<li><p>记住支配日常说明文写作的原则：总结应该处于或接近文章开头。</p></li>
+<li><p>在没有目的地和飞行方向时，飞行员决不会将飞机驶离跑道。当写作意图是解释或告知时，我们应该先总结，然后再运用细节作为支撑，不要玩“我有个秘密”的把戏。</p></li>
+<li><p>主题句归纳的是文章或报告中一个单独段落的内容，而引导句总结的是一整篇文章或报告的内容</p></li>
+<li><p>商业报告的作用有四种：</p>
+<p>1.可行性研究。</p>
+<p>2.比较研究。</p>
+<p>3.评估研究。</p>
+<p>4.成本研究</p>
+</li>
+<li><p>以下是一个可以帮你写出任何东西的万全方法。它列出的可能不是最令人兴奋的写作结构，但却清晰而且实用：</p>
+<p>1.选择立场。</p>
+<p>2.写下结论。</p>
+<p>3.陈述“有如下几个原因”。</p>
+<p>4.使用转折词。</p>
+</li>
+<li><p>写作中最常用的六种结构包括：</p>
+<p>1.范畴结构。</p>
+<p>2.评价结构。</p>
+<p>3.时间结构。</p>
+<p>4.比较结构。</p>
+<p>5.线性结构。</p>
+<p>6.因果结构。</p>
+</li>
+<li><p>简短地展现以便他们阅读，清楚地展现以便他们欣赏，如画般地展现以便他们记忆，最重要的是，准确地展现以便他们被它的光明所指引</p></li>
+<li><p>大师说：“如果你会因为我所说的而放弃，那么你显然不具备成为艺术大师所需的条件。”</p></li>
+<li><p>写作应该精雕细琢，但这不是最重要的方面，是写作第二重要的任务。最重要的写作原则是让观点得到充分的论证，细节则使文章更可信、更难忘。</p></li>
+<li><p>“主题句一行原则”在写作中十分有价值。在理想情况下，主题句的长度不应超过一行，以确保读者能迅速理解你的观点。</p></li>
+<li><p>写作包含四大支柱：结构、风格、可读性和语法，它们如同保持椅子稳固的四条腿。结构关乎文章组织以及表述观点的顺序；风格是写作的方式，包括如何使用恰当的例证支撑所写内容；可读性与表达方式、写作材料的视觉愉悦感和易读性等有关；语法包括措词等，与语言表达形式的正确性和可接受性有关。</p></li>
+<li><p>在一般情况下，写作应该多用主动语态，少用被动语态，因为主动语态更以行为为导向，更直接、简练，减少了必需词汇量</p></li>
+<li><p>写作一部分是科学，一部分是艺术。需要建构且遵循规则的部分是科学，可以根据每种情境进行变化的部分是艺术。</p></li>
+<li><p>克拉（Carat）这个单词源于角豆树种子，它们在古时候被用于称重，因此克拉指的是重量。</p></li>
+</ul>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./2019"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -480,15 +556,13 @@
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By askming<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By askming<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 

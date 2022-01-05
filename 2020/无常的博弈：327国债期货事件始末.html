@@ -41,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -353,7 +353,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -387,12 +387,64 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>无常的博弈：327国债期货事件始末</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
+<h1>无常的博弈：327国债期货事件始末<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<hr>
+<p><em>陆一</em></p>
+<ul class="simple">
+<li><p>因此，万国证券陷入被动局面的根本原因，在于决策者误判了市场趋势，坚持错误的市场判断，既没有控制仓位，也没有及时止损，一味想用对赌的手段，借助自己资金实力逼爆多方，结果陷入了被围剿的境地，让自己陷于不可自拔的地步。</p></li>
+<li><p>再深一步分析，中国的经济运行永远像是骑在两个轮子的自行车上，和运行在四个轮子上的其他经济体不同，我们如果失速，就必须施展高超的技巧才不会摔倒；但只要在运行，哪怕再慢的速度，也不会暴露出问题；而一旦停下来，所有的丑恶肯定会暴露无遗……</p></li>
+<li><p>改变自己开始，要想撬起金融投资市场新格局，必须把支点</p></li>
+<li><p>折实公债以“分”为单位，每分以上海、天津、武汉、广州、重庆和西安六大城市的大米（天津为小米）6市斤、面粉15市斤、白细布4尺和煤炭16市斤的批发价加权平均总和计算得出。</p></li>
+<li><p>1953年，中国第一个五年计划开始实施。</p></li>
+<li><p>1982年7月，财政部首次向个人发行国库券。</p></li>
+<li><p>1990年12月19日上海证券交易所开业，当天上市挂牌交易的证券品种共计有：股票8个，即“老八股”；其他31个交易品种为各类债券，即1989年保值公债3种，1987—1991年国库券4种，工行债券6种，交行债券1种，中行债券2种，建行债券1种，还有上海石化、氯碱化工等企业债券14种。</p></li>
+</ul>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./2020"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -456,15 +508,13 @@
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By askming<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By askming<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 

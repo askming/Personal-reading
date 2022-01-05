@@ -41,7 +41,7 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -352,7 +352,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -386,7 +386,7 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
@@ -421,7 +421,153 @@
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>相关资源</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+                <div>
+                    <h2> Contents </h2>
+                </div>
+                <nav aria-label="Page">
+                    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   实体书
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   电子书
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     综合资源
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     专业书籍
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                </nav>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
+<h1>相关资源<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<br>
+<div class="section" id="id2">
+<h2>实体书<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.isbns.net">ISBNS.NET</a>: 全网价格比较</p></li>
+<li><p><a class="reference external" href="http://abebooks.com">abebooks</a>: 二手纸质书购买平台</p></li>
+<li><p>Local public library</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>电子书<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3>综合资源<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p><a class="reference external" href="https://singlelogin.me/">zlibrary</a>: 首选电子书库</p>
+<ul class="simple">
+<li><p>配合Telegram bot <code class="docutils literal notranslate"><span class="pre">&#64;firstlibrarybot</span></code> 轻松搜遍全网</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://oapen.org/">OAPEN</a>: academia</p>
+<blockquote>
+<div><p>OAPEN promotes and supports the transition to open access for academic books by providing open infrastructure services to stakeholders in scholarly communication. We work with publishers to build a quality-controlled collection of open access books and provide services for publishers, libraries, and research funders in the areas of hosting, deposit, quality assurance, dissemination, and digital preservation.</p>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://www.jiumodiary.com/">鸠摩搜索</a></p></li>
+<li><p><a class="reference external" href="https://bks.thefuture.top/">The Future</a></p>
+<ul class="simple">
+<li><p>提供Telegram<a class="reference external" href="https://t.me/futuresearch">搜书机器人</a>, 检索下载方便</p></li>
+</ul>
+</li>
+<li><p>TG频道:</p>
+<ul>
+<li><p><a class="reference external" href="https://t.me/Readfine">好读</a></p>
+<blockquote>
+<div><p>好读是读友不断努力贡献的成果，提供您的是电子书一站式阅读体验，包括评分|简介|封面，一键下载，享受读趣。在这里，因为有您的陪伴，阅读变得并不孤单。</p>
+</div></blockquote>
+<blockquote>
+<div><p>频道 &#64;Readfine<br />
+交流群 &#64;ReadfineChat（cx+书名直接搜书）</p>
+</div></blockquote>
+<blockquote>
+<div><p>分类标签（只适用tg自带搜索）
+科普、医学、心理、历史、近代史、世界史、政治、禁书、社科、科幻、经济、理财、管理、饮食、推理、法律、悬疑、奇幻、军事、经典、两性、哲学、小说、游历、教育、随笔、文学、文化、纪实、自我成长、耽美、宗教、回忆录</p>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://t.me/pdf_001">PDF资料</a></p></li>
+<li><p><a class="reference external" href="https://t.me/zreadpush">zread(推)-什么书值得读</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.haodoo.net/">好读</a>： 繁体中文书</p></li>
+<li><p><a class="reference external" href="http://www.pdfbook.cn/">云海电子书</a>： 站内书籍类型丰富、不管是小众、文学，还是励志成功，艺术摄影，计算机网络……你都可以在这里找到、并免费下载它的pdf版本</p></li>
+<li><p><a class="reference external" href="https://obook.cc">偶书</a></p></li>
+<li><p><a class="reference external" href="https://www.readthistwice.com">Books worth reading twice</a>: 推荐名人读过的书</p></li>
+<li><p><a class="reference external" href="https://github.com/programthink/books">program think整理的书单</a></p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h3>专业书籍<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p><a class="reference external" href="https://new.shuge.org/">书格</a>：可能是最好用的古籍资料下载网站</p></li>
+<li><p><a class="reference external" href="https://www.ituring.com.cn/book?tab=free">图灵社区</a>：国内最优质的技术书出版社之一，提供免费的技术电子书下载</p></li>
+<li><p><a class="reference external" href="https://booksea.app/">书海泛舟</a>： 计算机类相关图书</p></li>
+<li><p><a class="reference external" href="https://ebookfoundation.github.io/free-programming-books/">free-programming-books</a></p>
+<blockquote>
+<div><p>List of Free Learning Resources In Many Languages</p>
+</div></blockquote>
+</li>
+<li><p><a class="reference external" href="https://www.best-books.dev/">The best Programming books</a></p>
+<blockquote>
+<div><p>Compiling thousands of lists and recommendations, all in one place.</p>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -542,15 +688,13 @@
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By askming<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By askming<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 

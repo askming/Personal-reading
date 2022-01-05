@@ -41,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -353,7 +353,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -387,7 +387,7 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
@@ -567,7 +567,421 @@
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>对赌：信息不足时如何做出高明决策</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+                <div>
+                    <h2> Contents </h2>
+                </div>
+                <nav aria-label="Page">
+                    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   快速或死亡：人类大脑不是为理性而构造的
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   “我不确定”：充分利用不确定性
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   重新定义错误
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   多数牌局都是在跟自己对赌
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
+   信念强则赢面大
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id7">
+   所听即所得
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id8">
+   聪明反被聪明误
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id9">
+   赌一把
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id10">
+   重新定义信心
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id11">
+   结果即反馈
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id12">
+   回溯分析的困难：健康甜点现象
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id13">
+   如果不是因为运气，每一次我都会赢
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id14">
+   人们在观察
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id15">
+   从他人的结果中看自己
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id16">
+   重塑习惯
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id17">
+   “赌一把？”回归
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id18">
+   来之不易
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id19">
+   红药丸还是蓝药丸
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id20">
+   团体生而不同
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id21">
+     团体让我们接触到各种各样的观点
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id22">
+   联邦法官：主观倾向并不稀奇
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id23">
+   向一位魔术师致敬
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id24">
+   默顿式共有性：多多益善
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id25">
+   无私利性：我们都有利益冲突，还很容易传染
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id26">
+   与团体之外的世界进行沟通
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id27">
+   夜猫子杰瑞
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id28">
+   嗯是的，但最近你给了我什么好处
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id29">
+   尤利西斯合约：利用时间旅行来预先承诺
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id30">
+   决策脏话罐
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id31">
+   侦察：规划未来
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id32">
+   反向回顾：从一个积极的未来开始逆向思考
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id33">
+   预先检查：从一个负面的未来开始逆向思考
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id34">
+   树木学和事后偏见（或者，让电锯歇一歇）
+  </a>
+ </li>
+</ul>
+
+                </nav>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
+<h1>对赌：信息不足时如何做出高明决策<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p><em>安妮·杜克</em></p>
+<div class="section" id="id2">
+<h2>快速或死亡：人类大脑不是为理性而构造的<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>一直以来，寻求确定性是人类赖以生存的手段，但在一个不确定的环境里，它却可能会对我们的决策造成严重的破坏。当我们从结果入手反向调查事件原因时，很容易掉进各种认知的陷阱，比如将事物的任何相关性都认为是因果关系，或者采用单方论证来确认我们偏爱的做法。我们倾向于将方钉强行楔入圆孔，以维持我们认为结果与决策之间有着紧密关系的幻觉。</p></li>
+<li><p>The Haphazard Evolution of the HumanMind一书中写道：“我们的思维可以分为两个流，一个是快速、自动且基本无意识的；另一个是缓慢、刻意和审慎的。”第一个系统，即“反射系统——无论是否在我们意识的作用下，都在快速并自动地运作着”。第二个系统，“审慎系统……对现实情况进行了一番谨慎仔细的斟酌”。</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>“我不确定”：充分利用不确定性<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="margin sidebar">
+<p class="sidebar-title"><a class="reference external" href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</a></p>
+<p>James Clerk Maxwell FRSE FRS (13 June 1831 – 5 November 1879) was a Scottish scientist in the field of mathematics and mathematical physics.</p>
+</div>
+<p>Clerk Maxwell 的名言来支持这一观点：“完全自知的无知是每一次科学进步的序幕。”我想补充一句，它也是历史上所有英明决策的前奏。</p>
+</div>
+<div class="section" id="id4">
+<h2>重新定义错误<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>重新定义错误可以让我们脱离由于得到不好的结果而带来的一切痛苦，但这也意味着我们必须重新定义“正确”。如果坏结果并不意味着我们是错误的，那么好结果同样也不能说明我们是正确的。我们是否在情感上成功地转变了这种观念？</p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h2>多数牌局都是在跟自己对赌<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>在做大部分决策时，我们并不是在与另一个人对赌。确切地说，我们是在与所有我们放弃选择的各种预期版本的自我进行对赌。我们时常在预期选项中进行抉择：选择看电影、去打保龄球，还是待在家里？又或者是选择接受一份位于得梅因的工作、维持现有工作，还是享受一段时间的休假？我们做出的任何选择都是在赌一个预期的结果。我们相信，我们的选择将会成就更好的自我。确定一个决策时要考虑的首要问题是它的回报（以金钱、时间、快乐、健康或者是决策时我们重视的东西来衡量）是否会大于我们放弃的其他选项。</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h2>信念强则赢面大<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>一个根本的好消息是：生活技能的一部分来自学习如何更好地校准我们的信念，利用经验和信息更加客观地更新我们的信念以便更加准确地反映世界。我们的信念越准确，我们的下注就会越稳定。当我们的思维模式可能导致我们误入歧途时，无论我们的信仰如何，制定与这些思维模式协同工作（有时围绕其工作）的策略也同样需要技巧。有效的策略可以使人更加开明、更加客观；让我们的信念更加准确、决策和行为更加理性，也会在决策过程中对自己更加富有同情心。</p></li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h2>所听即所得<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id8">
+<h2>聪明反被聪明误<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>room中的人通常都很聪明，这是有原因的。</p></li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h2>赌一把<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id10">
+<h2>重新定义信心<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id11">
+<h2>结果即反馈<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>我们有机会在未来展现的方式中通过学习来改善我们今后的信念和决策。从经验中得到的证据越多，我们对信念和选择的不确定性就越少。积极使用结果来检验我们的信念和投注会使反馈回路完整，从而减少不确定性。这是关系到我们如何学习的一大难点。</p></li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h2>回溯分析的困难：健康甜点现象<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id13">
+<h2>如果不是因为运气，每一次我都会赢<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id14">
+<h2>人们在观察<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id15">
+<h2>从他人的结果中看自己<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>这种思考揭示了我们区分他人结果的方式只是我们自利性偏差的一部分。通过对这一视角的观察，这种对结果加以区分的逻辑模式才变得合乎情理。</p></li>
+<li><p>在很多情况下，自己与他人的对比结果影响着我们的自我感觉。这种顽固而普遍的思维习惯严重阻碍了我们的学习。幸运的是，我们可以改变习惯，无论是你咬指甲的习惯还是你将失败归咎于霉运的习惯。通过改变让我们自我感觉良好的东西，就能以更加理性的思维对结果进行区分，也会以更加富有同情心的态度来看待他人。如果我们致力于追求真理、准确和客观的积极叙述，那么可以学到更多，我们的思想会变得更加开放：给予他人应得的肯定、承认我们可以做出更好的决策，以及确认世上极少有非黑即白的事物。</p></li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h2>重塑习惯<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>The Power of Habit: Why We Do What We Do in Life and Business is a book by Charles Duhigg, a New York Times reporter, published in February 2012 by Random House. It explores the science behind habit creation and reformation. The book reached the best seller list for The New York Times, <a class="reference external" href="http://Amazon.com">Amazon.com</a>, and USA Today.</p>
+</div>
+<ul class="simple">
+<li><p>Charles Duhigg《习惯的力量》（The Power of Habit）一书中提供了一种改变习惯的黄金法则——应对习惯的最佳方式是尊重习惯回路：“想改变一种习惯，你必须保持原有的提示，兑现原有的奖励，但要添加新的常规。</p></li>
+<li><p>我们可以努力改变我们的铃声，替换掉使我们垂涎的东西。我们也可以通过成为好的不吝啬于肯定他人的人、勇于承认错误的人、善于在好结果中发现错误的人、好的倾听者以及（因此而成为）优秀的决策者，来获得各种良好的自我感觉带来的奖励。如果我们会因为必须承认错误而感到困惑，那么我们会为了逃避指责而失去学习机会的思路又会使我们做何感想？我们会像菲尔·艾维那样去探索如何可以做得更好，还是会沉浸在胜利的喜悦中？如果为此付出努力，我们就可以将自利性偏差和动机性推理的无益思维习惯转化为具有生产力的思维习惯。如果我们能够努力实践这一常规，就能在准确性和求真性的驱动下进行学习，并且能够以更加开放和客观的方式来对待更多的决策结果。随着思维习惯的改变，我们的决策力会更好地与我们实现长期目标的执行力保持一致。</p></li>
+<li><p>把结果归类（为运气或技能）视为具有风险的操作会让我们接近这种心态的转变，因为我们在做出区分结果的决策时的确面对着很大的风险。学习对赌思维是一种明智之举，它可以培养我们实现长期目标所必需的习惯。</p></li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h2>“赌一把？”回归<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>当然，在摆脱为不良后果承担责任的恐惧的同时，你也失去了宣称好结果是完全来自技能的纯粹快感。这是一笔对你有利的交易。请记住，如果胜利令人喜悦，那么失败就会令人备感痛苦；如果正确使人感觉良好，那么错误就会使人备感糟糕。远离极端的思维，我们就会处于更好的位置。非幸福即苦难，没有任何余地的二选一，是一种对自己非常苛刻的生活方式。</p></li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h2>来之不易<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>第一步是明确我们想要重塑的思维习惯以及如何进行重塑。这一步很难，需要付出时间和精力，过程中也难免会出现很多失误。第二步是认识到，如果在此过程中我们并非孤军奋战，那么做出这些改变就会更加容易。想要快速并稳健地实现转变，寻求帮助是至关重要的一点，它将对我们的求真新常规进行训练和巩固。</p></li>
+</ul>
+</div>
+<div class="section" id="id19">
+<h2>红药丸还是蓝药丸<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id20">
+<h2>团体生而不同<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>综合起来，这些专家们提供的关于团队互动的建议就构成了一份不错的章程制定大纲：
+1.专注于准确性（通过确认），其中包括针对求真性、客观性和开放思想的奖励；
+2.事先让成员明确的责任性；
+3.对各种想法保持开放的态度。</p></li>
+</ul>
+<div class="section" id="id21">
+<h3>团体让我们接触到各种各样的观点<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="id22">
+<h2>联邦法官：主观倾向并不稀奇<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id23">
+<h2>向一位魔术师致敬<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>异端学会的创始者们在《行为与脑科学》的论文中明确认可了默顿在1942年和1973年的论文中为科学界制定的缩写为CUDOS的一套规范：“一种通常采用对抗性合作来解决经验争议的意识形态平衡的科学，与罗伯特·默顿提出的理想型自我修正认知团体模型有着显著的相似之处，该模型以CUDOS规范为基础组建而成。”根据该论文，CUDOS的含义如下。</p>
+<ul>
+<li><p>C（Communism）：共有性（数据属于团体）。</p></li>
+<li><p>U（Universalism）：普遍性（主张和证据无论出处均适用统一标准）。</p></li>
+<li><p>D（Disinterestedness）：无私利性（对影响团体评估的潜在冲突保持警惕）。</p></li>
+<li><p>O（Organized）S（Skepticism）：有条理的怀疑性（团体讨论鼓励参与和异议）。</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h2>默顿式共有性：多多益善<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>默顿式共有性［（英语中“共有性”和“共产主义”为同一单词：communism）很显然此处所指并非某种政治制度］规范是指团体内数据的共同所有权。默顿认为，个体研究人员的数据最终必须与整个科学界共享才能促进知识的进步。他提到，“保密是这个规范的对立面，全面和公开的沟通才是规范的体现”。在科学领域，这意味着团体达成了一个共识，即如果没有数据与实验设计和方法的详细描述，研究结果将无法得到适当的评估。研究人员有权在研究结果发表之前对数据加以保密，但是论文一经发表，他们就应该敞开大门让团体有机会做出适当的评估。如果求真团体只能获得有限的潜在相关信息，任何致力于准确性的尝试必然都将失败。在信息不完整的情况下，评估的准确性会受到极大影响。</p></li>
+<li><p>我们都遇到过这样的情况，对同一事件的描述却有两种差异巨大的版本，这是因为两种描述是建立在不同的事实和观点基础之上的。这种情况被称为“罗生门效应”（RashomonEffect），以1950年黑泽明（AkiraKurosawa）执导的经典电影《罗生门》（Rashomon）命名。情节简单，其中心要素是不完整性如何导致了偏见。影片中，四个人分别对他们共同目睹的同一场景进行了截然不同的描述，包括强盗对女性的诱惑（或强奸），强盗与丈夫的决斗（如果有），以及丈夫的死亡（因决斗失败、谋杀或自杀）。</p></li>
+</ul>
+</div>
+<div class="section" id="id25">
+<h2>无私利性：我们都有利益冲突，还很容易传染<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>简言之，当不知道利益是什么时，团体便不太可能屈服于意识形态的利益冲突。这就是麦考恩和珀尔马特的观点。</p></li>
+<li><p>我通常都会发现，在切换立场进行辩论或娴熟地为异议进行辩护之后，在某个问题上观点相距甚远的两个人都会逐渐向中间靠拢。与仅仅听取其他意见相比较，参与这种交流可以使人对对立观点形成更加深入的理解并在其中发现可取之处。这在根本上会使我们更加深入地了解自己的立场。让我们再一次回顾约翰·斯图亚特·穆勒的主张：这种开放性是唯一的学习方式。</p></li>
+</ul>
+</div>
+<div class="section" id="id26">
+<h2>与团体之外的世界进行沟通<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>首先，表达不确定性。承认不确定性不仅可以增进团体内部的求真性，还可以邀请我们身边的每个人来分享有用的信息和不同的意见。害怕犯错误（或害怕必须指出他人的错误）抵消了确认性的社交规则，这往往会导致人们对彼此隐瞒宝贵的见解和观点。如果我们首先明确自己的不确定性，那么听者就会更加明白，明确随后的任何讨论都不会涉及正确与错误，这将最大限度地有利于我们与团体以外的人进行求真交流。</p></li>
+<li><p>其次，通过认同来引导沟通。例如，留心对方提到的与你的信念一致的观点，对其加以具体的陈述，然后用“而且”来代替“但是”。如果迄今为止我们只学到了一件事，那就是我们喜欢听到那些肯定我们想法的观点。比方，我们想要让一个与我们有分歧的人（在我们团体内部或外部）和我们进行求真沟通，那么如果我们从一些彼此观点一致的领域开始，对方必定会表现出更加开放和轻松的态度。只有极少数人才会对他人的所有言论都持反对态度。通过实施促进普遍性的策略以及积极寻找我们认同的观念，就可以更加自然地让他人与我们一起学习，也会更加开放地思考他人的言论，从而增强我们校正自己信念的能力。</p></li>
+<li><p>再次，通过询问来获得一致的临时意愿。如果某人对我们倾诉，我们可以询问他们是仅仅想发泄情绪还是打算寻求建议。如果他们不是在寻求建议，那也没关系。参与规则大家都已经明确，有时候人们只是想发泄一下，当然我也是这样。这是人的本性。我们希望支持周围的人，包括在他人需要理解和同情时给予安慰。但有时人们会说他们是在寻求建议，这可能是潜在的决定进行求真交流的意愿（即便这样，我们也应该谨慎行事，因为人们有可能会打着寻求建议的幌子来寻找认同）。</p></li>
+<li><p>最后，重点关注未来。正如我在本书开头所讲的那样，我们通常很擅长识别自己正在争取的积极目标，我们的问题在于如何执行决策以实现这些目标。没有人喜欢表现出糟糕的执行力。这需要我们对不好的结果承担责任，如大卫·莱特曼发现的那种导致对话结束的结果。与其重新梳理已经发生的事情，不如尝试讨论对方可能会如何应对某事，以便让事情可以更好地进行下去。无论是在关于我们的孩子、其他家庭成员、朋友、恋人、同事甚至是我们自己的问题上，我们都有着共同的特点——通常我们会对未来（而非过去）采取更加理性的态度。人们很难对尚未出现的事情产生抵触情绪。</p></li>
+<li><p>我的儿子非常善于把糟糕的考试成绩归咎于老师。我必须小心谨慎地以避免重复莱特曼的错误。我会对他说：“有这样的老师一定让你感到很难过吧。你认为应该怎么做才能改善今后的成绩呢？”这种方式立即确认了孩子的看法，而且引发了有效的话题讨论，比如，为将来考试制定备考策略以及与老师会面以明确他们对学生作业的要求。与老师见面能为双方建立良好的印象，这对孩子今后的成绩能起到积极的影响。归根结底，即使是关于孩子们的决策，重新梳理结果也会使对方产生抵触情绪。另外，如果我们能够将他们的注意力集中在他们可以控制的事物上，未来总是可以变得更好。</p></li>
+<li><p><strong>稻草人谬误</strong>指一种先歪曲对方的论点，针对歪曲后的论点进行攻击，再宣称已推翻对方论点的论证方式。——编者注</p></li>
+</ul>
+</div>
+<div class="section" id="id27">
+<h2>夜猫子杰瑞<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>这种我们都不得不以牺牲未来自我为代价来满足当前自我的倾向被称为时间贴现（temporaldiscounting）。[3]我们宁愿非理性地得到大打折扣的立即奖励也不愿意等待一段时间来获得更大的延时奖励。一个成人时间贴现的例子来自20世纪90年代关于军事缩编的一项研究，该缩编导致成千上万的军人以极低的折扣率选择一次性付清退休金而不是有保障的年金支付。美国军方人员一次性获得了25亿美元，这只相当于他们本应获得年金支付现值的40%。（如欲进一步了解时间贴现的更多信息，详见“参考书目和推荐阅读”部分内容。）</p></li>
+</ul>
+</div>
+<div class="section" id="id28">
+<h2>嗯是的，但最近你给了我什么好处<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>我们区分结果的方式是一种路径依赖。我们最终到达何处以及如何到达那里并不重要。即便我们的总体表现不错，最近发生的事件仍然会对我们的情绪产生强烈的影响。这就是为什么我们赢得100美元却感到沮丧，输掉100元却感到开心。变焦镜头不仅会放大，还会扭曲图像。这不仅适用于打牌，同样也适用于投资决策、人际关系甚至是路边爆胎的情况。如果我们在上周获得了职位晋升而在今天遇上了爆胎，我们会诅咒生活，抱怨不幸。我们的感受并不是对事情总体进展而产生的反应。我们会因为一项投资的收支平衡（或赚钱）而感到失望，因为它曾经有过更高的价值。在人际关系中，即使微不足道的分歧在争执的时候也会显得十分严重。所有这些情况（以及无数其他情况）的问题在于，我们当下的情绪会影响我们的决策质量，而且我们尤其愿意在情绪不稳定的时候做出决策。</p></li>
+</ul>
+</div>
+<div class="section" id="id29">
+<h2>尤利西斯合约：利用时间旅行来预先承诺<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>荷马著作的大多数翻译都使用英雄的古希腊名字奥德修斯，时间旅行策略使用的是英雄的古罗马名字尤利西斯。</p></li>
+</ul>
+</div>
+<div class="section" id="id30">
+<h2>决策脏话罐<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>任何仅仅为了发泄情绪的呻吟或对糟糕运气进行抱怨的行为，除了用来获得同情之外没有任何积极意义（我们在求真团体中明确表示自己是在利用暂时休息的机会来宣泄的情况除外）</p></li>
+</ul>
+</div>
+<div class="section" id="id31">
+<h2>侦察：规划未来<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id32">
+<h2>反向回顾：从一个积极的未来开始逆向思考<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>研究表明，我们在确定目标并开始逆向思考以试图“回忆”起我们是如何到达终点时表现得更好。决策科学家加里·克莱恩（GaryKlein）在《哈佛商业评论》的一篇文章中总结了由黛博拉·米切尔（Deborah Mitchell）、J.爱德华·拉索（J. EdwardRusso）和南希·彭宁顿（NancyPennington）在1989年进行的实验的结果。他们“发现预期的后见之明——想象事件已经发生——会使人们在准确识别导致未来结果方面的能力提升30%”。</p></li>
+<li><p>通过从预期目标进行逆向思考来规划未来的形式被称为反向回顾。在反向回顾中，我们想象自己已经获得了某种积极成果，手持一份报纸，大标题显示为“我们成功了！”然后我们再思考目标实现的过程。</p></li>
+</ul>
+</div>
+<div class="section" id="id33">
+<h2>预先检查：从一个负面的未来开始逆向思考<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>反向回顾和预先检查互为补充。反向回顾设想一个积极的未来，预先检查假定一个消极的未来。如果没有同时表示正面空间和负面空间，我们就无法创建完整的画面。反向回顾揭示了积极空间，预先检查揭示了消极空间。反向回顾是啦啦队队长，预先检查是观众中的起哄者。</p></li>
+<li><p>尽管人们普遍认为成功是通过积极的情景设想来实现的，但事实证明，结合消极的情景设想会提升我们实现目标的概率。纽约大学心理学教授、《对积极思维的反思：透视新的动机科学》</p></li>
+</ul>
+</div>
+<div class="section" id="id34">
+<h2>树木学和事后偏见（或者，让电锯歇一歇）<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>与扑克相似的是，生活也是一场漫长的比赛。即做出了最好的投注决策，也有可能会面临很多失败的结果。如果开始认识到我们永远无法保证一个确切的未来，我们将会做得更好，也会变得更加快乐。这会将我们的任务从试图每一次都做出正确的决策（这是一项不可能的工作）转变为通过校准信念来引导我们在不确定的情况下逐步地、更加准确地和客观地认识世界。凭借战略性的预见和广阔的视角，这是可以实现的计划。通过不断学习和校准，我们甚至可以成为行家能手。</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./2019"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -818,15 +1232,13 @@
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By askming<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By askming<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 

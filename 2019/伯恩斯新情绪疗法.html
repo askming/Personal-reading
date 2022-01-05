@@ -41,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -353,7 +353,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -387,12 +387,94 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>伯恩斯新情绪疗法</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
+<h1>伯恩斯新情绪疗法<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<hr>
+<p><em>David D. Burns</em></p>
+<ul class="simple">
+<li><p>这里介绍一种方法，告诉你怎么才可以打破抱怨，改变注意力不集中的情况，提高你集中注意力的能力：把事情分解成最小的组成部分！</p></li>
+<li><p>人性中一个很不幸的事实是，当你感觉有人强迫你做什么事情时，你就很难去做这件事。</p></li>
+<li><p>认知扭曲的多种界定</p>
+<ol class="simple">
+<li><p>要么一切要么全无思想。你以黑白分明的范畴来看待事物，如果你的表现不够完美，你就会认为自己彻底失败。</p></li>
+<li><p>过于概括。你把一个孤立的消极事件看做是一?永远会持续下去的失败模式。</p></li>
+<li><p>心灵过滤。你选择一段消极细节，反复思考这段细节。结果，在你眼里，整个现实都变得黑暗起来，就像一滴墨水染黑了整杯水一样。</p></li>
+<li><p>贬损积极的东西。你拒绝承认积极的经验，你会找这样那样的理由认为它们“不算数”。这样你就可以坚持和你日常经验相矛盾的消极信念了。</p></li>
+<li><p>跳跃式结论。即便没有确定的事实令人信服地支持你的结论，你也会对事情作出一个消极的解释。</p>
+<ol class="simple">
+<li><p>测心术。你武断地认为别人对你作出消极的反映，你甚至不愿花工夫去检验一下。</p></li>
+<li><p>先知错误。你预期事情会变糟，而且你坚信这个预言是一个已经成立的事实。</p></li>
+</ol>
+</li>
+<li><p>夸大与缩小。你夸大了事情的重要性（比如你弄糟了的事情或者别人的成绩），或者不合适地夸小事情，直到它们显得很小（你个人的优良品质或者别人的不足）。这种扭曲又被称做“双目镜把戏”。</p></li>
+<li><p>情绪推理。你假定自己的消极情绪必然反映了事情的真实状况：“我这么感觉，所以它肯定是真的。”</p></li>
+<li><p>应该陈述。你试图用应该或不应该来激发自己，就好像在期望你做什么事之前应该先鞭笞你或惩罚你一样。“必须”和“本该”同样也是罪魁祸首。这种情绪的结果是一种负罪感。当你用应该陈述来要求别人时，你会体会到愤怒、灰心和怨恨。</p></li>
+<li><p>贴标签与标签不当。贴标签是过于概括的一种极端形式。你不再描述你的错误，而是为你自己贴上一个消极的标签：“我是一个失败者。”当别人的行为以一种不当的方式与你发生关系时，你也会给他贴上一个标签：“他是一个该死的讨厌鬼。”标签不当是指用高度主观的语言或高度情绪化的语言来描述一件事情。</p></li>
+<li><p>归己化。你会把自己看作是许多外界消极事件的原因，事实上你并不应该为这些事负主要责任。</p></li>
+</ol>
+</li>
+<li><p>一个抑郁者的感受可以用四个词来形容：被打败、有缺陷、遭遗弃、被剥夺</p></li>
+<li><p>首先，你的价值不能等同于你所做的事情。成就会使你得到满足，但却并不是你的幸福所在。基于成绩的自我价值是一种“虚假的自尊”，而不是真实的东西！</p></li>
+<li><p>认知疗法的第一条原则就是，你的所有情绪都是由你的“认知”或思想创造出来的</p>
+<ul>
+<li><p>你的情感反应不是通过你所读到的句子，而是通过你的思考方式产生的。在那一刻，你有了某种想法并且相信了这种想法，于是你马上就有了一种情感上的反应。事实上，是你的思想造就了你的情感。</p></li>
+</ul>
+</li>
+<li><p>认知疗法的第二条原则就是，当你感到抑郁时，你的思想整个被消极情绪所笼罩。</p></li>
+<li><p>第三条原则具有哲学和治疗上的重要性</p></li>
+<li><p>所以，当你难受时，记住以下三个关键步骤：</p>
+<ol class="simple">
+<li><p>让下意识消极想法化解，并把它们记下来。不要让它们在你头脑中嗡嗡作响。捕捉这些想法，把它们记在纸上。</p></li>
+<li><p>读一遍认知的十个扭曲。明白你到底在哪里绕进去了，然后相应地把它们分解掉。</p></li>
+<li><p>用更客观的想法来代替让你瞧不起自己的想法。当你这么做时，你就会开始感觉好起来。你的自尊心将大大提高，你的无价值感（当然，包括你的抑郁）将会消散。</p></li>
+</ol>
+</li>
+</ul>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./2019"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -486,15 +568,13 @@
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By askming<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By askming<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 
