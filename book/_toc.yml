@@ -4,6 +4,10 @@
 format: jb-book
 root: intro
 parts:
+  - caption: "2022"
+    chapters:
+      - glob: "2022/*"
+      
   - caption: "2021"
     chapters:
       - glob: "2021/*"
