@@ -35,14 +35,15 @@ def get_to_save_dir(issue):
 def get_to_generate_issues(repo, dir_name, issue_number=None):
     md_files = os.listdir(dir_name)
     generated_issues_names = md_files
+    dir_year = os.path.normpath(dir_name).split(os.path.sep)[-1]
 
     to_generate_issues = [
         i
         for i in list(repo.get_issues())
-        if i.title + '.md' not in generated_issues_names
+        if i.title + '.md' not in generated_issues_names and i.created_at[:4] == dir_year
     ]
     if issue_number:
-        to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues!
+        to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues! when an existing issue gets updated (e.g. with comments)
     return to_generate_issues
 
 
