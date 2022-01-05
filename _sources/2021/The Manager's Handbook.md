@@ -32,3 +32,14 @@ _Started on 2022-01-05_
 *2022-01-05*
 
 ## 1 Managing yourself
+
+### Managing your time and calendar
+
+- The first rule in time management is to ruthlessly protect your time. 
+  - Whenever someone asks for your time, instead of accepting a meeting, ask whether their issue could be resolved with a Slack message, Google Doc, or email instead.
+  - If a meeting is inevitable, keep it as short as possible. Ensure that everyone is prepared for the meeting in order to make the most out of the time, and stack your meetings on specific days to ensure long periods of uninterrupted time outside those days where you can get focused work done.
+
+```{margin}
+This chapter was inspired by (and some parts lifted with permission from) some of the lessons in a [talk by Keith Rabois.](https://delian.io/lessons-3)
+```
+- The second rule is to proactively design your calendar.
