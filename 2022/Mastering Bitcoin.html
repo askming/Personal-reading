@@ -462,19 +462,20 @@
         </div>
     </div>
 </div>
-    <!-- Table of contents that is only displayed when printing the page -->
-    <div id="jb-print-docs-body" class="onlyprint">
-        <h1>Mastering Bitcoin</h1>
-        <!-- Table of contents -->
-        <div id="print-main-content" class="row">
-            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
-            <div id="jb-print-toc">
-                
-                <div>
-                    <h2> Contents </h2>
-                </div>
-                <nav aria-label="Page">
-                    <ul class="visible nav section-nav flex-column">
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Mastering Bitcoin</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#constructing-a-transaction">
    Constructing a transaction
@@ -492,7 +493,9 @@
  </li>
 </ul>
 
-                </nav>
+                        </nav>
+                    </div>
+                </div>
             </div>
             
               <div>
@@ -600,119 +603,8 @@
 
               </div>
               
-            </div>
-        </div>
-    </div>
-    <div id="main-content" class="row noprint">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
-              <div>
-                
-  <div class="tex2jax_ignore mathjax_ignore section" id="mastering-bitcoin">
-<h1><a class="reference external" href="https://github.com/askming/Personal-reading/issues/2">Mastering Bitcoin</a><a class="headerlink" href="#mastering-bitcoin" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="constructing-a-transaction">
-<h2>Constructing a transaction<a class="headerlink" href="#constructing-a-transaction" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="bitcoin-mining">
-<h2>Bitcoin mining<a class="headerlink" href="#bitcoin-mining" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>The mining process serves two purposes in bitcoin:</p>
-<ul>
-<li><p>Mining creates new bitcoins in each block, almost like a central bank printing new money.</p></li>
-<li><p>Mining creates trust by ensuring that transactions are only confirmed if enough computational power was devoted to the block that contains them.</p></li>
-</ul>
-</li>
-</ul>
-<hr class="docutils" />
-<p><em>2021-07-25</em></p>
-</div>
-<div class="section" id="chapter-3-the-bitcoin-client">
-<h2>Chapter 3. The Bitcoin Client<a class="headerlink" href="#chapter-3-the-bitcoin-client" title="Permalink to this headline">¶</a></h2>
-<ul>
-<li><p>Reference client: <em>Bitcoin Core</em>, also known as the “Satoshi Client”. <a class="reference external" href="http://bitcoin.org">bitcoin.org</a></p>
-<ul class="simple">
-<li><p>It implements all aspects of the bitcoin system, including wallets, a transaction verification engine with a full copy of the entire transaction ledger (blockchain), and full network node in the peer-to-peer bitcoin network.</p></li>
-</ul>
-</li>
-<li><p>Once you have completed installation you should have a new application called Bitcoin-Qt in your application list.</p>
-<ul>
-<li><p>The first time you run Bitcoin Core it will start downloading the blockchain, a process that might take several days</p></li>
-<li><blockquote>
-<div><p>Bitcoin Core keeps a full copy of the transaction ledger (blockchain), with every transaction that has ever occurred on the bitcoin network since its inception in 2009. This dataset is several gigabytes in size (approximately 16 GB in late 2013) and is downloaded incrementally over several days. The client will not be able to process transactions or update account balances until the full blockchain dataset is downloaded. During that time, the client will display “out of sync” next to the account balances and show “Synchronizing” in the footer. Make sure you have enough disk space, bandwidth, and time to complete the initial synchronization.</p>
-</div></blockquote>
-</li>
-</ul>
-</li>
-<li><p>For developers, there is also the option to download the full source code as a ZIP archive or by cloning the authoritative source repository from GitHub.</p>
-<ul>
-<li><p>suffix “rc” in version/tag numbers means release candidate</p></li>
-<li><p>The command-line bitcoin client is also known as <code class="docutils literal notranslate"><span class="pre">bitcoind</span></code> on Linux.</p></li>
-<li><p>Steps to install bitcoin from command-line (autogen/configure/make system)</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">autogen</span></code> creates a set of automatic configuration scripts that will interrogate your system to discover the correct settings and ensure you have all the necessary libraries to compile the code.</p></li>
-<li><p>the <code class="docutils literal notranslate"><span class="pre">configure</span></code> command will create the customized build scripts that will allow us to compile bitcoind.</p></li>
-<li><p>use <code class="docutils literal notranslate"><span class="pre">make</span></code> to compile the software</p></li>
-<li><p>last step is to install using <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code></p></li>
-<li><p>The default installation of bitcoind puts it in <code class="docutils literal notranslate"><span class="pre">/usr/local/bin</span></code>.</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">vxx</span><span class="o">.</span><span class="n">xx</span>
-<span class="o">./</span><span class="n">autogen</span><span class="o">.</span><span class="n">sh</span>
-<span class="o">./</span><span class="n">configure</span>
-<span class="n">make</span>
-<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
-</pre></div>
-</div>
-</li>
-</ul>
-</li>
-<li><p>When you first run bitcoind, it will remind you to create a configuration file with a strong password for the JSON-RPC interface.</p>
-<ul class="simple">
-<li><p>Create a file inside the .bitcoin directory so that it is named .bitcoin/bitcoin.conf and enter a username and password</p></li>
-<li><p>The first time you run it, it will rebuild the bitcoin blockchain by downloading all the blocks. This is a multigigabyte file and will take an average of two days to download in full. You can shorten the blockchain initialization time by downloading a partial copy of the blockchain using a BitTorrent client from SourceForge.</p></li>
-<li><p>Run bitcoind in the background with the option <code class="docutils literal notranslate"><span class="pre">-daemon</span></code>: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoind</span> <span class="pre">-daemon</span></code></p></li>
-</ul>
-</li>
-<li><p>The Bitcoin Core client implements a JSON-RPC interface that can also be accessed using the command-line helper bitcoin-cli. The command line allows us to experiment interactively with the capabilities that are also available programmatically via the API.</p>
-<ul class="simple">
-<li><p>invoke the help command to see a list of the available bitcoin RPC commands: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">help</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getinfo</span></code>: displays basic info about the status of the bitcoin network node, the wallet, and the blockchain database.</p></li>
-</ul>
-</li>
-<li><p>Before you proceed with creating keys and other commands, you should first encrypt the wallet with a password: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">encryptwallet</span> <span class="pre">password</span></code></p></li>
-<li><p>To unlock the wallet, issue the walletpassphrase command, which takes two parameters—the password and a number of seconds until the wallet is locked again automatically (a time counter): <code class="docutils literal notranslate"><span class="pre">bitcoin-cli</span> <span class="pre">walletpassphrase</span> <span class="pre">password</span> <span class="pre">360</span></code></p></li>
-<li><p>To get wallet address: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getnewaddress</span></code></p></li>
-<li><p>To get all addresses in the entire wallet: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getaddressbyaccount</span></code></p></li>
-<li><p>To display transactions received by the entire wallet: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">listtransactions</span></code></p></li>
-<li><p>To show transaction by address: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getreceivedbyaddress</span> <span class="pre">some-address</span> <span class="pre">0</span></code></p></li>
-<li><p>To show total balance of the wallet: <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">bitcoin-cli</span> <span class="pre">getbalance</span></code></p></li>
-</ul>
-</div>
-</div>
-
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./2022"
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
-
-              </div>
-              
-        
-            <!-- Previous / next buttons -->
+            
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
     <a class='left-prev' id="prev-link" href="High%20output%20management.html" title="previous page">
         <i class="fas fa-angle-left"></i>
@@ -729,7 +621,7 @@
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-        
+            
         </div>
     </div>
     <footer class="footer">
