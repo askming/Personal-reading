@@ -3,6 +3,7 @@
 ![image](https://user-images.githubusercontent.com/5671771/148262934-08210640-4e4b-4cb1-b2a6-b4399d599f09.png)
 
 📍: https://themanagershandbook.com/
+
 _Started on 2022-01-05_
 
 ---
@@ -43,3 +44,11 @@ _Started on 2022-01-05_
 This chapter was inspired by (and some parts lifted with permission from) some of the lessons in a [talk by Keith Rabois.](https://delian.io/lessons-3)
 ```
 - The second rule is to proactively design your calendar.
+
+```{margin}
+To learn how to identify your priorities and then categorize your recent activities accordingly, see [Getting things done](https://themanagershandbook.com/managing-yourself/getting-things-done).
+```
+- Each Sunday afternoon, write down your top 3 priorities for the week and design your calendar to spend 80%+ of your time on those priorities.
+
+- In order to maximize your team’s output, you need to spend time on the activities that will influence that output the most.
+- use a color coding system when creating calendar events to group activities.
