@@ -73,3 +73,9 @@ To learn how to identify your priorities and then categorize your recent activit
 
 ### Coaching
 - Setting up your advisory board: Pick three to six people in your network who are either a few years ahead of you in their careers or are semi-retired.
+
+### Physical health
+- Developing good habits: It turns out that every habit starts with a psychological pattern called a "habit loop," which is a three-part process.
+  - First, there's a cue, or trigger, that tells your brain to go into automatic mode and let a behavior unfold.
+  - Then there's the routine, which is the behavior itself.
+  - Lastly, there is the reward: something that your brain likes that helps it remember the "habit loop" in the future.
