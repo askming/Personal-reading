@@ -79,3 +79,14 @@ To learn how to identify your priorities and then categorize your recent activit
   - First, there's a cue, or trigger, that tells your brain to go into automatic mode and let a behavior unfold.
   - Then there's the routine, which is the behavior itself.
   - Lastly, there is the reward: something that your brain likes that helps it remember the "habit loop" in the future.
+
+### Facing fear
+- Step 1: realizing you are feeling fear
+- Step 2: identify your fears
+- Step 3: leaning in
+
+- Negative visualization: Contemplate what you have, and then visualize your life without those things.
+
+### Radical responsibility
+- Radical responsibility means locating the cause and control of our lives in ourselves, not in external events.
+
