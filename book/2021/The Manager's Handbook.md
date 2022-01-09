@@ -90,3 +90,35 @@ To learn how to identify your priorities and then categorize your recent activit
 ### Radical responsibility
 - Radical responsibility means locating the cause and control of our lives in ourselves, not in external events.
 
+### Enneagrams
+- There are three ways you can grow in self-awareness. 
+  - One is to become more self-reflective. 
+  - The second way to grow in self-awareness is to create an incredibly feedback-rich environment where the people around you are giving you feedback -- the most direct form of it.
+  - the third way is to use some kind of personality instrument. 
+    - e.g. Myers-Briggs or another personality instrument. We love a tool called the Enneagram because it’s like a CAT scan in terms of self-awareness.
+
+```{margin}
+Enneagram [test](https://www.eclecticenergies.com/enneagram/test); read the description of on enneagraminstitute.com.
+
+These type descriptions come from [The Enneagram Institute](https://www.enneagraminstitute.com/type-descriptions) are: The reformer, helper, achiever, individualist, investigator, loyalist, enthusiast, challenger, peacemaker
+```
+- There are nine Enneagram types. People tend to have one dominant type and one minor (wing) type. No type is inherently better or worse than any other; all have assets and liabilities.
+
+### Exploring the opposite
+
+```{margin}
+Byron Katie:  [The Work](https://thework.com/)
+```
+
+- Instead of hopelessly trying to change the world to match our thoughts about how it “should” be, we can question these thoughts and, by meeting reality as it is, experience unimaginable freedom and joy.
+- There are four questions you can ask yourself to help turn thoughts around:
+  1. Is it true? (Yes or no. If no, move to question 3.)
+  2. Can you absolutely know that it’s true? (Yes or no.)
+  3. How do you react, what happens, when you believe that thought?
+  4. Who would you be without the thought?
+  - 注：不明白这和回避实际上真实存在的问题有什么区别？除了改变自己的立场和想法，没有实际解决真实可能存在的问题。
+
+### Gratitude and appreciation
+- **hedonic adaptation**: the idea that people return to a set level of happiness regardless of what happens to them.
+- In positive psychology research, gratitude is strongly and consistently associated with greater happiness. Gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships.
+- Appreciation is just gratitude stated to the person whom you feel grateful about. It's free to give, yet that simple act can make someone's day, week, or month.
