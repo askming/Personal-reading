@@ -122,3 +122,19 @@ Byron Katie:  [The Work](https://thework.com/)
 - **hedonic adaptation**: the idea that people return to a set level of happiness regardless of what happens to them.
 - In positive psychology research, gratitude is strongly and consistently associated with greater happiness. Gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships.
 - Appreciation is just gratitude stated to the person whom you feel grateful about. It's free to give, yet that simple act can make someone's day, week, or month.
+
+
+---
+
+*2022-01-12*
+
+## 2 Hiring & onboarding
+
+### Hiring 101
+-  80% of good management is in making the right hires upfront, and only 20% is in the actual management of those people.
+
+```{margin}
+This lack of rigor around hiring not only results in bad hires being made, but also in good people being passed over for unsubstantiated reasons. We call this voodoo hiring, a term from the book Who: [The A Method for Hiring](https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&pd_rd_i=B001EL6RWY&pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&pd_rd_w=0G1UU&pd_rd_wg=u6LgF&pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&pf_rd_r=GH5E0D9N8082WWK8XAAK&psc=1&qid=1572207863).
+```
+- why hasn't hiring been standardized? For two reasons:
+- 
