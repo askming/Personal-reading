@@ -137,4 +137,41 @@ Byron Katie:  [The Work](https://thework.com/)
 This lack of rigor around hiring not only results in bad hires being made, but also in good people being passed over for unsubstantiated reasons. We call this voodoo hiring, a term from the book Who: [The A Method for Hiring](https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&pd_rd_i=B001EL6RWY&pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&pd_rd_w=0G1UU&pd_rd_wg=u6LgF&pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&pf_rd_r=GH5E0D9N8082WWK8XAAK&psc=1&qid=1572207863).
 ```
 - why hasn't hiring been standardized? For two reasons:
-- 
+  ```{margin}
+  See [hovering art director](https://hoveringartdirectors.tumblr.com/)
+  ```
+  - everyone has their own opinions around hiring. And, more often than not, these opinions are a mixture of subjective principles that are not based in logic.
+  - People and departments don't like stepping on each other's toes by pointing out inadequacies in the other's hiring processes.
+
+- an imperfect standardized system is better than no system at all, because the results will be consistent, and therefore can be evaluated against one another. It's important to be quantitative when hiring; it makes the system fairer and helps reduce bias.
+
+#### Standardized hiring
+```{margin}
+there's an excellent book on this titled [Who: The A Method for Hiring](https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&pd_rd_i=B001EL6RWY&pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&pd_rd_w=0G1UU&pd_rd_wg=u6LgF&pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&pf_rd_r=GH5E0D9N8082WWK8XAAK&psc=1&qid=1572207863), that pioneered the concepts of voodoo hiring and standardized evaluation.
+```
+- a standardized hiring system involves the following things:
+  - Role proposal focused on outcomes
+  - Score card used for standardized evaluations
+  - Standardized screenings
+  - Standardized interviews: ask the same questions at the same times in the same order to as many candidates as possible because question consistency enables us to get better insights to more accurately evaluate, compare, and contrast candidates.
+  - Standardized closing process so that we can iterate on and improve our close rate
+
+
+#### Hiring A players
+- We define an A player this way: a candidate who has at least a 90 percent chance of achieving a set of outcomes that only the top 10 percent of possible candidates could achieve.
+
+### Role proposal
+_skip for now_
+
+### Sourcing
+_skip for now_
+
+### Interviewing
+_skip for now_
+
+### Closing
+_skip for now_
+
+### Onboarding
+#### The 30/60/90 plan
+- A 30/60/90 is simply a plan of what hires will do in their first 90 days.
