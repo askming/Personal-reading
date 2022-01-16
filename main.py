@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 import argparse
 import os
+from datetime import date
 from github import Github
+
+
+TOP_MD_DIR = 'book'
 
 
 def get_me(user):
@@ -27,27 +31,38 @@ def get_issues_from_label(repo, label):
     return repo.get_issues(labels=(label,))
 
 
-def get_to_save_dir(issue):
+def get_save_to_dir(issue):
     year = str(issue.created_at)[:4]
-    return os.path.join('book', year)
+    save_to_dir = os.path.join(TOP_MD_DIR, year)
+
+    if not os.path.exists(save_to_dir):
+        os.mkdir(save_to_dir)
+    
+    return save_to_dir
 
 
-def get_to_generate_issues(repo, dir_name, issue_number=None):
-    md_files = os.listdir(dir_name)
-    generated_issues_names = md_files
-    dir_year = os.path.normpath(dir_name).split(os.path.sep)[-1]
+def get_to_generate_issues(repo, issue_number=None):
+    # md_files = os.listdir(dir_name)
+    # generated_issues_names = md_files
+    # dir_year = os.path.normpath(dir_name).split(os.path.sep)[-1]
 
-    to_generate_issues = [
-        i
-        for i in list(repo.get_issues())
-        if i.title + '.md' not in generated_issues_names and str(i.created_at)[:4] == dir_year
-    ]
-    if issue_number and str(repo.get_issue(int(issue_number)).created_at)[:4] == dir_year:
-        to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues! when an existing issue gets updated (e.g. with comments)
+    # to_generate_issues = [
+    #     i
+    #     for i in list(repo.get_issues())
+    #     if i.title + '.md' not in generated_issues_names and str(i.created_at)[:4] == dir_year
+    # ]
+    # if issue_number and str(repo.get_issue(int(issue_number)).created_at)[:4] == dir_year:
+    #     to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues! when an existing issue gets updated (e.g. with comments)
+    # md file will only be updated when there is any change to an issue (i.e. issue_number is not NULL)
+    # so we don't need to check if this issue already exists or not
+    if issue_number:
+        to_generate_issues = repo.get_issue(int(issue_number))
     return to_generate_issues
 
 
-def save_issue(issue, me, dir_name):
+def save_issue(issue, me):
+    dir_name = get_save_to_dir(issue)
+
     md_name = os.path.join(
         dir_name, f"{issue.title}.md"
     )
@@ -67,23 +82,23 @@ def main(token, repo_name, issue_number=None):
     me = get_me(user)
     repo = get_repo(user, repo_name)
 
-    issues = repo.get_issues()
-    checked_dir = '' 
-    for i in issues:
-        to_save_dir = get_to_save_dir(i)
-        if to_save_dir == checked_dir:
-            continue
+    # issues = repo.get_issues()
+    # checked_dir = '' 
+    # for i in issues:
+    #     to_save_dir = get_to_save_dir(i)
+    #     if to_save_dir == checked_dir:
+    #         continue
 
-        checked_dir = to_save_dir
-        if not os.path.exists(to_save_dir):
-            os.mkdir(to_save_dir)
+    #     checked_dir = to_save_dir
+    #     if not os.path.exists(to_save_dir):
+    #         os.mkdir(to_save_dir)
 
-        # identify issues to be generated under current to_save_dir
-        to_generate_issues = get_to_generate_issues(repo, to_save_dir, issue_number)
+    # identify issue(s） to be generated/updated
+    to_generate_issues = get_to_generate_issues(repo, issue_number)
 
-        # save md files to the to_save_dir
-        for issue in to_generate_issues:
-            save_issue(issue, me, to_save_dir)
+    # save md files to the to_save_dir
+    for issue in to_generate_issues:
+        save_issue(issue, me)
 
 
 if __name__ == "__main__":

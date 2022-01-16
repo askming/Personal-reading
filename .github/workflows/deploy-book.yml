@@ -3,10 +3,10 @@ name: Deploy Book
 on:
   push:
     branches:
-      - master
+      - [master, main]
     paths:
       - book/**
-      - .github/**
+      # - .github/**
   workflow_run:
     workflows: ["Generate reading note from issue"]
     types:
