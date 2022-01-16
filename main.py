@@ -55,8 +55,9 @@ def get_to_generate_issues(repo, issue_number=None):
     #     to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues! when an existing issue gets updated (e.g. with comments)
     # md file will only be updated when there is any change to an issue (i.e. issue_number is not NULL)
     # so we don't need to check if this issue already exists or not
+    to_generate_issues = []
     if issue_number:
-        to_generate_issues = repo.get_issue(int(issue_number))
+        to_generate_issues.append(repo.get_issue(int(issue_number)))
     return to_generate_issues
 
 
