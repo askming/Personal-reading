@@ -42,7 +42,7 @@ def get_to_generate_issues(repo, dir_name, issue_number=None):
         for i in list(repo.get_issues())
         if i.title + '.md' not in generated_issues_names and str(i.created_at)[:4] == dir_year
     ]
-    if issue_number:
+    if issue_number and str(repo.get_issue(int(issue_number)).created)[:4] == dir_year:
         to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues! when an existing issue gets updated (e.g. with comments)
     return to_generate_issues
 
@@ -67,9 +67,14 @@ def main(token, repo_name, issue_number=None):
     me = get_me(user)
     repo = get_repo(user, repo_name)
 
-    issues = repo.get_issues() 
+    issues = repo.get_issues()
+    checked_dir = '' 
     for i in issues:
         to_save_dir = get_to_save_dir(i)
+        if to_save_dir == checked_dir:
+            continue
+
+        checked_dir = to_save_dir
         if not os.path.exists(to_save_dir):
             os.mkdir(to_save_dir)
 
