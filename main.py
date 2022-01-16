@@ -42,7 +42,7 @@ def get_to_generate_issues(repo, dir_name, issue_number=None):
         for i in list(repo.get_issues())
         if i.title + '.md' not in generated_issues_names and str(i.created_at)[:4] == dir_year
     ]
-    if issue_number and str(repo.get_issue(int(issue_number)).created)[:4] == dir_year:
+    if issue_number and str(repo.get_issue(int(issue_number)).created_at)[:4] == dir_year:
         to_generate_issues.append(repo.get_issue(int(issue_number))) # single issue not issues! when an existing issue gets updated (e.g. with comments)
     return to_generate_issues
 
