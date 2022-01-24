@@ -174,4 +174,9 @@ _skip for now_
 
 ### Onboarding
 #### The 30/60/90 plan
-- A 30/60/90 is simply a plan of what hires will do in their first 90 days.
+- A 30/60/90 is simply a plan of what hires will do in their first 90 days. A good 30/60/90 will be:
+  - Very specific, with goals orientated around the original role proposal.
+  - Quantifiable, with specific targets to hit.
+  - Bought into. Ideally the hire, having seen the role proposal, is going to come up with their own 30/60/90 that you will sign off on. This will ensure that they have bought into the plan.
+  - Achievable. Hires should be getting easy wins early on.
+
