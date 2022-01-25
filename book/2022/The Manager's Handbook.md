@@ -226,5 +226,3 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 - The four quadrants of feedback are Ruinous Empathy (the most common mistake), Manipulative Insincerity, Obnoxious Aggression, and Radical Candor.
   ![](https://themanagershandbook.com/chapters/coaching-and-feedback/radical-candor.png)
 - “Radical Candor” is what happens when you put “Care Personally” and “Challenge Directly” together.
-
-
