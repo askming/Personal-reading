@@ -180,3 +180,51 @@ _skip for now_
   - Bought into. Ideally the hire, having seen the role proposal, is going to come up with their own 30/60/90 that you will sign off on. This will ensure that they have bought into the plan.
   - Achievable. Hires should be getting easy wins early on.
 
+
+
+---
+
+*2022-01-25*
+
+## 3 Coaching & feedback
+
+### Zone of genius
+- Finding the right role must be an optimization between
+  - what you want
+  - what you are good at
+  - what the organization needs now in order to achieve its goals
+
+```{margin}
+Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Conquer-Hidden-Level/dp/0061735361) by Gay Hendricks
+```
+
+- There are four zones: Zone of Incompetence, Zone of Competence, Zone of Excellence, and Zone of Genius.
+
+- People’s performance consists of a mixture of skills, strengths, and talents. Here’s how we define them:
+  - A _strength_ is anything that gives you energy.
+  - A _talent_ is an innate ability that can’t be taught (for example, being incredible with numbers).
+  - A _skill_ is a competency that can be taught (for example, knowing Excel back to front).
+![](https://themanagershandbook.com/chapters/coaching-and-feedback/zone-of-genius.png)
+
+### Feedback
+- > "If you avoid conflict to keep peace, you start a war inside yourself." -Someone wise
+- The good news is there's a simple way of communicating feedback that avoids provoking anger and defensiveness. First, ask "is now is a good time for you for some feedback?", assuming yes proceed with:
+  > "When you do specific action, I feel emotion because the story in my head is fear.
+
+- The research shows anywhere from 3 to 5 positives to every 1 negative is the optimal ratio to maintain healthy relationships and get people to act on your feedback.
+- When receiving feedback the key is to learn to evaluate ideas objectively and view feedback as a gift.
+
+### Radical candor
+- A system for giving effective feedback
+  - Ideally, first build a relationship with anyone before giving them feedback. Make sure they know you care personally about them and their career.
+  - Then be extremely candid and clear with your critical feedback. Leave no room for interpretation.
+  - Do not sugarcoat feedback to make people feel better.
+  - Do not get personal or make sweeping statements. Be specific.
+  - Be humble. If you are wrong, you want to know.
+  - For positive feedback, be just as specific. Otherwise you’re just being insincere.
+
+- The four quadrants of feedback are Ruinous Empathy (the most common mistake), Manipulative Insincerity, Obnoxious Aggression, and Radical Candor.
+  ![](https://themanagershandbook.com/chapters/coaching-and-feedback/radical-candor.png)
+- “Radical Candor” is what happens when you put “Care Personally” and “Challenge Directly” together.
+
+
