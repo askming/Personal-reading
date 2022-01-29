@@ -107,3 +107,20 @@ _Started in Nov. 4, 2021_
 - In the first edition of this book we recommended using a single editor for everything: code, documentation, memos, system administration, and so on. We've softened that position a little. We're happy for you to use as many editors as you want. We'd just like you to be working toward fluency in each.
 
 ### Version control
+- Shared directories aren't version control
+- Branching out
+- Use it as a project hub
+
+### Debugging
+- Debugging mindset: don't panic
+- Read the error message
+- Binary trop
+  - logging and/or tracing
+- Don't assume it -- prove it
+
+### Engineering Daybooks
+- Benefits of daybook
+  - it's more reliable than memory
+  - it gives you a place to store ideas that aren't immediately relevant to the task at hand
+  - it acts as a kind of rubber duck
+  - you can look back at what you were doing every now and then for memories and recalls
