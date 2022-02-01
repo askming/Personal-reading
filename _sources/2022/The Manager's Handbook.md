@@ -226,3 +226,19 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 - The four quadrants of feedback are Ruinous Empathy (the most common mistake), Manipulative Insincerity, Obnoxious Aggression, and Radical Candor.
   ![](https://themanagershandbook.com/chapters/coaching-and-feedback/radical-candor.png)
 - “Radical Candor” is what happens when you put “Care Personally” and “Challenge Directly” together.
+
+---
+
+*2022-02-01*
+
+## 4 Working as a team
+
+### Impeccable agreements
+- An impeccable agreement has the following properties:
+  - It is recorded
+  - It is precisely defined (i.e., it has a comprehensive description, such that a third party could adjudicate if it was finished).
+  - It has a specific due date.
+  - It has a specific owner (or DRI - directly responsible individual).
+  
+### Agreement with self
+- By making small agreements with yourself, achieving them, and then making larger ones, you will start to develop a mindset that you can achieve anything you set your mind to. You will find that this is an incredibly powerful story to believe about yourself, and this will lead to greater success and personal happiness.
