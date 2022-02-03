@@ -277,3 +277,20 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 - Tracking the level of employee engagement to tack management progress: 
   - Using [Gallup 12](https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx)
 
+
+
+---
+
+*2022-02-03*
+
+## 5 Creating and achieving goals
+
+### Clarity
+- Plan well leads to clear communicate
+
+### The pyramid of clarity
+![](https://themanagershandbook.com/chapters/creating-and-achieving-goals/pyramid-of-clarity.png)
+ - Mission: Great missions are short, clear, and could be stitched on a pillow. 
+ - Strategies: If the mission is the “why” (inarguable because it’s about passion), your strategies are “how” you will do it. 
+ - Objectives: At the tactical level, objectives are the tactical goal posts along the way toward accomplishing the strategies and ultimately the mission
+ - Key results: Key results are measurements against your objectives to show how you're performing against them; e.g. “generate $20M in new ARR.”
