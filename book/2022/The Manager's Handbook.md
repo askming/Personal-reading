@@ -261,3 +261,19 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 - Training
 
 
+### Decision making
+- If you want the most effective and efficient decision-making process, require that anyone who wants to discuss an issue write it up, along with the desired solution, ahead of time. 
+- Type 1 and Types 2 decisions: whether the decision being made is reversible or not
+  - Make Type 1 decision slowly and thoughtfully and make Type 2 decision fast.
+
+#### Getting buy-in
+- You create buy-in when you make people feel that they are part of the decision and that their input contributes to the final outcome. The more influence they feel they have on the outcome, the more they’ll be invested in the final result.
+  - depending on what kind of decision is being made, team's engagement varies
+
+#### Disagree and commit
+- > “Look, I know we disagree on this but will you gamble with me on it? Disagree and commit?” By the time you’re at this point, no one can know the answer for sure, and you’ll probably get a quick yes.
+
+### Measuring performance
+- Tracking the level of employee engagement to tack management progress: 
+  - Using [Gallup 12](https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx)
+
