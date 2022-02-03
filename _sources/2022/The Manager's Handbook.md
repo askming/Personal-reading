@@ -243,8 +243,8 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 ### Agreement with self
 - By making small agreements with yourself, achieving them, and then making larger ones, you will start to develop a mindset that you can achieve anything you set your mind to. You will find that this is an incredibly powerful story to believe about yourself, and this will lead to greater success and personal happiness.
 
-## Running meetings
-### Meetings TLDR
+### Running meetings
+#### Meetings TLDR
 
 - Every meeting must have an owner (designated in the calendar invite).
 - Only precisely the number of people who need to attend are invited.
@@ -252,7 +252,7 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 - The meeting owner must assign a note taker.
 - Leave a meeting if you are giving or receiving no value.
 
-### Meeting types
+#### Meeting types
 
 - One-on-one meetings
 - Staff meetings (recurring status updates, department sync, etc.)
