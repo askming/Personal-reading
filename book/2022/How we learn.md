@@ -27,14 +27,15 @@ _Started in Jan 30, 2022_
 
 *2022-02-22*
 
-### 4. Spacing Out
+## 4. Spacing Out
 ### The advantage of breaking up study time
 
 ---
 
 *2022-02-22*
 
-### 5. The Hidden Value of Ignorance
+## 5. The Hidden Value of Ignorance
+### The many dimensions of testing
 
 ---
 
@@ -63,3 +64,16 @@ _Started in Jan 30, 2022_
 
 ## 9. Learning Without Thinking
 ### Harnessing perceptual discrimination
+
+---
+
+*2022-02-22*
+
+## 10. You Snooze, You Win
+### The consolidating role of sleep
+
+---
+
+*2022-02-22*
+
+## Conclusion: The Foraging Brain
