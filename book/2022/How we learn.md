@@ -22,3 +22,23 @@ _Started in Jan 30, 2022_
 
 ## 3. Breaking Good Habits
 ### The effect of context on learning
+
+---
+
+*2022-02-22*
+
+### 4. Spacing Out
+### The advantage of breaking up study time
+
+---
+
+*2022-02-22*
+
+### 5. The Hidden Value of Ignorance
+
+---
+
+*2022-02-22*
+
+## 6. The Upside of Distraction
+### The role of incubation in problem solving
