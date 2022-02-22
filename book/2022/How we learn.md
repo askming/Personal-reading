@@ -42,3 +42,24 @@ _Started in Jan 30, 2022_
 
 ## 6. The Upside of Distraction
 ### The role of incubation in problem solving
+
+---
+
+*2022-02-22*
+
+## 7. Quitting Before You're Ahead
+### The accumulating gifts of percolation
+
+---
+
+*2022-02-22*
+
+## 8. Being Mixed Up
+### Interleaving as an aid to comprehension
+
+---
+
+*2022-02-22*
+
+## 9. Learning Without Thinking
+### Harnessing perceptual discrimination
