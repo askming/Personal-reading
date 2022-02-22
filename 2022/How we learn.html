@@ -37,17 +37,19 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -406,6 +408,36 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-story-maker">
+   1. The Story Maker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-power-of-forgetting">
+   2. The Power of Forgetting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#breaking-good-habits">
+   3. Breaking Good Habits
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-effect-of-context-on-learning">
+     The effect of context on learning
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -418,6 +450,36 @@
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-story-maker">
+   1. The Story Maker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-power-of-forgetting">
+   2. The Power of Forgetting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#breaking-good-habits">
+   3. Breaking Good Habits
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-effect-of-context-on-learning">
+     The effect of context on learning
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -428,6 +490,24 @@
 <h1><a class="reference external" href="https://github.com/askming/Personal-reading/issues/9">How we learn</a><a class="headerlink" href="#how-we-learn" title="Permalink to this headline">¶</a></h1>
 <p><img alt="" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394997057l/19288640.jpg" /></p>
 <p><em>Started in Jan 30, 2022</em></p>
+<hr class="docutils" />
+<p><em>2022-02-22</em></p>
+<div class="section" id="the-story-maker">
+<h2>1. The Story Maker<a class="headerlink" href="#the-story-maker" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p><em>2022-02-22</em></p>
+</div>
+<div class="section" id="the-power-of-forgetting">
+<h2>2. The Power of Forgetting<a class="headerlink" href="#the-power-of-forgetting" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p><em>2022-02-22</em></p>
+</div>
+<div class="section" id="breaking-good-habits">
+<h2>3. Breaking Good Habits<a class="headerlink" href="#breaking-good-habits" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-effect-of-context-on-learning">
+<h3>The effect of context on learning<a class="headerlink" href="#the-effect-of-context-on-learning" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
