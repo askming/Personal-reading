@@ -37,6 +37,9 @@ _Started in Jan 30, 2022_
 ## 5. The Hidden Value of Ignorance
 ### The many dimensions of testing
 
+- P82, b, The fluency illusion is the primary culprit in below-average test performances. Not anxiety. Not stupidity. Not unfairness or bad luck. 
+- "In general," he concluded, "the best results are obtained by introducing recitation after devoting about 40 percent of the time to reading. Introducing recitation too early or too late leads to poorer results," Gates wrote. In the older grades, the percentage was even smaller, closer to a third. "The superiority of optimal reading and retention over reading alone is about 30 percent."
+
 ---
 
 *2022-02-22*
