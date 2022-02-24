@@ -58,6 +58,7 @@ def save_issue(issue, me):
     )
     with open(md_name, "w") as f:
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
+        f.write(f"_Started on {format_time(issue.created_at)}; updated on {format_time(issue.updated_at)}_\n\n")
         f.write(issue.body)
         if issue.comments:
             for c in issue.get_comments():
