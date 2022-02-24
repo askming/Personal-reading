@@ -74,7 +74,7 @@ def save_issue(issue, me):
             for c in issue.get_comments():
                 if isMe(c, me):
                     f.write("\n\n---\n\n")
-                    f.write("*" + format_time(c.created_at) + "*\n\n")
+                    f.write("*" + format_time(c.updated_at) + "*\n\n")
                     f.write(c.body)
 
 
