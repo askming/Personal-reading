@@ -1,6 +1,6 @@
 # [How we learn](https://github.com/askming/Personal-reading/issues/9)
 
-_Started on 2022-01-31; updated on 2022-02-24_
+_Started on 2022-01-31; updated on 2022-03-01_
 
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394997057l/19288640.jpg)
 
@@ -52,10 +52,12 @@ _2022-02-22_
 
 ---
 
-_2022-02-22_
+_2022-03-01_
 
 ## 7. Quitting Before You're Ahead
 ### The accumulating gifts of percolation
+
+Stopped here.
 
 ---
 
