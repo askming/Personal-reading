@@ -74,17 +74,23 @@ _2022-03-02_
 
 ---
 
-_2022-02-22_
+_2022-03-02_
 
 ## 3. Breaking Good Habits
 ### The effect of context on learning
 
+- Having something going on in the study environment, like music, is better than nothing (so much for sanctity of the quiet
+study room).
+
+
 ---
 
-_2022-02-22_
+_2022-03-02_
 
 ## 4. Spacing Out
 ### The advantage of breaking up study time
+
+- Distributed learning can double the amount we remember later on
 
 ---
 
