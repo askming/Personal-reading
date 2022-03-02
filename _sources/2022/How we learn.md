@@ -53,9 +53,24 @@ _2022-03-02_
 
 ---
 
-_2022-02-22_
+_2022-03-02_
 
 ## 2. The Power of Forgetting
+
+- Of course it can be a disaster to space out on a daughter's birthday, to forget which trail leads back to the cabin, or to draw a blank at test time. Yet there are large upsides to forgetting, too. One is that it is nature's most sophisticated spam filter. It's what allows the brain to focus, enabling sought-after facts to pop to mind.
+
+- If recollecting is just that--a re-collection of perceptions, facts, and ideas scattered in inter-twining neural networks in the dark storm of the brain then forgetting acts to block the background noise, the static, so that the right signals stand out. The sharpness of the one depends on the strength of the other.
+
+- Normal forgetting that passive decay we so often bemoan is also helpful for subsequent learning.
+
+- There is an emerging theory that accounts for these and related ideas. It's called the New Theory of Disuse, to distinguish it from an older, outdated principle stating, simply, that memories evaporate entirely from the brain over time if they're not used. The new theory is far more than an updating, though. It's an overhaul, recasting forgetting as the best friend of learning, rather than its rival.
+
+- Forget to learn
+  - The first principle theory is this: Any memory has two strengths, a storage strength and a retrieval strength.
+
+- Storage strength is just that, a measure of how well learned something is. It builds up steadily with studying, and more sharply with use.
+- Retrieval strength, on the other hand, is a measure of how easily a nugget of information comes to mind. It, too, increases with studying, and with use. Without reinforcement, however, retrieval strength drops off quickly, and its capacity is relatively small (compared to storage). At any given time, we can pull up only a limited number of items in connection with any given cue or reminder.
+
 
 ---
 
