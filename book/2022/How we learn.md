@@ -42,9 +42,14 @@ Conclusion: Learning is a restless exercise and that restlessness applies not on
 
 ---
 
-_2022-02-22_
+_2022-03-02_
 
 ## 1. The Story Maker
+
+- The brain is a dark, mostly featureless planet, and it helps to have a map. A simple one will do, to start. The sketch below shows several areas that are central to learning: the entorhinal cortex, which acts as a kind of filter for incoming information; the hippocampus, where memory formation begins; and the neocortex, where conscious memories are stored once they're flagged as keepers.
+- To the extent that it's possible to locate a memory in the brain, that's where it resides: in neighborhoods along the neocortex primarily, not at any single address.
+- The implications were clear. The left hemisphere was the intellectual, the wordsmith, and it could be severed from the right without any significant loss of IQ The right side was the artist, the visual-spatial expert. The two worked together, like copilots.
+
 
 ---
 
