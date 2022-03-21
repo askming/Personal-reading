@@ -9,8 +9,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - main.py
+    # paths:
+    #   - main.py
 
 env:
   GITHUB_NAME: askming
