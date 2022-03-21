@@ -58,6 +58,8 @@ jobs:
 
       - name: Build & Deploy the book
         run: |
+          python -m venv venv
+          source venv/bin/activate
           jupyter-book build ./book/
 
       - name: Deploy htmls to gh-pages branch 
