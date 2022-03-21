@@ -55,3 +55,13 @@ jobs:
           rebase: 'true'
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
+
+      - name: Build & Deploy the book
+        run: |
+          jupyter-book build ./book/
+
+      - name: Deploy htmls to gh-pages branch 
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.PERSONAL_READING }}
+          publish_dir: ./book/_build/html
