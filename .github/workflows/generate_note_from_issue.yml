@@ -23,10 +23,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
-          python-version: 3.7
+          python-version: 3.9
+          cache: 'pip'
 
       - name: Configure pip cache
         uses: actions/cache@v1
@@ -36,18 +38,13 @@ jobs:
           key: pip-1-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             pip-
-      - name: Install dependencies
+      - name: Install dependencies & Run Python script
         run: |
-          pip install --upgrade pip
           python -m venv venv
           source venv/bin/activate
+          pip install --upgrade pip
           pip install -r requirements.txt
-        if: steps.pip-cache.outputs.cache-hit != 'true'
-
-      - name: Generate new md # if you fork or clone this repo, please delete the curl line unless you know why
-        run: |
-          source venv/bin/activate
-          python main.py ${{ secrets.PERSONAL_READING }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
+          python main.py ${{ secrets.PERSONAL_READING }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'  
         
       - name: Push md to folder
         uses: github-actions-x/commit@v2.6
