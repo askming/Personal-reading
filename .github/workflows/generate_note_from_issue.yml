@@ -1,4 +1,4 @@
-name: Generate reading note from issue
+name: Generate reading note from issue & publish to website
 
 on:
   workflow_dispatch:
@@ -9,8 +9,8 @@ on:
   push:
     branches:
       - master
-    # paths:
-    #   - main.py
+    paths:
+      - main.py
 
 env:
   GITHUB_NAME: askming
