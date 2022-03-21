@@ -16,3 +16,9 @@ _last updated on: 2022-03-21_
 - genius does not always understand itself
 - The acknowledge of the limits to market efficiency had a profound effect on hedge funds.
 - By flattening out the kinks in market behavior, hedge funds were contributing to what economists called the "Great Moderation".
+
+---
+
+_last updated on: 2022-03-21_
+
+## 1. Big Daddy
