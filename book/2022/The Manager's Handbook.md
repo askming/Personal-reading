@@ -1,5 +1,7 @@
 # [The Manager's Handbook](https://github.com/askming/Personal-reading/issues/7)
 
+_Started on 2022-01-05; updated on 2022-03-24_
+
 ![image](https://user-images.githubusercontent.com/5671771/148262934-08210640-4e4b-4cb1-b2a6-b4399d599f09.png)
 
 📍: https://themanagershandbook.com/
@@ -8,7 +10,7 @@ _Started on 2022-01-05_
 
 ---
 
-*2022-01-05*
+_last updated on: 2022-01-05_
 
 ## Introduction
 
@@ -30,7 +32,7 @@ _Started on 2022-01-05_
 
 ---
 
-*2022-01-05*
+_last updated on: 2022-01-09_
 
 ## 1 Managing yourself
 
@@ -126,7 +128,7 @@ Byron Katie:  [The Work](https://thework.com/)
 
 ---
 
-*2022-01-12*
+_last updated on: 2022-01-24_
 
 ## 2 Hiring & onboarding
 
@@ -184,7 +186,7 @@ _skip for now_
 
 ---
 
-*2022-01-25*
+_last updated on: 2022-01-25_
 
 ## 3 Coaching & feedback
 
@@ -229,7 +231,7 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 
 ---
 
-*2022-02-01*
+_last updated on: 2022-02-03_
 
 ## 4 Working as a team
 
@@ -281,7 +283,7 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
 
 ---
 
-*2022-02-03*
+_last updated on: 2022-03-24_
 
 ## 5 Creating and achieving goals
 
@@ -294,3 +296,19 @@ Zone of Genius framework from [The Big Leap](https://www.amazon.com/Big-Leap-Con
  - Strategies: If the mission is the “why” (inarguable because it’s about passion), your strategies are “how” you will do it. 
  - Objectives: At the tactical level, objectives are the tactical goal posts along the way toward accomplishing the strategies and ultimately the mission
  - Key results: Key results are measurements against your objectives to show how you're performing against them; e.g. “generate $20M in new ARR.”
+
+### Performance
+- Great managers set goals, not tasks. 
+- Don't micromanage your team's work or daily output. If you find yourself supervising too often, you've hired the wrong people.
+
+#### Setting goals
+- Goals should be:
+  - Audacious but achievable
+  - Clearly important (make sure your team understands why they are important)
+  - Aligned with your team's talents and individual goals
+
+#### Ownership
+- Ownership is the key to performance.
+
+### Delegation
+- Delegation is the art of scaling yourself by distributing work across your team. The paradox of delegation is that it requires a degree of inefficiency and failure in the short term to work in the long term.
