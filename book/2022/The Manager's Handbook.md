@@ -312,3 +312,13 @@ _last updated on: 2022-03-24_
 
 ### Delegation
 - Delegation is the art of scaling yourself by distributing work across your team. The paradox of delegation is that it requires a degree of inefficiency and failure in the short term to work in the long term.
+
+#### Task relevant maturity
+![image](https://user-images.githubusercontent.com/5671771/159839825-1f943e4d-0a1c-4887-8778-b871f953c689.png)
+
+#### Delegating decision making
+- The trade-off is between your level of conviction (i.e., do you think you know the ideal right answer?) and the consequence (i.e., if you make the wrong decision, how catastrophic is the downside?).
+  - when your conviction is low and the consequence low, delegate the project fully. When your conviction is high and the consequences low, delegate but monitor closely—it's better to extend the rope and let your report gain experience (and TRM). When the consequences are high, you either need to gather more data or overrule.
+  ![image](https://user-images.githubusercontent.com/5671771/159840363-8d0a240a-84c6-4e91-8923-4557b215cc9e.png)
+
+
