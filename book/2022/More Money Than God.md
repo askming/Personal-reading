@@ -1,6 +1,6 @@
 # [More Money Than God](https://github.com/askming/Personal-reading/issues/10)
 
-_Started on 2022-03-21; updated on 2022-03-21_
+_Started on 2022-03-21; updated on 2022-04-09_
 
 <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432927841l/7936425._SY475_.jpg" width="40%">
 
@@ -19,6 +19,11 @@ _last updated on: 2022-03-21_
 
 ---
 
-_last updated on: 2022-03-21_
+_last updated on: 2022-04-09_
 
 ## 1. Big Daddy
+
+- P20, 2nd, Money might be an abstraction, a series of numerical symbols, but it was also a medium through which greed and fear and jealousy expressed themselves; it was a barometer of crowd psychology.
+- P22, 2nd, By the time the Fortune essay appeared in March 1949, Jones had launched the world's first hedge fund.
+- P24, 1st, example for how hedge fund beat traditional investors
+- P25, 3rd, In sum, the hedged fund does better in a bull market despite the lesser risk it has assumed; and the hedged fund does better in a bear market because of the lesser risk it has assumed. The calculations only work only if the investors pick good stocks; a poor stock picker could have his incompetence magnified under Jones's arrangement.
