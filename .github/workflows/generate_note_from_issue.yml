@@ -47,7 +47,7 @@ jobs:
           python main.py ${{ secrets.PERSONAL_READING }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'  
         
       - name: Push md to folder
-        uses: github-actions-x/commit@v2.6
+        uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.PERSONAL_READING }}
           commit-message: "Create/Refresh reading note"
