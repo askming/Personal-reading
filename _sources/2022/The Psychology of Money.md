@@ -18,3 +18,13 @@ _last updated on: 2022-04-19_
 - I love Voltaire's observation that "History never repeats itself; man always does."
 
 
+
+
+---
+
+_last updated on: 2022-04-19_
+
+## Chapter 1. No One's Crazy
+
+- Your personal experiences with money make up maybe 0.00000001% of what's happened in the world, but maybe 80% of how you think the world works. So equally smart people can disagree about how and why recessions happen, how you should invest your money, what you should prioritize, how much risk you should take, and so on.
+- As investor Michael Batnick says, "some lessons have to be experienced before they can be understood." We are all victims, in different ways, to that truth.
