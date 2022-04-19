@@ -28,3 +28,15 @@ _last updated on: 2022-04-19_
 
 - Your personal experiences with money make up maybe 0.00000001% of what's happened in the world, but maybe 80% of how you think the world works. So equally smart people can disagree about how and why recessions happen, how you should invest your money, what you should prioritize, how much risk you should take, and so on.
 - As investor Michael Batnick says, "some lessons have to be experienced before they can be understood." We are all victims, in different ways, to that truth.
+
+---
+
+_last updated on: 2022-04-19_
+
+## Chapter 2 Luck & Risk
+
+- NYU professor Scott Galloway has a related idea that is so important to remember when judging success--both your own and others: "Nothing is as good or as bad as it seems."
+
+- Two things can put you in a better direction
+  - Be careful who you praise and admire. Be careful who you look down upon and wish to avoid becoming.
+  - Therefore, focus less on specific individuals and case studies and more on broad patterns.
