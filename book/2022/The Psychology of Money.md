@@ -113,3 +113,27 @@ _last updated on: 2022-04-21_
 _last updated on: 2022-04-21_
 
 ## Chapter 9 Wealth is What You Don't See
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 10 Save Money
+
+- The first idea-simple, but easy to overlook--is that building wealth has little to do with your income or investment returns, and lots to do with your savings rate.
+
+- More importantly, the value of wealth is relative to what you need.
+
+- Past a certain level of income, what you need is just what sits below your ego.
+
+  - Everyone needs the basics. Once they're covered there's another
+level of comfortable basics, and past that there's basics that are
+both comfortable, entertaining, and enlightening.
+
+- So people's ability to save is more in their control than they might think.
+
+- And you don't need a specific reason to save.
+
+- That flexibility and control over your time is an unseen return on wealth.
+
+- And that hidden return is becoming more important.
