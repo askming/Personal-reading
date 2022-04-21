@@ -62,3 +62,26 @@ _last updated on: 2022-04-21_
 
 
 
+
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 5 Getting Wealthy vs Staying Wealthy
+
+- There are two reasons why a survival mentality is so key with
+money.
+  - One is the obvious: few gains are so great that they're worth
+wiping yourself out over.
+  - The other is the counterintuitive math of compounding
+
+- Applying the survival mindset to the real world comes down to
+appreciating three things.
+  1. More than I want big returns, I want to be financially unbreakable. And if I'm unbreakable I actually think I'll get the biggest returns, because I'll be able to stick around long enough for compounding to work wonders.
+  2. Planning is important, but the most important part of every plan is to plan on the plan not going according to plan.
+  3. A barbelled personality--optimistic about the future, but paranoid about what will prevent you from getting to the future-is vital.
+
+- Many bets fail not because they were wrong, but because they
+were mostly right in a situation that required things to be exactly
+right.
