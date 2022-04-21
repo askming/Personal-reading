@@ -85,3 +85,18 @@ appreciating three things.
 - Many bets fail not because they were wrong, but because they
 were mostly right in a situation that required things to be exactly
 right.
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 6 Tails, You Win
+
+- Anything that is huge, profitable, famous, or influential is the result of a tail event--an outlying one-in-thousands or millions event.
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 7 Freedom
+
