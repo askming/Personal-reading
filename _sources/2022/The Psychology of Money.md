@@ -1,6 +1,6 @@
 # [The Psychology of Money](https://github.com/askming/Personal-reading/issues/11)
 
-_Started on 2022-04-10; updated on 2022-04-19_
+_Started on 2022-04-10; updated on 2022-04-21_
 
 <img src="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/IXkIPn_2022_04_09.jpg" width="40%">
 
@@ -40,3 +40,16 @@ _last updated on: 2022-04-19_
 - Two things can put you in a better direction
   - Be careful who you praise and admire. Be careful who you look down upon and wish to avoid becoming.
   - Therefore, focus less on specific individuals and case studies and more on broad patterns.
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 3 Never Enough
+
+- The hardest financial skill is getting the goalpost to stop moving
+- Social comparison is the problem here
+- Enough is not too little
+- There are many things never worth risking, no matter the potential gain
+
+- Happiness, as it's said, is just results minus expectations. 
