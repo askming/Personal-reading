@@ -137,3 +137,11 @@ both comfortable, entertaining, and enlightening.
 - That flexibility and control over your time is an unseen return on wealth.
 
 - And that hidden return is becoming more important.
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 11 Reasonable > Rational
+
+- With it comes something that often goes overlooked: Do not aim to be coldly rational when making financial decisions. Aim to just be pretty reasonable. Reasonable is more realistic and you have a better chance of sticking with it for the long run, which is what matters most when managing money.
