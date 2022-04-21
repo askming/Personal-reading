@@ -100,3 +100,16 @@ _last updated on: 2022-04-21_
 
 ## Chapter 7 Freedom
 
+
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 8 Man in the Car Paradox
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 9 Wealth is What You Don't See
