@@ -53,3 +53,12 @@ _last updated on: 2022-04-21_
 - There are many things never worth risking, no matter the potential gain
 
 - Happiness, as it's said, is just results minus expectations. 
+
+---
+
+_last updated on: 2022-04-21_
+
+## Chapter 4 Confounding Compounding
+
+
+
