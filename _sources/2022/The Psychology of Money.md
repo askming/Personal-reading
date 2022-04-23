@@ -192,3 +192,15 @@ _last updated on: 2022-04-23_
   2. We should also come to accept the reality of changing our minds.
 
 - Compounding works best when you can give a plan years or decades to grow. This is true for not only savings but careers and relationships. Endurance is key. And when you consider our tendency to change who we are over time, balance at every point in your life becomes a strategy to avoid future regret and encourage endurance.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 15 Nothing's Free
+
+- The question is: Why do so many people who are willing to pay the price of cars, houses, food, and vacations try so hard to avoid paying the price of good investment returns?
+  - The answer is simple: The price of investing success is not immediately obvious. It's not a price tag you can see, so when the bill comes due it doesn't feel like a fee for getting something
+good.
+
+- It sounds trivial, but thinking of market volatility as a fee rather than a fine is an important part of developing the kind of mindset that lets you stick around long enough for investing gains to work in your favor.
