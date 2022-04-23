@@ -246,3 +246,17 @@ _last updated on: 2022-04-23_
 _last updated on: 2022-04-23_
 
 ## Chapter 19 All Together Now
+
+- Go out of your way to find humility when things are going right and forgiveness/compassion when they go wrong.
+- Less ego, more wealth.
+- Manage your money in a way that helps you sleep at night.
+- If you want to do better as an investor, the single most powerful thing you can do is increase your time horizon.
+- Become OK with a lot of things going wrong. You can be wrong half the time and still make a fortune
+- Use money to gain control over your time
+- Be nicer and less flashy.
+- Save. Just save. You don't need a specific reason to save.
+- Define the cost of success and be ready to pay it.
+- Worship room for error.
+- Avoid the extreme ends of financial decisions.
+- Define the game you're playing
+- Respect the mess
