@@ -224,3 +224,25 @@ _last updated on: 2022-04-23_
 ## Chapter 17 The Seduction of Pessimism
 
 - Assuming that something ugly will stay ugly is an easy forecast to make. And it's persuasive, because it doesn't require imagining the world changing. But problems correct and people adapt. Threats incentivize solutions in equal magnitude. That's a common plot of economic history that is too easily forgotten by pessimists who forecast in straight lines.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 18 When You'll Believe Anything
+
+- At the personal level, there are two things to keep in mind about a story-driven world when managing your money.
+  1. The more you want something to be true, the more likely you are to believe a story that overestimates the odds of it being true.
+  2. Everyone has an incomplete view of the world. But we form a complete narrative to fill in the gaps.
+
+- I call these things "appealing fictions. " They have a big impact on how we think about money- particularly investments and the economy.
+
+- Most people, when confronted with something they don't understand, do not realize they don't understand it because they're able to come up with an explanation that makes sense based on their own unique perspective and experiences in the world, however limited those experiences are. We all want the complicated world we live in to make sense. So we tell ourselves stories to fill in the gaps of what are effectively blind spots.
+
+- _Satisfying that need_ is a great way to put it. Wanting to believe we are in control is an emotional itch that needs to be scratched, rather than an analytical problem to be calculated and solved. The illusion of control is more persuasive than the reality of uncertainty. So we cling to stories about outcomes being in our control.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 19 All Together Now
