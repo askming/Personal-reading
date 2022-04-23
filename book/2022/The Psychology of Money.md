@@ -204,3 +204,15 @@ _last updated on: 2022-04-23_
 good.
 
 - It sounds trivial, but thinking of market volatility as a fee rather than a fine is an important part of developing the kind of mindset that lets you stick around long enough for investing gains to work in your favor.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 16 You & Me
+
+- Investors often innocently take cues from other investors who are playing a different game than they are.
+
+- An iron rule of finance is that money chases returns to the greatest extent that it can.
+
+- A takeaway here is that few things matter more with money than understanding your own time horizon and not being persuaded by the actions and behaviors of people playing different games than you are.
