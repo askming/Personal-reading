@@ -1,6 +1,6 @@
 # [The Psychology of Money](https://github.com/askming/Personal-reading/issues/11)
 
-_Started on 2022-04-10; updated on 2022-04-21_
+_Started on 2022-04-10; updated on 2022-04-23_
 
 <img src="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/IXkIPn_2022_04_09.jpg" width="40%">
 
@@ -145,3 +145,19 @@ _last updated on: 2022-04-21_
 ## Chapter 11 Reasonable > Rational
 
 - With it comes something that often goes overlooked: Do not aim to be coldly rational when making financial decisions. Aim to just be pretty reasonable. Reasonable is more realistic and you have a better chance of sticking with it for the long run, which is what matters most when managing money.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 12 Surprise!
+
+- Two dangerous things happen when you rely too heavily on investment history as a guide to what's going to happen next.
+  1. You'll likely miss the outlier events that move the needle the most.
+  2. History can be a misleading guide to the future of the economy and stock market because it doesn't account for structural changes that are relevant to today's world.
+
+- The correct lesson to learn from surprises is that the world is
+surprising.
+
+- The average time between recessions has grown from about
+two years in the late 180os to five years in the early 20th century to eight years over the last half-century.
