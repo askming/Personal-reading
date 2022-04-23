@@ -179,3 +179,16 @@ capable of fighting another day.
   - Another is saving for retirement.
 
 - You have to survive to succeed. To repeat a point we've made a few times in this book: The ability to do what you want, when you want, for as long as you want, has an infinite ROT.
+
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 14 You'll Change
+
+- there are two things to keep in mind when making what you think are long-term decisions.
+  1. We should avoid the extreme ends of financial planning.
+  2. We should also come to accept the reality of changing our minds.
+
+- Compounding works best when you can give a plan years or decades to grow. This is true for not only savings but careers and relationships. Endurance is key. And when you consider our tendency to change who we are over time, balance at every point in your life becomes a strategy to avoid future regret and encourage endurance.
