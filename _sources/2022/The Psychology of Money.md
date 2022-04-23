@@ -167,8 +167,7 @@ _last updated on: 2022-04-23_
 
 ## Chapter 13 Room for Error
 
-- History is littered with good ideas taken too far, which are
-indistinguishable from bad ideas. The wisdom in having room for error is acknowledging that uncertainty, randomness, and
+- History is littered with good ideas taken too far, which are indistinguishable from bad ideas. The wisdom in having room for error is acknowledging that uncertainty, randomness, and
 chance-"unknowns"-are an ever-present part of life. The only
 way to deal with them is by increasing the gap between what you think will happen and what can happen while still leaving you
 capable of fighting another day.
@@ -179,5 +178,4 @@ capable of fighting another day.
   - One is volatility.
   - Another is saving for retirement.
 
-- You have to survive to succeed. To repeat a point we've made a few times in this book: The ability to
-do what you want, when you want, for as long as you want, has an infinite ROT.
+- You have to survive to succeed. To repeat a point we've made a few times in this book: The ability to do what you want, when you want, for as long as you want, has an infinite ROT.
