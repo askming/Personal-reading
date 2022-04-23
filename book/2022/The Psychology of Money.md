@@ -159,5 +159,25 @@ _last updated on: 2022-04-23_
 - The correct lesson to learn from surprises is that the world is
 surprising.
 
-- The average time between recessions has grown from about
-two years in the late 180os to five years in the early 20th century to eight years over the last half-century.
+- The average time between recessions has grown from about two years in the late 180os to five years in the early 20th century to eight years over the last half-century.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 13 Room for Error
+
+- History is littered with good ideas taken too far, which are
+indistinguishable from bad ideas. The wisdom in having room for error is acknowledging that uncertainty, randomness, and
+chance-"unknowns"-are an ever-present part of life. The only
+way to deal with them is by increasing the gap between what you think will happen and what can happen while still leaving you
+capable of fighting another day.
+
+- Benjamin Graham is known for his concept of margin of safety. He wrote about it extensively and in mathematical detail. But my favorite summary of the theory came when he mentioned in an interview that "the purpose of the margin of safety is to render the forecast unnecessary."
+
+- There are a few specific places for investors to think about room for error.
+  - One is volatility.
+  - Another is saving for retirement.
+
+- You have to survive to succeed. To repeat a point we've made a few times in this book: The ability to
+do what you want, when you want, for as long as you want, has an infinite ROT.
