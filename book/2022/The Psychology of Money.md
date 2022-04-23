@@ -216,3 +216,11 @@ _last updated on: 2022-04-23_
 - An iron rule of finance is that money chases returns to the greatest extent that it can.
 
 - A takeaway here is that few things matter more with money than understanding your own time horizon and not being persuaded by the actions and behaviors of people playing different games than you are.
+
+---
+
+_last updated on: 2022-04-23_
+
+## Chapter 17 The Seduction of Pessimism
+
+- Assuming that something ugly will stay ugly is an easy forecast to make. And it's persuasive, because it doesn't require imagining the world changing. But problems correct and people adapt. Threats incentivize solutions in equal magnitude. That's a common plot of economic history that is too easily forgotten by pessimists who forecast in straight lines.
