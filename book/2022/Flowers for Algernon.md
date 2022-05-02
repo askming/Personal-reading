@@ -10,4 +10,8 @@ _last updated on: 2022-05-02_
 
 _Finished on May 1_
 
-:star::star::star::star::star: highly recommended.
+Personal rating:⭐ ⭐ ⭐ ⭐ ⭐  . I highly recommend this book.
+
+> This novel should be on your 'must read' list. -- Palm Beach Post-Times
+
+I totally agree with the above review and highly recommend anyone who stops here to read this novel. It's a beautiful but sad story. Charlie's unfortunate life and unique experience from the IQ-improving operation makes me think about humanity, our relationship with other human beings and how can I be a better human in my life. There are so many things that we take for granted as a "normal" person and ignored the values of being good.
