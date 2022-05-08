@@ -40,3 +40,15 @@ _last updated on: 2022-05-08_
 
 
 [^1]: the fact of feeling or behaving towards someone else in the same way as they feel or behave towards you
+
+---
+
+_last updated on: 2022-05-08_
+
+## Chapter 3 Commitment and consistency
+
+- Summary
+  - Psychologists have long recognized a desire in most people to be and look consistent within their words, beliefs, attitudes, and deeds. This tendency for consistency is fed from three sources. First, good personal consistency is highly valued by society. Second, aside from its effect on public image, generally consistent conduct provides a beneficial approach to daily life. Third, a consistent orientation affords a valuable shortcut through the complexity of modern existence. By being consistent with earlier decisions, one reduces the need to process all the relevant information in future similar situations; instead, one merely needs to recall the earlier decision and to respond consistently with it .
+  - Within the realm of compliance, securing an initial commitment is the key. After making a commitment (that is, taking a stand or position), people are more willing to agree to requests that are in keeping with the prior commitment. Thus, many compliance professionals try to induce people to take an initial position that is consistent with a behavior they will later request from these people. Not all commitments are equally effective, however, in producing consistent future action. Commitments are most effective when they are active, public, effortful, and viewed as internally motivated (uncoerced).
+  - Commitment decisions, even erroneous ones, have a tendency to be selfperpetuating because they can "grow their own legs." That is, people often add new reasons and justifications to support the wisdom of commitments they have already made. As a consequence, some commitments remain in effect long after the conditions that spurred them have changed. This phenomenon explains the effectiveness of certain deceptive compliance practices such as "throwing the low-ball."
+  - To recognize and resist the undue influence of consistency pressures on our compliance decisions, we should listen for signals coming from two places within us: our stomachs and our heart of hearts. Stomach signs appear when we realize that we are being pushed by commitment and consistency pressures to agree to requests we know we don't want to perform. Under these circumstances, it is best to explain to the requester that such compliance would constitute a brand of foolish consistency in which we prefer not to engage. Heart-of-heart signs are different. They are best employed when it is not clear to us that an initial commitment was wrongheaded. Here, we should ask ourselves a crucial question, "Knowing what I know, if I could go back in time, would I make the same commitment?" One informative answer may come as the first flash of feeling registered. Commitment and consistency tactics are likely to work especially well on members of individualistic societies, particularly those who are over 50 years old.
