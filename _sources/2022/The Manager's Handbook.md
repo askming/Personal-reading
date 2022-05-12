@@ -1,6 +1,6 @@
 # [The Manager's Handbook](https://github.com/askming/Personal-reading/issues/7)
 
-_Started on 2022-01-05; updated on 2022-04-09_
+_Started on 2022-01-05; updated on 2022-05-12_
 
 ![image](https://user-images.githubusercontent.com/5671771/148262934-08210640-4e4b-4cb1-b2a6-b4399d599f09.png)
 
@@ -320,3 +320,18 @@ _last updated on: 2022-04-09_
 - The trade-off is between your level of conviction (i.e., do you think you know the ideal right answer?) and the consequence (i.e., if you make the wrong decision, how catastrophic is the downside?).
   - when your conviction is low and the consequence low, delegate the project fully. When your conviction is high and the consequences low, delegate but monitor closely—it's better to extend the rope and let your report gain experience (and TRM). When the consequences are high, you either need to gather more data or overrule.
   ![image](https://user-images.githubusercontent.com/5671771/159840363-8d0a240a-84c6-4e91-8923-4557b215cc9e.png)
+
+---
+
+_last updated on: 2022-05-12_
+
+## 6 Information sharing
+
+### Communication and tasks
+- Generally it is better to set goals rather than tasks. 
+- Impeccable agreements have to be mutually agreed upon because the owner is accountable. Creating a task directly removes that option.
+
+### Transparency 
+- Transparency increases our creativity surface area. The more brains we have working on our hardest problems, the more likely we are to solve them.
+- Transparency builds mutual trust. Trust breeds creativity.
+- Because we don't have to manage the state of who knows what, a transparent culture improves the efficiency of communication, helping us collaborate better.
