@@ -342,3 +342,9 @@ _last updated on: 2022-06-06_
 - To create a team with no single points of failure
   - Write down all processes. As soon as you or your team members find yourselves doing something for the second time, you should write down the steps of that process exactly (so you don’t have to explain the third time). 
   - Cross-train a second person for each role. 
+
+---
+
+_last updated on: 2022-06-06_
+
+### 7 Conflict resolution
