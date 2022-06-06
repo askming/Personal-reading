@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>How to win friends and influence people &#8212; Personal Reading Catalog</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,20 +20,16 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -39,12 +37,13 @@
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -62,7 +61,21 @@ const thebe_selector_output = ".output, .cell_output"
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -71,9 +84,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -91,14 +105,15 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../intro.html">
-   开卷小语
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    开卷小语
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   2022
  </span>
@@ -359,90 +374,180 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/2021/How to win friends and influence people.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/askming/Personal-reading"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/askming/Personal-reading/issues/new?title=Issue%20on%20page%20%2F2021/How to win friends and influence people.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
             </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/askming/Personal-reading"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/askming/Personal-reading/issues/new?title=Issue%20on%20page%20%2F2021/How to win friends and influence people.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/2021/How to win friends and influence people.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#nine-suggestions-on-how-to-get-the-most-of-this-book">
    Nine suggestions on how to get the most of this book
@@ -628,12 +733,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>How to win friends and influence people</h1>
@@ -835,14 +939,15 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="how-to-win-friends-and-influence-people">
-<h1>How to win friends and influence people<a class="headerlink" href="#how-to-win-friends-and-influence-people" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="how-to-win-friends-and-influence-people">
+<h1>How to win friends and influence people<a class="headerlink" href="#how-to-win-friends-and-influence-people" title="Permalink to this headline">#</a></h1>
 <p><em>Dale Carnegie</em></p>
-<div class="section" id="nine-suggestions-on-how-to-get-the-most-of-this-book">
-<h2>Nine suggestions on how to get the most of this book<a class="headerlink" href="#nine-suggestions-on-how-to-get-the-most-of-this-book" title="Permalink to this headline">¶</a></h2>
+<section id="nine-suggestions-on-how-to-get-the-most-of-this-book">
+<h2>Nine suggestions on how to get the most of this book<a class="headerlink" href="#nine-suggestions-on-how-to-get-the-most-of-this-book" title="Permalink to this headline">#</a></h2>
 <ol class="simple">
 <li><p>Develop a deep, driving desire to master the principles of human relations.</p></li>
 <li><p>Read each chapter twice before going on to the next one.</p></li>
@@ -854,110 +959,110 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Check up each week on the progress you are making. Ask yourself what mistakes you have made, what improvement, what lessons you have learned for the future.</p></li>
 <li><p>Keep notes in the back of this book showing how and when you have applied these principles.</p></li>
 </ol>
-</div>
-<div class="section" id="part-one-fundamental-techniques-in-handling-people">
-<h2>Part One: Fundamental techniques in handling people<a class="headerlink" href="#part-one-fundamental-techniques-in-handling-people" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="principle-1-don-t-criticize-condemn-or-complain">
-<h3>Principle 1: Don’t criticize, condemn or complain<a class="headerlink" href="#principle-1-don-t-criticize-condemn-or-complain" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-2-give-honest-and-sincere-appreciation">
-<h3>Principle 2: Give honest and sincere appreciation<a class="headerlink" href="#principle-2-give-honest-and-sincere-appreciation" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-3-arouse-in-the-other-person-an-eager-want">
-<h3>Principle 3: Arouse in the other person an eager want<a class="headerlink" href="#principle-3-arouse-in-the-other-person-an-eager-want" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="part-two-six-ways-to-make-people-like-you">
-<h2>Part Two: Six ways to make people like you<a class="headerlink" href="#part-two-six-ways-to-make-people-like-you" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="principle-1-become-genuinely-interested-in-other-people">
-<h3>Principle 1: Become genuinely interested in other people<a class="headerlink" href="#principle-1-become-genuinely-interested-in-other-people" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-2-smile">
-<h3>Principle 2: Smile<a class="headerlink" href="#principle-2-smile" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-3-remember-that-a-person-s-name-is-to-that-person-the-sweetest-and-most-important-sound-in-any-language">
-<h3>Principle 3: Remember that a person’s name is to that person the sweetest and most important sound in any language<a class="headerlink" href="#principle-3-remember-that-a-person-s-name-is-to-that-person-the-sweetest-and-most-important-sound-in-any-language" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-4-be-a-good-lister-encolurage-others-to-talk-about-themselves">
-<h3>Principle 4: Be a good lister. Encolurage others to talk about themselves<a class="headerlink" href="#principle-4-be-a-good-lister-encolurage-others-to-talk-about-themselves" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-5-talk-in-terms-of-the-other-person-s-interest">
-<h3>Principle 5: Talk in terms of the other person’s interest<a class="headerlink" href="#principle-5-talk-in-terms-of-the-other-person-s-interest" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-6-make-the-other-person-feel-important-and-do-it-sincerely">
-<h3>Principle 6: Make the other person feel important - and do it sincerely<a class="headerlink" href="#principle-6-make-the-other-person-feel-important-and-do-it-sincerely" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="part-three-how-to-win-people-your-way-of-thinking">
-<h2>Part Three: How to win people your way of thinking<a class="headerlink" href="#part-three-how-to-win-people-your-way-of-thinking" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="principle-1-the-only-way-to-get-the-best-of-an-argument-is-to-avoid-it">
-<h3>Principle 1: The only way to get the best of an argument is to avoid it<a class="headerlink" href="#principle-1-the-only-way-to-get-the-best-of-an-argument-is-to-avoid-it" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-2-show-respect-for-the-other-person-s-opinions-never-say-you-re-wrong">
-<h3>Principle 2: Show respect for the other person’s opinions. Never say, “You’re wrong.”<a class="headerlink" href="#principle-2-show-respect-for-the-other-person-s-opinions-never-say-you-re-wrong" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-3-if-you-are-wrong-admit-it-quickly-and-emphatically">
-<h3>Principle 3: If you are wrong, admit it quickly and emphatically<a class="headerlink" href="#principle-3-if-you-are-wrong-admit-it-quickly-and-emphatically" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-4-begin-in-a-friendly-way">
-<h3>Principle 4: Begin in a friendly way<a class="headerlink" href="#principle-4-begin-in-a-friendly-way" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-5-get-the-other-person-saying-yes-yes-immediately">
-<h3>Principle 5: Get the other person saying “yes, yes” immediately<a class="headerlink" href="#principle-5-get-the-other-person-saying-yes-yes-immediately" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-6-let-the-other-person-do-a-great-deal-of-the-talking">
-<h3>Principle 6: Let the other person do a great deal of the talking<a class="headerlink" href="#principle-6-let-the-other-person-do-a-great-deal-of-the-talking" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-7-let-the-other-person-feel-that-the-idea-is-his-or-hers">
-<h3>Principle 7: Let the other person feel that the idea is his or hers<a class="headerlink" href="#principle-7-let-the-other-person-feel-that-the-idea-is-his-or-hers" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-8-try-honestly-to-see-things-from-the-other-person-s-point-of-view">
-<h3>Principle 8: Try honestly to see things from the other person’s point of view<a class="headerlink" href="#principle-8-try-honestly-to-see-things-from-the-other-person-s-point-of-view" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-9-be-sympathetic-with-the-other-person-s-ideas-and-desires">
-<h3>Principle 9: Be sympathetic with the other person’s ideas and desires<a class="headerlink" href="#principle-9-be-sympathetic-with-the-other-person-s-ideas-and-desires" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-10-appeal-to-be-nobler-motives">
-<h3>Principle 10: Appeal to be nobler motives<a class="headerlink" href="#principle-10-appeal-to-be-nobler-motives" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-11-dramatize-your-ideas">
-<h3>Principle 11: Dramatize your ideas<a class="headerlink" href="#principle-11-dramatize-your-ideas" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-12-throw-down-a-challenge">
-<h3>Principle 12: Throw down a challenge<a class="headerlink" href="#principle-12-throw-down-a-challenge" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="part-four-be-a-leader-how-to-change-people-without-giving-offense-or-arousing-resentment">
-<h2>Part Four: Be a leader: how to change people without giving offense or arousing resentment<a class="headerlink" href="#part-four-be-a-leader-how-to-change-people-without-giving-offense-or-arousing-resentment" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="principle-1-begin-with-praise-and-honest-appreciation">
-<h3>Principle 1: Begin with praise and honest appreciation<a class="headerlink" href="#principle-1-begin-with-praise-and-honest-appreciation" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-2-call-atention-to-people-s-mistakes-indirectly">
-<h3>Principle 2: Call atention to people’s mistakes indirectly<a class="headerlink" href="#principle-2-call-atention-to-people-s-mistakes-indirectly" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-3-talk-about-your-own-mistakes-before-criticizing-the-other-person">
-<h3>Principle 3: Talk about your own mistakes before criticizing the other person<a class="headerlink" href="#principle-3-talk-about-your-own-mistakes-before-criticizing-the-other-person" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-4-ask-questions-instead-of-giving-direct-orders">
-<h3>Principle 4: Ask questions instead of giving direct orders<a class="headerlink" href="#principle-4-ask-questions-instead-of-giving-direct-orders" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-5-let-the-other-person-save-face">
-<h3>Principle 5: Let the other person save face<a class="headerlink" href="#principle-5-let-the-other-person-save-face" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-6-praise-the-slightest-improvement-and-praise-every-improvement-be-hearty-in-your-approbation-and-lavish-in-your-praise">
-<h3>Principle 6: Praise the slightest improvement and praise every improvement. Be “hearty in your approbation and lavish in your praise”<a class="headerlink" href="#principle-6-praise-the-slightest-improvement-and-praise-every-improvement-be-hearty-in-your-approbation-and-lavish-in-your-praise" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-7-give-the-other-person-a-fine-reputation-to-live-up-to">
-<h3>Principle 7: Give the other person a fine reputation to live up to<a class="headerlink" href="#principle-7-give-the-other-person-a-fine-reputation-to-live-up-to" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-8-use-encouragement-make-the-fault-seem-easy-to-correct">
-<h3>Principle 8: Use encouragement. Make the fault seem easy to correct<a class="headerlink" href="#principle-8-use-encouragement-make-the-fault-seem-easy-to-correct" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="principle-9-make-the-other-person-happy-about-doing-the-thing-you-suggest">
-<h3>Principle 9: Make the other person happy about doing the thing you suggest<a class="headerlink" href="#principle-9-make-the-other-person-happy-about-doing-the-thing-you-suggest" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-</div>
+</section>
+<section id="part-one-fundamental-techniques-in-handling-people">
+<h2>Part One: Fundamental techniques in handling people<a class="headerlink" href="#part-one-fundamental-techniques-in-handling-people" title="Permalink to this headline">#</a></h2>
+<section id="principle-1-don-t-criticize-condemn-or-complain">
+<h3>Principle 1: Don’t criticize, condemn or complain<a class="headerlink" href="#principle-1-don-t-criticize-condemn-or-complain" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-2-give-honest-and-sincere-appreciation">
+<h3>Principle 2: Give honest and sincere appreciation<a class="headerlink" href="#principle-2-give-honest-and-sincere-appreciation" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-3-arouse-in-the-other-person-an-eager-want">
+<h3>Principle 3: Arouse in the other person an eager want<a class="headerlink" href="#principle-3-arouse-in-the-other-person-an-eager-want" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
+<section id="part-two-six-ways-to-make-people-like-you">
+<h2>Part Two: Six ways to make people like you<a class="headerlink" href="#part-two-six-ways-to-make-people-like-you" title="Permalink to this headline">#</a></h2>
+<section id="principle-1-become-genuinely-interested-in-other-people">
+<h3>Principle 1: Become genuinely interested in other people<a class="headerlink" href="#principle-1-become-genuinely-interested-in-other-people" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-2-smile">
+<h3>Principle 2: Smile<a class="headerlink" href="#principle-2-smile" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-3-remember-that-a-person-s-name-is-to-that-person-the-sweetest-and-most-important-sound-in-any-language">
+<h3>Principle 3: Remember that a person’s name is to that person the sweetest and most important sound in any language<a class="headerlink" href="#principle-3-remember-that-a-person-s-name-is-to-that-person-the-sweetest-and-most-important-sound-in-any-language" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-4-be-a-good-lister-encolurage-others-to-talk-about-themselves">
+<h3>Principle 4: Be a good lister. Encolurage others to talk about themselves<a class="headerlink" href="#principle-4-be-a-good-lister-encolurage-others-to-talk-about-themselves" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-5-talk-in-terms-of-the-other-person-s-interest">
+<h3>Principle 5: Talk in terms of the other person’s interest<a class="headerlink" href="#principle-5-talk-in-terms-of-the-other-person-s-interest" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-6-make-the-other-person-feel-important-and-do-it-sincerely">
+<h3>Principle 6: Make the other person feel important - and do it sincerely<a class="headerlink" href="#principle-6-make-the-other-person-feel-important-and-do-it-sincerely" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
+<section id="part-three-how-to-win-people-your-way-of-thinking">
+<h2>Part Three: How to win people your way of thinking<a class="headerlink" href="#part-three-how-to-win-people-your-way-of-thinking" title="Permalink to this headline">#</a></h2>
+<section id="principle-1-the-only-way-to-get-the-best-of-an-argument-is-to-avoid-it">
+<h3>Principle 1: The only way to get the best of an argument is to avoid it<a class="headerlink" href="#principle-1-the-only-way-to-get-the-best-of-an-argument-is-to-avoid-it" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-2-show-respect-for-the-other-person-s-opinions-never-say-you-re-wrong">
+<h3>Principle 2: Show respect for the other person’s opinions. Never say, “You’re wrong.”<a class="headerlink" href="#principle-2-show-respect-for-the-other-person-s-opinions-never-say-you-re-wrong" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-3-if-you-are-wrong-admit-it-quickly-and-emphatically">
+<h3>Principle 3: If you are wrong, admit it quickly and emphatically<a class="headerlink" href="#principle-3-if-you-are-wrong-admit-it-quickly-and-emphatically" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-4-begin-in-a-friendly-way">
+<h3>Principle 4: Begin in a friendly way<a class="headerlink" href="#principle-4-begin-in-a-friendly-way" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-5-get-the-other-person-saying-yes-yes-immediately">
+<h3>Principle 5: Get the other person saying “yes, yes” immediately<a class="headerlink" href="#principle-5-get-the-other-person-saying-yes-yes-immediately" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-6-let-the-other-person-do-a-great-deal-of-the-talking">
+<h3>Principle 6: Let the other person do a great deal of the talking<a class="headerlink" href="#principle-6-let-the-other-person-do-a-great-deal-of-the-talking" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-7-let-the-other-person-feel-that-the-idea-is-his-or-hers">
+<h3>Principle 7: Let the other person feel that the idea is his or hers<a class="headerlink" href="#principle-7-let-the-other-person-feel-that-the-idea-is-his-or-hers" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-8-try-honestly-to-see-things-from-the-other-person-s-point-of-view">
+<h3>Principle 8: Try honestly to see things from the other person’s point of view<a class="headerlink" href="#principle-8-try-honestly-to-see-things-from-the-other-person-s-point-of-view" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-9-be-sympathetic-with-the-other-person-s-ideas-and-desires">
+<h3>Principle 9: Be sympathetic with the other person’s ideas and desires<a class="headerlink" href="#principle-9-be-sympathetic-with-the-other-person-s-ideas-and-desires" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-10-appeal-to-be-nobler-motives">
+<h3>Principle 10: Appeal to be nobler motives<a class="headerlink" href="#principle-10-appeal-to-be-nobler-motives" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-11-dramatize-your-ideas">
+<h3>Principle 11: Dramatize your ideas<a class="headerlink" href="#principle-11-dramatize-your-ideas" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-12-throw-down-a-challenge">
+<h3>Principle 12: Throw down a challenge<a class="headerlink" href="#principle-12-throw-down-a-challenge" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
+<section id="part-four-be-a-leader-how-to-change-people-without-giving-offense-or-arousing-resentment">
+<h2>Part Four: Be a leader: how to change people without giving offense or arousing resentment<a class="headerlink" href="#part-four-be-a-leader-how-to-change-people-without-giving-offense-or-arousing-resentment" title="Permalink to this headline">#</a></h2>
+<section id="principle-1-begin-with-praise-and-honest-appreciation">
+<h3>Principle 1: Begin with praise and honest appreciation<a class="headerlink" href="#principle-1-begin-with-praise-and-honest-appreciation" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-2-call-atention-to-people-s-mistakes-indirectly">
+<h3>Principle 2: Call atention to people’s mistakes indirectly<a class="headerlink" href="#principle-2-call-atention-to-people-s-mistakes-indirectly" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-3-talk-about-your-own-mistakes-before-criticizing-the-other-person">
+<h3>Principle 3: Talk about your own mistakes before criticizing the other person<a class="headerlink" href="#principle-3-talk-about-your-own-mistakes-before-criticizing-the-other-person" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-4-ask-questions-instead-of-giving-direct-orders">
+<h3>Principle 4: Ask questions instead of giving direct orders<a class="headerlink" href="#principle-4-ask-questions-instead-of-giving-direct-orders" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-5-let-the-other-person-save-face">
+<h3>Principle 5: Let the other person save face<a class="headerlink" href="#principle-5-let-the-other-person-save-face" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-6-praise-the-slightest-improvement-and-praise-every-improvement-be-hearty-in-your-approbation-and-lavish-in-your-praise">
+<h3>Principle 6: Praise the slightest improvement and praise every improvement. Be “hearty in your approbation and lavish in your praise”<a class="headerlink" href="#principle-6-praise-the-slightest-improvement-and-praise-every-improvement-be-hearty-in-your-approbation-and-lavish-in-your-praise" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-7-give-the-other-person-a-fine-reputation-to-live-up-to">
+<h3>Principle 7: Give the other person a fine reputation to live up to<a class="headerlink" href="#principle-7-give-the-other-person-a-fine-reputation-to-live-up-to" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-8-use-encouragement-make-the-fault-seem-easy-to-correct">
+<h3>Principle 8: Use encouragement. Make the fault seem easy to correct<a class="headerlink" href="#principle-8-use-encouragement-make-the-fault-seem-easy-to-correct" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="principle-9-make-the-other-person-happy-about-doing-the-thing-you-suggest">
+<h3>Principle 9: Make the other person happy about doing the thing you suggest<a class="headerlink" href="#principle-9-make-the-other-person-happy-about-doing-the-thing-you-suggest" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -981,9 +1086,11 @@ const thebe_selector_output = ".output, .cell_output"
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="High%20output%20management.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -999,24 +1106,28 @@ const thebe_selector_output = ".output, .cell_output"
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By askming<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By askming<br/>
-    
-        &copy; Copyright 2022.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

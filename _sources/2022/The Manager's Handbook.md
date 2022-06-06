@@ -1,6 +1,6 @@
 # [The Manager's Handbook](https://github.com/askming/Personal-reading/issues/7)
 
-_Started on 2022-01-05; updated on 2022-05-12_
+_Started on 2022-01-05; updated on 2022-06-06_
 
 ![image](https://user-images.githubusercontent.com/5671771/148262934-08210640-4e4b-4cb1-b2a6-b4399d599f09.png)
 
@@ -323,7 +323,7 @@ _last updated on: 2022-04-09_
 
 ---
 
-_last updated on: 2022-05-12_
+_last updated on: 2022-06-06_
 
 ## 6 Information sharing
 
@@ -335,3 +335,10 @@ _last updated on: 2022-05-12_
 - Transparency increases our creativity surface area. The more brains we have working on our hardest problems, the more likely we are to solve them.
 - Transparency builds mutual trust. Trust breeds creativity.
 - Because we don't have to manage the state of who knows what, a transparent culture improves the efficiency of communication, helping us collaborate better.
+
+### Area of responsibility
+- DRI: direct responsible individual; AOR: area of responsibility 
+- Apple is famous for having pioneered AORs in Silicon Valley, but now most successful tech companies use this method.
+- To create a team with no single points of failure
+  - Write down all processes. As soon as you or your team members find yourselves doing something for the second time, you should write down the steps of that process exactly (so you don’t have to explain the third time). 
+  - Cross-train a second person for each role. 
