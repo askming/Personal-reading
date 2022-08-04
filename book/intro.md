@@ -7,5 +7,7 @@
 本人记忆力欠佳，读过之书如过眼云烟，很快就在大脑里踪迹难寻。作此小站，权当借助外力开发"第二大脑"，弥补先天不足。[待读书单](./待读书单.md)不定期更新中。
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/askming/picgo/master/Screen%20Shot%202021-07-03%20at%203.58.10%20PM.png" alt="Books give you a better perspective" style="zoom: 67%;" align = "center"/>
+    <img src="https://raw.githubusercontent.com/askming/picgo/master/Screen%20Shot%202021-07-03%20at%203.58.10%20PM.png" alt="Books give you a better perspective" style="zoom: 40%; border-radius: 15%;" align = "center"/> 
+    <img src="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/IMG_0740_2022_08_04.JPG" alt="Books vs cellphone" style="zoom: 40%; border-radius: 15%;" align = "center"/>
 </p>
+
