@@ -1,13 +1,14 @@
 # [1 Billion Customers ](https://github.com/askming/Personal-reading/issues/19)
 
-_Started on 2022-11-12; updated on 2022-11-12_
+_Started on 2022-11-12; updated on 2023-01-11_
 
 ![image](https://user-images.githubusercontent.com/5671771/201498599-b19a1796-81e8-479a-ad7e-e6986a39c11f.png)
 
 _九月出差途中开始阅读本书，断断续续到11月12日完成。_ 
 
 Personal Rating: ⭐ ⭐ ⭐ ⭐ 
-通常我们只能从像作者这样对中国有着深刻认识的西方人笔下才能更清晰地看到中国社会现象的本质以及其滋生生长的文化土壤。
+
+按: 通常我们只能从像作者这样对中国有着深刻认识的西方人笔下才能更清晰地看到中国社会现象的本质以及其滋生生长的文化土壤。
 
 
 - The Chinese government often isn’t really interested in forging genuine partnerships. It simply wants a vehicle to gain access to foreign technology, capital, and know-how while retaining Chinese control of the venture.
