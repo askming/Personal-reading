@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>High output management &#8212; Personal Reading Catalog</title>
   
@@ -15,53 +14,52 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
-  
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
-
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=c5ced968eda925caa686"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = '2021/High output management';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -69,6 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="prev" title="通往奴役之路" href="../2022/%E9%80%9A%E5%BE%80%E5%A5%B4%E5%BD%B9%E4%B9%8B%E8%B7%AF.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -76,32 +75,16 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
-
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -109,7 +92,6 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -117,16 +99,25 @@ const thebe_selector_output = ".output, .cell_output"
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -139,6 +130,9 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../intro.html">
@@ -153,11 +147,18 @@ const thebe_selector_output = ".output, .cell_output"
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="Personal Reading Catalog - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Personal Reading Catalog - Home"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="Personal Reading Catalog - Home"/>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -167,7 +168,11 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">2023</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">2025</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../2025/%E8%B5%B0%E5%87%BA%E6%88%88%E5%A3%81.html">走出戈壁</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2023</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../2023/The%20Making%20of%20Prince%20of%20Persia.html">The Making of Prince of Persia</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../2023/Your%20Brain%20at%20Work.html">Your Brain at Work</a></li>
@@ -248,14 +253,19 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -264,14 +274,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -393,26 +403,20 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script>
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -459,17 +463,17 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="high-output-management">
-<h1><a class="reference external" href="https://github.com/askming/Personal-reading/issues/6">High output management</a><a class="headerlink" href="#high-output-management" title="Permalink to this heading">#</a></h1>
+<h1><a class="reference external" href="https://github.com/askming/Personal-reading/issues/6">High output management</a><a class="headerlink" href="#high-output-management" title="Link to this heading">#</a></h1>
 <p><em>Andrew S. Grove</em></p>
 <p><em>Started on 2021-12-15</em></p>
 <p><img alt="image" src="https://user-images.githubusercontent.com/5671771/146318454-a1ec4fc0-4d01-4140-a69f-49e79474b7cc.jpeg" /></p>
 <hr class="docutils" />
 <p><em>2022-01-02</em></p>
 <section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>DRAM: dynamic random access memories</p></li>
 <li><p>xiv, Companies today basically have two choices: Adapt or die.</p></li>
@@ -488,7 +492,7 @@ document.write(`
 <p><em>2022-01-02</em></p>
 </section>
 <section id="the-basics-of-production-delivering-a-breakfast">
-<h2>1 The Basics of Production: Delivering a Breakfast<a class="headerlink" href="#the-basics-of-production-delivering-a-breakfast" title="Permalink to this heading">#</a></h2>
+<h2>1 The Basics of Production: Delivering a Breakfast<a class="headerlink" href="#the-basics-of-production-delivering-a-breakfast" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P6, Process, assembly, and test operations can be readily applied to other very different kinds of productive work.</p></li>
 <li><p>P10, first, equipment capacity, manpower, and inventory can be traded off against each other and then balanced against delivery time.</p></li>
@@ -501,7 +505,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="managing-the-breakfast-factory">
-<h2>2 Managing the Breakfast Factory<a class="headerlink" href="#managing-the-breakfast-factory" title="Permalink to this heading">#</a></h2>
+<h2>2 Managing the Breakfast Factory<a class="headerlink" href="#managing-the-breakfast-factory" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P17, 2nd, <em>pairing indicators</em>, with what both effect and counter-effect are measured (e.g. inventory levels and the incidence of shortages).</p></li>
 <li><p>P17, 4th, Nowhere can indicators—and paired indicators—be of more help than in administrative work.</p></li>
@@ -546,7 +550,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="managerial-leverage">
-<h2>3 Managerial Leverage<a class="headerlink" href="#managerial-leverage" title="Permalink to this heading">#</a></h2>
+<h2>3 Managerial Leverage<a class="headerlink" href="#managerial-leverage" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P40, <img alt="image" src="https://user-images.githubusercontent.com/5671771/147893089-3c01e66d-ad10-4a74-82ec-0cc311d79cc0.png" /></p></li>
 <li><p>P40, 2nd, If the manager is a knowledge specialist, a <em>know-how manager</em>, his potential for influencing “neighboring” organizations is enormous.</p></li>
@@ -592,7 +596,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="meetingsthe-medium-of-managerial-work">
-<h2>4 Meetings—The Medium of Managerial Work<a class="headerlink" href="#meetingsthe-medium-of-managerial-work" title="Permalink to this heading">#</a></h2>
+<h2>4 Meetings—The Medium of Managerial Work<a class="headerlink" href="#meetingsthe-medium-of-managerial-work" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P71, 2nd, meeting is nothing less than the <em>medium</em> through which managerial work is performed.</p></li>
 <li><p>P72, 1st, The two basic managerial roles produce two basic kinds of meetings. In the first kind of meeting, called a <em>process-oriented meeting</em>, knowledge is shared and information is exchanged. Such meetings take place on a regularly scheduled basis. The purpose of the second kind of meeting is to solve a specific problem. Meetings of this sort, called <em>mission-oriented</em>, frequently produce a decision. They are ad hoc affairs, not scheduled long in advance, because they usually can’t be.</p></li>
@@ -622,7 +626,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="decisions-decisions">
-<h2>5 Decisions, Decisions<a class="headerlink" href="#decisions-decisions" title="Permalink to this heading">#</a></h2>
+<h2>5 Decisions, Decisions<a class="headerlink" href="#decisions-decisions" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P88, 2nd, authority (to make decisions) went with responsibility (position in the management hierarchy).</p></li>
 <li><p>P88, b, a rapid divergence develops between power based on position and power based on knowledge, which occurs because the base of knowledge that constitutes the foundation of the business changes rapidly.</p></li>
@@ -658,7 +662,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="planning-todays-actions-for-tomorrows-output">
-<h2>6 Planning: Today’s Actions for Tomorrow’s Output<a class="headerlink" href="#planning-todays-actions-for-tomorrows-output" title="Permalink to this heading">#</a></h2>
+<h2>6 Planning: Today’s Actions for Tomorrow’s Output<a class="headerlink" href="#planning-todays-actions-for-tomorrows-output" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P104, 3rd, <em>difference analysis</em></p>
 <ul>
@@ -676,7 +680,7 @@ document.write(`
 </ul>
 </section>
 <section id="the-breakfast-factory-goes-national">
-<h2>7 The Breakfast Factory Goes National<a class="headerlink" href="#the-breakfast-factory-goes-national" title="Permalink to this heading">#</a></h2>
+<h2>7 The Breakfast Factory Goes National<a class="headerlink" href="#the-breakfast-factory-goes-national" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P120, management is not just a team game, it is a game in which we have to fashion a team of teams, where the various individual teams exist in some suitable and mutually supportive relationship with each other.</p></li>
 </ul>
@@ -684,7 +688,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="hybrid-organizations">
-<h2>8 Hybrid Organizations<a class="headerlink" href="#hybrid-organizations" title="Permalink to this heading">#</a></h2>
+<h2>8 Hybrid Organizations<a class="headerlink" href="#hybrid-organizations" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P212, 3rd, Though most are mixed, organizations can come in two extreme forms: in totally <em>mission-oriented</em> form or in totally <em>functional</em> form.</p>
 <ul>
@@ -714,7 +718,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="dual-reporting">
-<h2>9 Dual Reporting<a class="headerlink" href="#dual-reporting" title="Permalink to this heading">#</a></h2>
+<h2>9 Dual Reporting<a class="headerlink" href="#dual-reporting" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P134, 3rd, To make such a body work requires the <em>voluntary surrender of individual decision-making to the group</em>. Being a member means you no longer have complete freedom of individual action, because you must go along with the decisions of your peers in most instances.</p></li>
 <li><p>P140, <img alt="00022" src="https://user-images.githubusercontent.com/5671771/147895667-2ad1d500-3305-49e8-a3a6-34605790648c.jpeg" />
@@ -722,7 +726,7 @@ document.write(`
 </ul>
 </section>
 <section id="modes-of-control">
-<h2>10 Modes of Control<a class="headerlink" href="#modes-of-control" title="Permalink to this heading">#</a></h2>
+<h2>10 Modes of Control<a class="headerlink" href="#modes-of-control" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P145, 2nd, our behavior in a work environment can be controlled by three invisible and pervasive means. These are:</p>
 <ul>
@@ -740,7 +744,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="the-sports-analogy">
-<h2>11 The Sports Analogy<a class="headerlink" href="#the-sports-analogy" title="Permalink to this heading">#</a></h2>
+<h2>11 The Sports Analogy<a class="headerlink" href="#the-sports-analogy" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P157, 3rd, When a person is not doing his job, there can only be two reasons for it. The person either can’t do it or won’t do it; he is either not capable or not motivated.</p></li>
 <li><p>P158, The single most important task of a manager is to elicit peak performance from his subordinates.</p></li>
@@ -774,7 +778,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="task-relevant-maturity">
-<h2>12 Task-Relevant Maturity<a class="headerlink" href="#task-relevant-maturity" title="Permalink to this heading">#</a></h2>
+<h2>12 Task-Relevant Maturity<a class="headerlink" href="#task-relevant-maturity" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P173, 3rd, TRM: task relevant maturity</p>
 <ul>
@@ -791,7 +795,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="performance-appraisal-manager-as-judge-and-jury">
-<h2>13 Performance Appraisal: Manager as Judge and Jury<a class="headerlink" href="#performance-appraisal-manager-as-judge-and-jury" title="Permalink to this heading">#</a></h2>
+<h2>13 Performance Appraisal: Manager as Judge and Jury<a class="headerlink" href="#performance-appraisal-manager-as-judge-and-jury" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P182, 5th, giving such reviews is the single most important form of task-relevant feedback we as supervisors can provide.</p></li>
 <li><p>P182, 6th, there is one that is more important purpose of review than any of the others: it is to improve the subordinate’s performance.</p></li>
@@ -830,7 +834,7 @@ document.write(`
 <p><em>2022-01-03</em></p>
 </section>
 <section id="two-difficult-tasks">
-<h2>14 Two Difficult Tasks<a class="headerlink" href="#two-difficult-tasks" title="Permalink to this heading">#</a></h2>
+<h2>14 Two Difficult Tasks<a class="headerlink" href="#two-difficult-tasks" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P204, 3rd, The applicant should do 80 percent of the talking during the interview, and what he talks about should be your main concern.</p></li>
 <li><p>P206, 4 interview assessment categories</p>
@@ -844,7 +848,7 @@ document.write(`
 </ul>
 </section>
 <section id="compensation-as-task-relevant-feedback">
-<h2>15 Compensation as Task-Relevant Feedback<a class="headerlink" href="#compensation-as-task-relevant-feedback" title="Permalink to this heading">#</a></h2>
+<h2>15 Compensation as Task-Relevant Feedback<a class="headerlink" href="#compensation-as-task-relevant-feedback" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P215, 3rd, At one extreme, the dollar level is determined by experience only; at the other, by merit alone.
 <img alt="00031" src="https://user-images.githubusercontent.com/5671771/147966341-89ed7410-e547-4cfb-b655-4904a1243c92.jpeg" /></p></li>
@@ -852,7 +856,7 @@ document.write(`
 </ul>
 </section>
 <section id="why-training-is-the-bosss-job">
-<h2>16 Why Training Is the Boss’s Job<a class="headerlink" href="#why-training-is-the-bosss-job" title="Permalink to this heading">#</a></h2>
+<h2>16 Why Training Is the Boss’s Job<a class="headerlink" href="#why-training-is-the-bosss-job" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>P224, 1st, training should be a process, not an event.</p></li>
 </ul>
@@ -888,8 +892,8 @@ document.write(`
               
               
               
-                <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                <footer class="prev-next-footer d-print-none">
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="../2022/%E9%80%9A%E5%BE%80%E5%A5%B4%E5%BD%B9%E4%B9%8B%E8%B7%AF.html"
@@ -916,7 +920,9 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -962,9 +968,10 @@ By askming
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
-      © Copyright 2023.
+      © Copyright 2025.
       <br/>
     
   </p>
@@ -988,8 +995,8 @@ By askming
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>

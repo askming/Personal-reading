@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>The Manager’s Handbook &#8212; Personal Reading Catalog</title>
   
@@ -15,53 +14,52 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
-  
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
-
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=c5ced968eda925caa686"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = '2022/The Manager's Handbook';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -69,6 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="prev" title="Set boundaries, find peace" href="Set%20boundaries%2C%20find%20peace.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -76,32 +75,16 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
-
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -109,7 +92,6 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -117,16 +99,25 @@ const thebe_selector_output = ".output, .cell_output"
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -139,6 +130,9 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../intro.html">
@@ -153,11 +147,18 @@ const thebe_selector_output = ".output, .cell_output"
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="Personal Reading Catalog - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Personal Reading Catalog - Home"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="Personal Reading Catalog - Home"/>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -167,7 +168,11 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">2023</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">2025</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../2025/%E8%B5%B0%E5%87%BA%E6%88%88%E5%A3%81.html">走出戈壁</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2023</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../2023/The%20Making%20of%20Prince%20of%20Persia.html">The Making of Prince of Persia</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../2023/Your%20Brain%20at%20Work.html">Your Brain at Work</a></li>
@@ -248,14 +253,19 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -264,14 +274,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -393,26 +403,20 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script>
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -519,10 +523,10 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="the-manager-s-handbook">
-<h1><a class="reference external" href="https://github.com/askming/Personal-reading/issues/7">The Manager’s Handbook</a><a class="headerlink" href="#the-manager-s-handbook" title="Permalink to this heading">#</a></h1>
+<h1><a class="reference external" href="https://github.com/askming/Personal-reading/issues/7">The Manager’s Handbook</a><a class="headerlink" href="#the-manager-s-handbook" title="Link to this heading">#</a></h1>
 <p><em>Started on 2022-01-05; updated on 2022-06-06</em></p>
 <p><img alt="image" src="https://user-images.githubusercontent.com/5671771/148262934-08210640-4e4b-4cb1-b2a6-b4399d599f09.png" /></p>
 <p>📍: <a class="reference external" href="https://themanagershandbook.com/">https://themanagershandbook.com/</a></p>
@@ -530,9 +534,9 @@ document.write(`
 <hr class="docutils" />
 <p><em>last updated on: 2022-01-05</em></p>
 <section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
 <section id="it-s-not-a-promotion-it-s-a-career-change">
-<h3>It’s not a promotion, it’s a career change<a class="headerlink" href="#it-s-not-a-promotion-it-s-a-career-change" title="Permalink to this heading">#</a></h3>
+<h3>It’s not a promotion, it’s a career change<a class="headerlink" href="#it-s-not-a-promotion-it-s-a-career-change" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>once you’ve been doing it for a while, you’ll realize that the best managers let their team make the decisions. Sure, they act as a tiebreaker every now and again, but their team should be driving things.</p></li>
 <li><p>Associating management with higher compensation is a classic trap companies fall into. It changes all the incentives for individual contributors (ICs) who want to further their careers.</p></li>
@@ -555,9 +559,9 @@ document.write(`
 </section>
 </section>
 <section id="managing-yourself">
-<h2>1 Managing yourself<a class="headerlink" href="#managing-yourself" title="Permalink to this heading">#</a></h2>
+<h2>1 Managing yourself<a class="headerlink" href="#managing-yourself" title="Link to this heading">#</a></h2>
 <section id="managing-your-time-and-calendar">
-<h3>Managing your time and calendar<a class="headerlink" href="#managing-your-time-and-calendar" title="Permalink to this heading">#</a></h3>
+<h3>Managing your time and calendar<a class="headerlink" href="#managing-your-time-and-calendar" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>The first rule in time management is to ruthlessly protect your time.</p>
 <ul>
@@ -585,7 +589,7 @@ document.write(`
 </ul>
 </section>
 <section id="getting-things-done">
-<h3>Getting things done<a class="headerlink" href="#getting-things-done" title="Permalink to this heading">#</a></h3>
+<h3>Getting things done<a class="headerlink" href="#getting-things-done" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>All GTD systems all share two key insights.</p>
 <ol class="arabic simple">
@@ -606,19 +610,19 @@ document.write(`
 </ul>
 </section>
 <section id="top-goal">
-<h3>Top goal<a class="headerlink" href="#top-goal" title="Permalink to this heading">#</a></h3>
+<h3>Top goal<a class="headerlink" href="#top-goal" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Greg McKeown, who wrote a phenomenal book on productivity called Essentialism, boils this down to one key concept: Schedule an hour each day (that is, put an Event in your calendar) to work on your Top Goal only.</p></li>
 </ul>
 </section>
 <section id="coaching">
-<h3>Coaching<a class="headerlink" href="#coaching" title="Permalink to this heading">#</a></h3>
+<h3>Coaching<a class="headerlink" href="#coaching" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Setting up your advisory board: Pick three to six people in your network who are either a few years ahead of you in their careers or are semi-retired.</p></li>
 </ul>
 </section>
 <section id="physical-health">
-<h3>Physical health<a class="headerlink" href="#physical-health" title="Permalink to this heading">#</a></h3>
+<h3>Physical health<a class="headerlink" href="#physical-health" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Developing good habits: It turns out that every habit starts with a psychological pattern called a “habit loop,” which is a three-part process.</p>
 <ul>
@@ -630,7 +634,7 @@ document.write(`
 </ul>
 </section>
 <section id="facing-fear">
-<h3>Facing fear<a class="headerlink" href="#facing-fear" title="Permalink to this heading">#</a></h3>
+<h3>Facing fear<a class="headerlink" href="#facing-fear" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Step 1: realizing you are feeling fear</p></li>
 <li><p>Step 2: identify your fears</p></li>
@@ -639,13 +643,13 @@ document.write(`
 </ul>
 </section>
 <section id="radical-responsibility">
-<h3>Radical responsibility<a class="headerlink" href="#radical-responsibility" title="Permalink to this heading">#</a></h3>
+<h3>Radical responsibility<a class="headerlink" href="#radical-responsibility" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Radical responsibility means locating the cause and control of our lives in ourselves, not in external events.</p></li>
 </ul>
 </section>
 <section id="enneagrams">
-<h3>Enneagrams<a class="headerlink" href="#enneagrams" title="Permalink to this heading">#</a></h3>
+<h3>Enneagrams<a class="headerlink" href="#enneagrams" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>There are three ways you can grow in self-awareness.</p>
 <ul>
@@ -669,7 +673,7 @@ document.write(`
 </ul>
 </section>
 <section id="exploring-the-opposite">
-<h3>Exploring the opposite<a class="headerlink" href="#exploring-the-opposite" title="Permalink to this heading">#</a></h3>
+<h3>Exploring the opposite<a class="headerlink" href="#exploring-the-opposite" title="Link to this heading">#</a></h3>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p>Byron Katie:  <a class="reference external" href="https://thework.com/">The Work</a></p>
@@ -690,7 +694,7 @@ document.write(`
 </ul>
 </section>
 <section id="gratitude-and-appreciation">
-<h3>Gratitude and appreciation<a class="headerlink" href="#gratitude-and-appreciation" title="Permalink to this heading">#</a></h3>
+<h3>Gratitude and appreciation<a class="headerlink" href="#gratitude-and-appreciation" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p><strong>hedonic adaptation</strong>: the idea that people return to a set level of happiness regardless of what happens to them.</p></li>
 <li><p>In positive psychology research, gratitude is strongly and consistently associated with greater happiness. Gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships.</p></li>
@@ -701,15 +705,15 @@ document.write(`
 </section>
 </section>
 <section id="hiring-onboarding">
-<h2>2 Hiring &amp; onboarding<a class="headerlink" href="#hiring-onboarding" title="Permalink to this heading">#</a></h2>
+<h2>2 Hiring &amp; onboarding<a class="headerlink" href="#hiring-onboarding" title="Link to this heading">#</a></h2>
 <section id="hiring-101">
-<h3>Hiring 101<a class="headerlink" href="#hiring-101" title="Permalink to this heading">#</a></h3>
+<h3>Hiring 101<a class="headerlink" href="#hiring-101" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>80% of good management is in making the right hires upfront, and only 20% is in the actual management of those people.</p></li>
 </ul>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<p>This lack of rigor around hiring not only results in bad hires being made, but also in good people being passed over for unsubstantiated reasons. We call this voodoo hiring, a term from the book Who: <a class="reference external" href="https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&amp;pd_rd_i=B001EL6RWY&amp;pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&amp;pd_rd_w=0G1UU&amp;pd_rd_wg=u6LgF&amp;pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&amp;pf_rd_r=GH5E0D9N8082WWK8XAAK&amp;psc=1&amp;qid=1572207863">The A Method for Hiring</a>.</p>
+<p>This lack of rigor around hiring not only results in bad hires being made, but also in good people being passed over for unsubstantiated reasons. We call this voodoo hiring, a term from the book Who: <a class="reference external" href="https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&amp;amp;pd_rd_i=B001EL6RWY&amp;amp;pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&amp;amp;pd_rd_w=0G1UU&amp;amp;pd_rd_wg=u6LgF&amp;amp;pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&amp;amp;pf_rd_r=GH5E0D9N8082WWK8XAAK&amp;amp;psc=1&amp;amp;qid=1572207863">The A Method for Hiring</a>.</p>
 </aside>
 <ul>
 <li><p>why hasn’t hiring been standardized? For two reasons:</p>
@@ -725,10 +729,10 @@ document.write(`
 <li><p>an imperfect standardized system is better than no system at all, because the results will be consistent, and therefore can be evaluated against one another. It’s important to be quantitative when hiring; it makes the system fairer and helps reduce bias.</p></li>
 </ul>
 <section id="standardized-hiring">
-<h4>Standardized hiring<a class="headerlink" href="#standardized-hiring" title="Permalink to this heading">#</a></h4>
+<h4>Standardized hiring<a class="headerlink" href="#standardized-hiring" title="Link to this heading">#</a></h4>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<p>there’s an excellent book on this titled <a class="reference external" href="https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&amp;pd_rd_i=B001EL6RWY&amp;pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&amp;pd_rd_w=0G1UU&amp;pd_rd_wg=u6LgF&amp;pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&amp;pf_rd_r=GH5E0D9N8082WWK8XAAK&amp;psc=1&amp;qid=1572207863">Who: The A Method for Hiring</a>, that pioneered the concepts of voodoo hiring and standardized evaluation.</p>
+<p>there’s an excellent book on this titled <a class="reference external" href="https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY/ref=sxts_sxwds-bia?keywords=who+hiring&amp;amp;pd_rd_i=B001EL6RWY&amp;amp;pd_rd_r=9a9d19e7-2e03-4c8e-bb16-0c25b6d2bc4a&amp;amp;pd_rd_w=0G1UU&amp;amp;pd_rd_wg=u6LgF&amp;amp;pf_rd_p=a5491838-6a74-484e-8787-eb44c8f3b7ff&amp;amp;pf_rd_r=GH5E0D9N8082WWK8XAAK&amp;amp;psc=1&amp;amp;qid=1572207863">Who: The A Method for Hiring</a>, that pioneered the concepts of voodoo hiring and standardized evaluation.</p>
 </aside>
 <ul class="simple">
 <li><p>a standardized hiring system involves the following things:</p>
@@ -743,32 +747,32 @@ document.write(`
 </ul>
 </section>
 <section id="hiring-a-players">
-<h4>Hiring A players<a class="headerlink" href="#hiring-a-players" title="Permalink to this heading">#</a></h4>
+<h4>Hiring A players<a class="headerlink" href="#hiring-a-players" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>We define an A player this way: a candidate who has at least a 90 percent chance of achieving a set of outcomes that only the top 10 percent of possible candidates could achieve.</p></li>
 </ul>
 </section>
 </section>
 <section id="role-proposal">
-<h3>Role proposal<a class="headerlink" href="#role-proposal" title="Permalink to this heading">#</a></h3>
+<h3>Role proposal<a class="headerlink" href="#role-proposal" title="Link to this heading">#</a></h3>
 <p><em>skip for now</em></p>
 </section>
 <section id="sourcing">
-<h3>Sourcing<a class="headerlink" href="#sourcing" title="Permalink to this heading">#</a></h3>
+<h3>Sourcing<a class="headerlink" href="#sourcing" title="Link to this heading">#</a></h3>
 <p><em>skip for now</em></p>
 </section>
 <section id="interviewing">
-<h3>Interviewing<a class="headerlink" href="#interviewing" title="Permalink to this heading">#</a></h3>
+<h3>Interviewing<a class="headerlink" href="#interviewing" title="Link to this heading">#</a></h3>
 <p><em>skip for now</em></p>
 </section>
 <section id="closing">
-<h3>Closing<a class="headerlink" href="#closing" title="Permalink to this heading">#</a></h3>
+<h3>Closing<a class="headerlink" href="#closing" title="Link to this heading">#</a></h3>
 <p><em>skip for now</em></p>
 </section>
 <section id="onboarding">
-<h3>Onboarding<a class="headerlink" href="#onboarding" title="Permalink to this heading">#</a></h3>
+<h3>Onboarding<a class="headerlink" href="#onboarding" title="Link to this heading">#</a></h3>
 <section id="the-30-60-90-plan">
-<h4>The 30/60/90 plan<a class="headerlink" href="#the-30-60-90-plan" title="Permalink to this heading">#</a></h4>
+<h4>The 30/60/90 plan<a class="headerlink" href="#the-30-60-90-plan" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>A 30/60/90 is simply a plan of what hires will do in their first 90 days. A good 30/60/90 will be:</p>
 <ul>
@@ -785,9 +789,9 @@ document.write(`
 </section>
 </section>
 <section id="coaching-feedback">
-<h2>3 Coaching &amp; feedback<a class="headerlink" href="#coaching-feedback" title="Permalink to this heading">#</a></h2>
+<h2>3 Coaching &amp; feedback<a class="headerlink" href="#coaching-feedback" title="Link to this heading">#</a></h2>
 <section id="zone-of-genius">
-<h3>Zone of genius<a class="headerlink" href="#zone-of-genius" title="Permalink to this heading">#</a></h3>
+<h3>Zone of genius<a class="headerlink" href="#zone-of-genius" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Finding the right role must be an optimization between</p>
 <ul>
@@ -814,7 +818,7 @@ document.write(`
 </ul>
 </section>
 <section id="feedback">
-<h3>Feedback<a class="headerlink" href="#feedback" title="Permalink to this heading">#</a></h3>
+<h3>Feedback<a class="headerlink" href="#feedback" title="Link to this heading">#</a></h3>
 <ul>
 <li><blockquote>
 <div><p>“If you avoid conflict to keep peace, you start a war inside yourself.” -Someone wise</p>
@@ -830,7 +834,7 @@ document.write(`
 </ul>
 </section>
 <section id="radical-candor">
-<h3>Radical candor<a class="headerlink" href="#radical-candor" title="Permalink to this heading">#</a></h3>
+<h3>Radical candor<a class="headerlink" href="#radical-candor" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>A system for giving effective feedback</p>
 <ul>
@@ -851,9 +855,9 @@ document.write(`
 </section>
 </section>
 <section id="working-as-a-team">
-<h2>4 Working as a team<a class="headerlink" href="#working-as-a-team" title="Permalink to this heading">#</a></h2>
+<h2>4 Working as a team<a class="headerlink" href="#working-as-a-team" title="Link to this heading">#</a></h2>
 <section id="impeccable-agreements">
-<h3>Impeccable agreements<a class="headerlink" href="#impeccable-agreements" title="Permalink to this heading">#</a></h3>
+<h3>Impeccable agreements<a class="headerlink" href="#impeccable-agreements" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>An impeccable agreement has the following properties:</p>
 <ul>
@@ -866,15 +870,15 @@ document.write(`
 </ul>
 </section>
 <section id="agreement-with-self">
-<h3>Agreement with self<a class="headerlink" href="#agreement-with-self" title="Permalink to this heading">#</a></h3>
+<h3>Agreement with self<a class="headerlink" href="#agreement-with-self" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>By making small agreements with yourself, achieving them, and then making larger ones, you will start to develop a mindset that you can achieve anything you set your mind to. You will find that this is an incredibly powerful story to believe about yourself, and this will lead to greater success and personal happiness.</p></li>
 </ul>
 </section>
 <section id="running-meetings">
-<h3>Running meetings<a class="headerlink" href="#running-meetings" title="Permalink to this heading">#</a></h3>
+<h3>Running meetings<a class="headerlink" href="#running-meetings" title="Link to this heading">#</a></h3>
 <section id="meetings-tldr">
-<h4>Meetings TLDR<a class="headerlink" href="#meetings-tldr" title="Permalink to this heading">#</a></h4>
+<h4>Meetings TLDR<a class="headerlink" href="#meetings-tldr" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>Every meeting must have an owner (designated in the calendar invite).</p></li>
 <li><p>Only precisely the number of people who need to attend are invited.</p></li>
@@ -884,7 +888,7 @@ document.write(`
 </ul>
 </section>
 <section id="meeting-types">
-<h4>Meeting types<a class="headerlink" href="#meeting-types" title="Permalink to this heading">#</a></h4>
+<h4>Meeting types<a class="headerlink" href="#meeting-types" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>One-on-one meetings</p></li>
 <li><p>Staff meetings (recurring status updates, department sync, etc.)</p></li>
@@ -895,7 +899,7 @@ document.write(`
 </section>
 </section>
 <section id="decision-making">
-<h3>Decision making<a class="headerlink" href="#decision-making" title="Permalink to this heading">#</a></h3>
+<h3>Decision making<a class="headerlink" href="#decision-making" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>If you want the most effective and efficient decision-making process, require that anyone who wants to discuss an issue write it up, along with the desired solution, ahead of time.</p></li>
 <li><p>Type 1 and Types 2 decisions: whether the decision being made is reversible or not</p>
@@ -905,7 +909,7 @@ document.write(`
 </li>
 </ul>
 <section id="getting-buy-in">
-<h4>Getting buy-in<a class="headerlink" href="#getting-buy-in" title="Permalink to this heading">#</a></h4>
+<h4>Getting buy-in<a class="headerlink" href="#getting-buy-in" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>You create buy-in when you make people feel that they are part of the decision and that their input contributes to the final outcome. The more influence they feel they have on the outcome, the more they’ll be invested in the final result.</p>
 <ul>
@@ -915,7 +919,7 @@ document.write(`
 </ul>
 </section>
 <section id="disagree-and-commit">
-<h4>Disagree and commit<a class="headerlink" href="#disagree-and-commit" title="Permalink to this heading">#</a></h4>
+<h4>Disagree and commit<a class="headerlink" href="#disagree-and-commit" title="Link to this heading">#</a></h4>
 <ul>
 <li><blockquote>
 <div><p>“Look, I know we disagree on this but will you gamble with me on it? Disagree and commit?” By the time you’re at this point, no one can know the answer for sure, and you’ll probably get a quick yes.</p>
@@ -925,7 +929,7 @@ document.write(`
 </section>
 </section>
 <section id="measuring-performance">
-<h3>Measuring performance<a class="headerlink" href="#measuring-performance" title="Permalink to this heading">#</a></h3>
+<h3>Measuring performance<a class="headerlink" href="#measuring-performance" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Tracking the level of employee engagement to tack management progress:</p>
 <ul>
@@ -938,15 +942,15 @@ document.write(`
 </section>
 </section>
 <section id="creating-and-achieving-goals">
-<h2>5 Creating and achieving goals<a class="headerlink" href="#creating-and-achieving-goals" title="Permalink to this heading">#</a></h2>
+<h2>5 Creating and achieving goals<a class="headerlink" href="#creating-and-achieving-goals" title="Link to this heading">#</a></h2>
 <section id="clarity">
-<h3>Clarity<a class="headerlink" href="#clarity" title="Permalink to this heading">#</a></h3>
+<h3>Clarity<a class="headerlink" href="#clarity" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Plan well leads to clear communicate</p></li>
 </ul>
 </section>
 <section id="the-pyramid-of-clarity">
-<h3>The pyramid of clarity<a class="headerlink" href="#the-pyramid-of-clarity" title="Permalink to this heading">#</a></h3>
+<h3>The pyramid of clarity<a class="headerlink" href="#the-pyramid-of-clarity" title="Link to this heading">#</a></h3>
 <p><img alt="" src="https://themanagershandbook.com/chapters/creating-and-achieving-goals/pyramid-of-clarity.png" /></p>
 <ul class="simple">
 <li><p>Mission: Great missions are short, clear, and could be stitched on a pillow.</p></li>
@@ -956,13 +960,13 @@ document.write(`
 </ul>
 </section>
 <section id="performance">
-<h3>Performance<a class="headerlink" href="#performance" title="Permalink to this heading">#</a></h3>
+<h3>Performance<a class="headerlink" href="#performance" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Great managers set goals, not tasks.</p></li>
 <li><p>Don’t micromanage your team’s work or daily output. If you find yourself supervising too often, you’ve hired the wrong people.</p></li>
 </ul>
 <section id="setting-goals">
-<h4>Setting goals<a class="headerlink" href="#setting-goals" title="Permalink to this heading">#</a></h4>
+<h4>Setting goals<a class="headerlink" href="#setting-goals" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>Goals should be:</p>
 <ul>
@@ -974,23 +978,23 @@ document.write(`
 </ul>
 </section>
 <section id="ownership">
-<h4>Ownership<a class="headerlink" href="#ownership" title="Permalink to this heading">#</a></h4>
+<h4>Ownership<a class="headerlink" href="#ownership" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>Ownership is the key to performance.</p></li>
 </ul>
 </section>
 </section>
 <section id="delegation">
-<h3>Delegation<a class="headerlink" href="#delegation" title="Permalink to this heading">#</a></h3>
+<h3>Delegation<a class="headerlink" href="#delegation" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Delegation is the art of scaling yourself by distributing work across your team. The paradox of delegation is that it requires a degree of inefficiency and failure in the short term to work in the long term.</p></li>
 </ul>
 <section id="task-relevant-maturity">
-<h4>Task relevant maturity<a class="headerlink" href="#task-relevant-maturity" title="Permalink to this heading">#</a></h4>
+<h4>Task relevant maturity<a class="headerlink" href="#task-relevant-maturity" title="Link to this heading">#</a></h4>
 <p><img alt="image" src="https://user-images.githubusercontent.com/5671771/159839825-1f943e4d-0a1c-4887-8778-b871f953c689.png" /></p>
 </section>
 <section id="delegating-decision-making">
-<h4>Delegating decision making<a class="headerlink" href="#delegating-decision-making" title="Permalink to this heading">#</a></h4>
+<h4>Delegating decision making<a class="headerlink" href="#delegating-decision-making" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p>The trade-off is between your level of conviction (i.e., do you think you know the ideal right answer?) and the consequence (i.e., if you make the wrong decision, how catastrophic is the downside?).</p>
 <ul>
@@ -1005,16 +1009,16 @@ document.write(`
 </section>
 </section>
 <section id="information-sharing">
-<h2>6 Information sharing<a class="headerlink" href="#information-sharing" title="Permalink to this heading">#</a></h2>
+<h2>6 Information sharing<a class="headerlink" href="#information-sharing" title="Link to this heading">#</a></h2>
 <section id="communication-and-tasks">
-<h3>Communication and tasks<a class="headerlink" href="#communication-and-tasks" title="Permalink to this heading">#</a></h3>
+<h3>Communication and tasks<a class="headerlink" href="#communication-and-tasks" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Generally it is better to set goals rather than tasks.</p></li>
 <li><p>Impeccable agreements have to be mutually agreed upon because the owner is accountable. Creating a task directly removes that option.</p></li>
 </ul>
 </section>
 <section id="transparency">
-<h3>Transparency<a class="headerlink" href="#transparency" title="Permalink to this heading">#</a></h3>
+<h3>Transparency<a class="headerlink" href="#transparency" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Transparency increases our creativity surface area. The more brains we have working on our hardest problems, the more likely we are to solve them.</p></li>
 <li><p>Transparency builds mutual trust. Trust breeds creativity.</p></li>
@@ -1022,7 +1026,7 @@ document.write(`
 </ul>
 </section>
 <section id="area-of-responsibility">
-<h3>Area of responsibility<a class="headerlink" href="#area-of-responsibility" title="Permalink to this heading">#</a></h3>
+<h3>Area of responsibility<a class="headerlink" href="#area-of-responsibility" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>DRI: direct responsible individual; AOR: area of responsibility</p></li>
 <li><p>Apple is famous for having pioneered AORs in Silicon Valley, but now most successful tech companies use this method.</p></li>
@@ -1037,7 +1041,7 @@ document.write(`
 <p><em>last updated on: 2022-06-06</em></p>
 </section>
 <section id="conflict-resolution">
-<h3>7 Conflict resolution<a class="headerlink" href="#conflict-resolution" title="Permalink to this heading">#</a></h3>
+<h3>7 Conflict resolution<a class="headerlink" href="#conflict-resolution" title="Link to this heading">#</a></h3>
 </section>
 </section>
 </section>
@@ -1069,8 +1073,8 @@ document.write(`
               
               
               
-                <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                <footer class="prev-next-footer d-print-none">
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="Set%20boundaries%2C%20find%20peace.html"
@@ -1097,7 +1101,9 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -1203,9 +1209,10 @@ By askming
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
-      © Copyright 2023.
+      © Copyright 2025.
       <br/>
     
   </p>
@@ -1229,8 +1236,8 @@ By askming
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>
