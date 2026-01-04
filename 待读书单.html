@@ -1,514 +1,285 @@
 
 <!DOCTYPE html>
 
-
-<html lang="en" data-content_root="./" >
-
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>待读书单 &#8212; Notes &amp; Summaries from Book Readings</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
-    <title>待读书单 &#8212; Personal Reading Catalog</title>
-  
-  
-  
-  <script data-cfasync="false">
-    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
-  </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    </style>
-  </noscript>
-  
-  <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+    
+      
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
-  
-  <!-- So that users can add custom icons -->
-  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
-  <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
-    <script>let toggleHintShow = 'Click to show';</script>
-    <script>let toggleHintHide = 'Click to hide';</script>
-    <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js?v=f930bc37"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '待读书单';</script>
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="相关资源" href="%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90.html" />
-    <link rel="prev" title="黑客与画家" href="2019/%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6.html" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+    <link rel="prev" title="领导力" href="2020/%E9%A2%86%E5%AF%BC%E5%8A%9B.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
   </head>
-  
-  
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
-
-  
-  
-  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
-  
-  <div id="pst-scroll-pixel-helper"></div>
-  
-  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
-
-  
-  <dialog id="pst-search-dialog">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
-<form class="bd-search d-flex align-items-center"
-      action="search.html"
-      method="get">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
-  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+    <div class="container-fluid" id="banner"></div>
 
-  <div class="pst-async-banner-revealer d-none">
-  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
-</div>
+    
 
-  
-    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
-    </header>
-  
-
-  <div class="bd-container">
-    <div class="bd-container__inner bd-page-width">
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
       
       
+      <h1 class="site-logo" id="site-title">Notes & Summaries from Book Readings</h1>
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
-        
-
-  
-  <div class="sidebar-header-items sidebar-primary__section">
-    
-    
-    
-    
-  </div>
-  
-    <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item">
-
-  
-    
-  
-
-<a class="navbar-brand logo" href="intro.html">
-  
-  
-  
-  
-  
-    
-    
-      
-    
-    
-    <img src="_static/logo.png" class="logo__image only-light" alt="Personal Reading Catalog - Home"/>
-    <img src="_static/logo.png" class="logo__image only-dark pst-js-only" alt="Personal Reading Catalog - Home"/>
-  
-  
-</a></div>
-        <div class="sidebar-primary-item">
-
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
-        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="intro.html">
-                    开卷小语
-                </a>
-            </li>
-        </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">2025</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2025/Good%20Inside.html">Good Inside</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2025/The%20Grand%20Chessboard%3A%20American%20Primacy%20and%20its%20Geostrategic%20Imperatives.html">The Grand Chessboard: American Primacy and its Geostrategic Imperatives</a></li>
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   开卷小语
+  </a>
+ </li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2024</span></p>
+<p class="caption">
+ <span class="caption-text">
+  2021
+ </span>
+</p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2024/How%20to%20fail%20at%20almost%20everything%20but%20still%20win%20big.html">How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2024/The%20manager%27s%20path.html">The manager’s path: a guide for tech leaders navigating growth and change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2024/%E8%AF%BB%E5%BA%93%202305.html">读库 2305</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2024/%E8%B5%B0%E5%87%BA%E6%88%88%E5%A3%81.html">走出戈壁</a></li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/How%20to%20win%20friends%20and%20influence%20people.html">
+   How to win friends and influence people
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/The%20Unwinding.html">
+   The Unwinding: An Inner History of the New America
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/%E5%91%BD%E8%BF%90%E7%9A%84%E5%86%85%E6%A0%B8.html">
+   命运的内核
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html">
+   投资最重要的事
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/%E6%8C%87%E6%95%B0%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E6%8C%87%E5%8D%97.html">
+   指数基金投资指南
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/%E6%97%A0%E9%99%90%E5%8F%AF%E8%83%BD.html">
+   无限可能：快速唤醒你的学习脑
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/%E6%AE%B5%E6%B0%B8%E5%B9%B3%E6%8A%95%E8%B5%84%E6%80%9D%E8%B7%AF%E6%A2%B3%E7%90%86.html">
+   段永平投资思路梳理
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2021/%E7%AE%80%E8%AF%BB%E4%B8%AD%E5%9B%BD%E5%8F%B2%E4%B8%96%E7%95%8C%E5%8F%B2%E5%9D%90%E6%A0%87%E4%B8%8B%E7%9A%84%E4%B8%AD%E5%9B%BD.html">
+   简读中国史 - 世界史坐标下的中国
+  </a>
+ </li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2023</span></p>
+<p class="caption">
+ <span class="caption-text">
+  2020
+ </span>
+</p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2023/The%20Making%20of%20Prince%20of%20Persia.html">The Making of Prince of Persia</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2023/Your%20Brain%20at%20Work.html">Your Brain at Work</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2023/%E6%88%91%E5%9C%A8%E5%8C%97%E4%BA%AC%E9%80%81%E5%BF%AB%E9%80%92.html">我在北京送快递</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2023/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%AF%BB%E8%B4%A2%E6%8A%A5.html">手把手教你读财报</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2023/%E6%95%91%E5%91%BD%E5%95%8A%20%28Can%20You%20Hear%20Me%3F%29.html">救命啊 (Can You Hear Me?)</a></li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020/%E4%BA%92%E8%81%94%E7%BD%91%E6%98%AF%E4%BA%BA%E7%B1%BB%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%B8%80%E6%AE%B5%E5%BC%AF%E8%B7%AF%E5%90%97.html">
+   互联网是人类历史上的一段弯路吗？
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020/%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8.html">
+   富爸爸，穷爸爸
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020/%E7%A7%91%E5%AD%A6%E8%BF%B7%E5%AE%AB%E9%87%8C%E7%9A%84%E9%A1%BD%E7%AB%A5%E4%B8%8E%E5%A4%A7%E5%B8%88-%E8%B5%AB%E4%BC%AF%E7%89%B9%20%E8%A5%BF%E8%92%99%E8%87%AA%E4%BC%A0.html">
+   科学迷宫里的顽童与大师：赫伯特
+   <span class="math notranslate nohighlight">
+    \(\cdot\)
+   </span>
+   西蒙自传
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020/%E9%A2%86%E5%AF%BC%E5%8A%9B.html">
+   领导力
+  </a>
+ </li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2022</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2022/1%20Billion%20Customers%20.html">1 Billion Customers </a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/Angel%3A%20How%20to%20invest%20in%20technology%20startups.html">Angel: How to invest in technology startups</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/Flowers%20for%20Algernon.html">Flowers for Algernon</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/Hit%20Refresh.html">Hit Refresh</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/How%20we%20learn.html">How we learn</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/Influence%20Science%20and%20Practice.html">Influence Science and Practice</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/More%20Money%20Than%20God.html">More Money Than God</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/Set%20boundaries%2C%20find%20peace.html">Set boundaries, find peace</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/The%20Manager%27s%20Handbook.html">The Manager’s Handbook</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/The%20Psychology%20of%20Money.html">The Psychology of Money</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/%E5%A4%9C%E6%99%9A%E7%9A%84%E6%BD%9C%E6%B0%B4%E8%89%87.html">夜晚的潜水艇</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/%E5%A4%A7%E5%9B%BD%E5%A4%A7%E5%9F%8E.html">大国大城</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/%E6%81%B6%E6%84%8F.html">恶意</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/%E6%9A%97%E6%97%B6%E9%97%B4.html">暗时间</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2022/%E9%80%9A%E5%BE%80%E5%A5%B4%E5%BD%B9%E4%B9%8B%E8%B7%AF.html">通往奴役之路</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2021</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2021/High%20output%20management.html">High output management</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/How%20to%20win%20friends%20and%20influence%20people.html">How to win friends and influence people</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/Mastering%20Bitcoin.html">Mastering Bitcoin</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/The%20Pragmatic%20Programmer.html">The Pragmatic Programmer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/The%20Unwinding.html">The Unwinding: An Inner History of the New America</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/Thinking%2C%20fast%20and%20slow.html">Thinking, fast and slow</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/Why%20We%20Sleep.html">Why We Sleep</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E7%88%B6%E6%AF%8D.html">什么是最好的父母</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E5%8D%88%E5%A4%9C%E9%99%8D%E4%B8%B4%E5%89%8D%E6%8A%B5%E8%BE%BE.html">午夜降临前抵达</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E5%91%BD%E8%BF%90%E7%9A%84%E5%86%85%E6%A0%B8.html">命运的内核</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E5%A4%B1%E8%90%BD%E7%9A%84%E5%8D%AB%E6%98%9F.html">失落的卫星</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html">投资最重要的事</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E6%8C%87%E6%95%B0%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E6%8C%87%E5%8D%97.html">指数基金投资指南</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E6%97%A0%E9%99%90%E5%8F%AF%E8%83%BD.html">无限可能：快速唤醒你的学习脑</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E6%AE%B5%E6%B0%B8%E5%B9%B3%E6%8A%95%E8%B5%84%E6%80%9D%E8%B7%AF%E6%A2%B3%E7%90%86.html">段永平投资思路梳理</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E6%B8%B4%E6%9C%9B%E7%9F%A9%E9%98%B5.html">渴望矩阵</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2021/%E7%AE%80%E8%AF%BB%E4%B8%AD%E5%9B%BD%E5%8F%B2%E4%B8%96%E7%95%8C%E5%8F%B2%E5%9D%90%E6%A0%87%E4%B8%8B%E7%9A%84%E4%B8%AD%E5%9B%BD.html">简读中国史 - 世界史坐标下的中国</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2020</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2020/%E4%BA%92%E8%81%94%E7%BD%91%E6%98%AF%E4%BA%BA%E7%B1%BB%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%B8%80%E6%AE%B5%E5%BC%AF%E8%B7%AF%E5%90%97.html">互联网是人类历史的一段弯路吗?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E4%BB%A5%E8%89%B2%E5%88%97%EF%BC%9A%E4%B8%80%E4%B8%AA%E6%B0%91%E6%97%8F%E7%9A%84%E9%87%8D%E7%94%9F.html">以色列：一个民族的重生</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E4%BD%A0%E6%83%B3%E6%B4%BB%E5%87%BA%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA%E7%94%9F.html">你想活出怎样的人生</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E5%8E%9F%E5%88%99.html">原则</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8.html">富爸爸，穷爸爸</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E6%97%A0%E5%B8%B8%E7%9A%84%E5%8D%9A%E5%BC%88%EF%BC%9A327%E5%9B%BD%E5%80%BA%E6%9C%9F%E8%B4%A7%E4%BA%8B%E4%BB%B6%E5%A7%8B%E6%9C%AB.html">无常的博弈：327国债期货事件始末</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E6%AD%A3%E5%90%91%E6%95%99%E8%82%B2%E5%92%8C%E6%8C%AB%E6%8A%98%E6%95%99%E8%82%B2.html">正向教育和挫折教育</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E7%A7%91%E5%AD%A6%E8%BF%B7%E5%AE%AB%E9%87%8C%E7%9A%84%E9%A1%BD%E7%AB%A5%E4%B8%8E%E5%A4%A7%E5%B8%88-%E8%B5%AB%E4%BC%AF%E7%89%B9%20%E8%A5%BF%E8%92%99%E8%87%AA%E4%BC%A0.html">科学迷宫里的顽童与大师：赫伯特<span class="math notranslate nohighlight">\(\cdot\)</span>西蒙自传</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2020/%E9%A2%86%E5%AF%BC%E5%8A%9B.html">领导力</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2019</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="2019/%E4%B8%80%E6%9C%AC%E5%B0%8F%E5%B0%8F%E7%9A%84%E7%BA%A2%E8%89%B2%E5%86%99%E4%BD%9C%E4%B9%A6.html">一本小小的红色写作书</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E4%B8%AD%E5%9B%BD%E5%8F%B2%E7%BA%B2.html">中国史纲</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E4%BA%BA%E7%94%9F%E6%B5%B7%E6%B5%B7.html">人生海海</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E4%BC%AF%E6%81%A9%E6%96%AF%E6%96%B0%E6%83%85%E7%BB%AA%E7%96%97%E6%B3%95.html">伯恩斯新情绪疗法</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E4%BD%A0%E4%B8%80%E5%AE%9A%E7%88%B1%E8%AF%BB%E7%9A%84%E6%9E%81%E7%AE%80%E6%AC%A7%E6%B4%B2%E5%8F%B2.html">你一定爱读的极简欧洲史</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E5%AF%B9%E8%B5%8C%EF%BC%9A%E4%BF%A1%E6%81%AF%E4%B8%8D%E8%B6%B3%E6%97%B6%E5%A6%82%E4%BD%95%E5%81%9A%E5%87%BA%E9%AB%98%E6%98%8E%E5%86%B3%E7%AD%96.html">对赌：信息不足时如何做出高明决策</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E6%B4%AA%E4%B8%9A%EF%BC%9A%E6%B8%85%E6%9C%9D%E5%BC%80%E5%9B%BD%E5%8F%B2.html">洪业：清朝开国史</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2019/%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6.html">黑客与画家</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Others</span></p>
+<p class="caption">
+ <span class="caption-text">
+  Others
+ </span>
+</p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">待读书单</a></li>
-<li class="toctree-l1"><a class="reference internal" href="%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90.html">相关资源</a></li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   待读书单
+  </a>
+ </li>
 </ul>
 
     </div>
-</nav></div>
-    </div>
-  
-  
-  <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
-  </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
 
 
-      </div>
-      
-      <main id="main-content" class="bd-main" role="main">
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
         
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/待读书单.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/askming/Personal-reading"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/askming/Personal-reading/issues/new?title=Issue%20on%20page%20%2F待读书单.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
-
-<div class="sbt-scroll-pixel-helper"></div>
-
-          <div class="bd-content">
-            <div class="bd-article-container">
-              
-              <div class="bd-header-article d-print-none">
-<div class="header-article-items header-article__inner">
-  
-    <div class="header-article-items__start">
-      
-        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <span class="fa-solid fa-bars"></span>
-</button></div>
-      
     </div>
-  
-  
-    <div class="header-article-items__end">
-      
-        <div class="header-article-item">
-
-<div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/askming/Personal-reading" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/askming/Personal-reading/issues/new?title=Issue%20on%20page%20%2F待读书单.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
-  </ul>
 </div>
 
+            <!-- Full screen (wrap in <a> to have style consistency -->
 
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
+            <!-- Launch buttons -->
 
+        </div>
 
-
-<div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
-    <i class="fas fa-download"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="_sources/待读书单.md" target="_blank"
-   class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="btn__text-container">.md</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li>
-<button onclick="window.print()"
-  class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
-  data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="btn__text-container">.pdf</span>
-</button>
-</li>
-      
-  </ul>
-</div>
-
-
-
-
-<button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Fullscreen mode"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
-
-
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
-
-
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
-
-</div></div>
-      
-    </div>
-  
-</div>
-</div>
-              
-              
-
-<div id="jb-print-docs-body" class="onlyprint">
-    <h1>待读书单</h1>
-    <!-- Table of contents -->
-    <div id="print-main-content">
-        <div id="jb-print-toc">
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
             
         </div>
     </div>
 </div>
-
-              
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
                 
-<div id="searchbox"></div>
-                <article class="bd-article">
-                  
-  <section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1>待读书单<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+  <div class="section" id="id1">
+<h1>待读书单<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><p><strike><a class="reference internal" href="2021/Thinking%2C%20fast%20and%20slow.html"><span class="std std-doc">Thinking, fast and slow</span></a></strike>, <em>done on Nov. 3, 2021</em></p></li>
-<li><p><strike><a class="reference internal" href="2021/Why%20We%20Sleep.html"><span class="std std-doc">Why we sleep</span></a></strike>, <em>done on Dec. 14, 2021</em></p></li>
-<li><p><strike><a class="reference internal" href="2021/High%20output%20management.html"><span class="std std-doc">High Output Management</span></a></strike>, <em>done on Jan. 2, 2022</em></p></li>
-<li><p><strike><a class="reference internal" href="2021/How%20to%20win%20friends%20and%20influence%20people.html"><span class="std std-doc">How to win friends and influence people</span></a></strike></p></li>
-</ul>
-<hr>
-<ul class="simple">
-<li><p>How to be strategic (Fred Pelard, in Kindle)</p></li>
-<li><p>Set boundaries, find peace (in Kindle)</p></li>
-<li><p><strike><a class="reference internal" href="2022/The%20Psychology%20of%20Money.html"><span class="std std-doc">The Pycology of Money</span></a></strike>, <em>done on April 23, 2022</em></p></li>
-</ul>
-<hr>
-<ul class="simple">
-<li><p>The pragmatic programmer</p></li>
-<li><p>Mastering Bitcoin</p></li>
-<li><p>程序是怎样跑起来的</p></li>
+<li><p>How to win friednds and influence people - iPad Books</p></li>
+<li><p>Mastering Bitcoin - iPad Books</p></li>
+<li><p>格雷厄姆．格林代表作 - iPad Books</p></li>
+<li><p>中国的当下与未来：读懂我们的现实处境与30年大趋势 - iPad</p></li>
+<li><p>中国国家治理的制度逻辑：一个组织学研究 - kindle</p></li>
+<li><p>苏世民：我的经验与教训 - kindle</p></li>
+<li><p>讲谈社-中国的历史 - kindle</p></li>
 <li><p>因果革命：人工智慧的大未來</p></li>
-<li><p><strike><a class="reference external" href="https://askming.github.io/Personal-reading/2022/%E6%9A%97%E6%97%B6%E9%97%B4.html">暗时间</a></strike>， <em>done on July 11, 2022</em></p></li>
 </ul>
-<hr>
-<ul class="simple">
-<li><p>Angel: how to invest technology startups (in Kindle)</p></li>
-<li><p>苏世民：我的经验与教训</p></li>
-<li><p>非理性繁荣</p></li>
-<li><p>金融帝国</p></li>
-<li><p>B面人生</p></li>
-<li><p>聪明的投资者</p></li>
-<li><p>海龟交易法则</p></li>
-</ul>
-<hr>
-<ul class="simple">
-<li><p><strike><a class="reference external" href="https://askming.github.io/Personal-reading/2022/%E5%A4%A7%E5%9B%BD%E5%A4%A7%E5%9F%8E.html">大国大城</a></strike>, <em>done on June 12, 2022</em></p></li>
-<li><p>血酬定律 (in Kindle)</p></li>
-<li><p>巨婴国</p></li>
-<li><p>中国的当下与未来：读懂我们的现实处境与30年大趋势</p></li>
-<li><p>中国国家治理的制度逻辑：一个组织学研究</p></li>
-<li><p>中国经济史</p></li>
-<li><p>讲谈社-中国的历史</p></li>
-<li><p>中央帝国的哲学密码</p></li>
-<li><p>中央帝国的军事密码</p></li>
-<li><p>中央帝国的财政密码</p></li>
-<li><p>秦制两千年</p></li>
-</ul>
-<hr>
-<ul class="simple">
-<li><p>平家物语</p></li>
-<li><p>春琴抄</p></li>
-</ul>
-<hr>
-<ul class="simple">
-<li><p>格雷厄姆．格林</p>
-<ul>
-<li><p>权利与荣耀</p></li>
-<li><p>恋情的终结</p></li>
-</ul>
-</li>
-<li><p>绝叫</p></li>
-</ul>
-</section>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -522,7 +293,7 @@
             mode: "python"
         },
         kernelOptions: {
-            name: "python3",
+            kernelName: "python3",
             path: "./."
         },
         predefinedOutput: true
@@ -530,88 +301,35 @@
     </script>
     <script>kernelName = 'python3'</script>
 
-                </article>
+              </div>
               
-
-              
-              
-              
-              
-                <footer class="prev-next-footer d-print-none">
-                  
-<div class="prev-next-area">
-    <a class="left-prev"
-       href="2019/%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">黑客与画家</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">相关资源</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
-</div>
-                </footer>
-              
-            </div>
-            
-            
-              
-            
-          </div>
-          <footer class="bd-footer-content">
-            
-<div class="bd-footer-content__inner container">
-  
-  <div class="footer-item">
-    
-<p class="component-author">
-By askming
-</p>
-
-  </div>
-  
-  <div class="footer-item">
-    
-
-  <p class="copyright">
-    
-      © Copyright 2025.
-      <br/>
-    
-  </p>
-
-  </div>
-  
-  <div class="footer-item">
-    
-  </div>
-  
-  <div class="footer-item">
-    
-  </div>
-  
-</div>
-          </footer>
         
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="2020/%E9%A2%86%E5%AF%BC%E5%8A%9B.html" title="previous page">领导力</a>
 
-      </main>
+        </div>
+        
+        </div>
     </div>
-  </div>
-  
-  <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
-
-  <footer class="bd-footer">
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By askming<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
   </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
   </body>
 </html>
