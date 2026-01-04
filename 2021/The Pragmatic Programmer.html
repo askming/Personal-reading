@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>命运的内核 - Reading Notes</title>
+    <title>The Pragmatic Programmer - Reading Notes</title>
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
@@ -79,13 +79,13 @@
 <li><a href="/2021/High output management.html" class="nav-link">High output management</a></li>
 <li><a href="/2021/How to win friends and influence people.html" class="nav-link">How to win friends and influence people</a></li>
 <li><a href="/2021/Mastering Bitcoin.html" class="nav-link">Mastering Bitcoin</a></li>
-<li><a href="/2021/The Pragmatic Programmer.html" class="nav-link">The Pragmatic Programmer</a></li>
+<li><a href="/2021/The Pragmatic Programmer.html" class="nav-link active">The Pragmatic Programmer</a></li>
 <li><a href="/2021/The Unwinding.html" class="nav-link">The Unwinding</a></li>
 <li><a href="/2021/Thinking, fast and slow.html" class="nav-link">Thinking, fast and slow</a></li>
 <li><a href="/2021/Why We Sleep.html" class="nav-link">Why We Sleep</a></li>
 <li><a href="/2021/什么是最好的父母.html" class="nav-link">什么是最好的父母</a></li>
 <li><a href="/2021/午夜降临前抵达.html" class="nav-link">午夜降临前抵达</a></li>
-<li><a href="/2021/命运的内核.html" class="nav-link active">命运的内核</a></li>
+<li><a href="/2021/命运的内核.html" class="nav-link">命运的内核</a></li>
 <li><a href="/2021/失落的卫星.html" class="nav-link">失落的卫星</a></li>
 <li><a href="/2021/投资最重要的事.html" class="nav-link">投资最重要的事</a></li>
 <li><a href="/2021/指数基金投资指南.html" class="nav-link">指数基金投资指南</a></li>
@@ -127,9 +127,159 @@
         
         <main class="main-content">
             <article class="article">
-                <h1>命运的内核</h1>
-                <h1 id="命运的内核">命运的内核</h1>
-<p><em>by Graham Greene</em></p>
+                <h1>The Pragmatic Programmer</h1>
+                <h1 id="<a-href="https://github.com/askming/personal-reading/issues/4">the-pragmatic-programmer</a>"><a href="https://github.com/askming/Personal-reading/issues/4">The Pragmatic Programmer</a></h1>
+<p><em>Started in Nov. 4, 2021</em></p>
+<p><img alt="image" src="https://user-images.githubusercontent.com/5671771/140426361-9b465d21-0a0d-4737-9e04-55348f9e67f7.png" /></p>
+<h2 id="1.-a-pragmatic-philosophy">1. A Pragmatic Philosophy</h2>
+<ul>
+<li>💡 Tips</li>
+<li>It’s Your Life</li>
+<li>You Have Agency</li>
+<li>Provide Options, Don’t Make Lame Excuses</li>
+<li>Don’t Live with Broken Windows</li>
+<li>Be a Catalyst for Change</li>
+<li>Remember the Big Picture</li>
+<li>Make Quality a Requirements Issue</li>
+<li>Invest Regularly in Your Knowledge Portfolio</li>
+<li>Critically Analyze What You Read and Hear</li>
+<li>English is Just Another Programming Language</li>
+<li>It’s Both What You Say and the Way You Say It</li>
+<li>
+<p>Build Documentation In, Don’t Bolt It On</p>
+</li>
+<li>
+<p><strong><em>Software entropy</em>,</strong> "software rot" or "technical debt", when disorder increases in software</p>
+</li>
+<li><strong><em>Stone Soup and Boiled Frogs</em></strong>, "start-up fatigue":  You may be in a situation where you know exactly what needs doing and how to do it. The entire system just appears before your eyes—you know it’s right. But ask permission to tackle the whole thing and you’ll be met with delays and blank stares. People will form committees, budgets will need approval, and things will get complicated. Everyone will guard their own resources.</li>
+<li><strong><em>Your Knowledge Portfolio</em></strong><blockquote>
+<p>An investment in knowledge always pays the best interest. -- Benjamin Franklin</p>
+</blockquote>
+</li>
+<li>"expiring assets": assents whose value diminishes over time</li>
+<li>Guidelines for investment also apply to building knowledge portfolio<ul>
+<li>Invest regularly</li>
+<li>Diversify</li>
+<li>Manage risk</li>
+<li>Buy low, sell high: Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding.</li>
+<li>Review and rebalance</li>
+</ul>
+</li>
+<li>Goals<ul>
+<li>Learn at least one new language every year</li>
+<li>Read a technical book each month</li>
+<li>Read nontechnical books, too</li>
+<li>Take classes</li>
+<li>Participate in local user groups and meetups</li>
+<li>Experiment with different environments</li>
+<li>Stay current</li>
+</ul>
+</li>
+<li><em><strong>Communicate!</strong></em>
+      &gt; The meaning of your communication is the response you get</li>
+</ul>
+<hr />
+<p><em>2021-11-09</em></p>
+<h2 id="2.-a-pragmatic-approach">2. A Pragmatic Approach</h2>
+<ul>
+<li>💡 tips: </li>
+<li>Good Design Is Easier to Change Than Bad Design</li>
+<li>DRY—Don’t Repeat Yourself</li>
+<li>Make It Easy to Reuse</li>
+<li>Eliminate Effects Between Unrelated Things</li>
+<li>There Are No Final Decisions</li>
+<li>Forgo Following Fads</li>
+<li>Use Tracer Bullets to Find the Target</li>
+<li>Prototype to Learn</li>
+<li>Program Close to the Problem Domain</li>
+<li>Estimate to Avoid Surprises</li>
+<li>
+<p>Iterate the Schedule with the Code</p>
+</li>
+<li>
+<p><strong><em>The Essence of Good Design</em></strong></p>
+</li>
+<li>ETC: easier to change</li>
+<li>Values are things that help you make decisions: should I do this, or that?</li>
+<li>
+<p>What if you have no clue what changes may come up?</p>
+<ul>
+<li>First, fall back on the ultimate "easy to change" path: try to make what you write replaceable</li>
+<li>Second, treat this as a way to develop instincts.</li>
+</ul>
+</li>
+<li>
+<p><strong><em>DRY—The Evils of Duplication</em></strong></p>
+</li>
+<li>
+<p>DRY principle: <em>Every piece of knowledge must have a single, unambiguous, authoritative, representation within a system</em>.</p>
+</li>
+<li>
+<p><strong><em>Orthogonality</em></strong></p>
+</li>
+<li>In computing, the term has come to signify a kind of independence or decoupling. Two or more things are orthogonal if changes in one do not affect any of the others.</li>
+<li>Two major benefits if you write orthogonal systems: increased productivity and reduced risk.</li>
+<li>Coding techniques to maintain orthogonality:<ul>
+<li>Keep your code decoupled</li>
+<li>Avoid global data</li>
+<li>Avoid similar functions</li>
+</ul>
+</li>
+<li>
+<p><em>Refactoring</em>: Look for any opportunities to reorganize the code to improve its structure and orthogonality.</p>
+</li>
+<li>
+<p><strong><em>Tracer Bullets</em></strong></p>
+</li>
+<li>Advantages of tracer code approach<ul>
+<li>Users get to see something working early</li>
+<li>Developers build a structure to work in</li>
+<li>You have an integration platform</li>
+<li>You have something to demonstrate</li>
+<li>You have a better feel for progress</li>
+</ul>
+</li>
+<li>Tracer code vs prototyping: Prototyping generates disposable code. Tracer code is lean but complete, and forms part of the skeleton of the final system. Think of prototyping as the reconnaissance and intelligence gathering that takes place before a single tracer bullet is fired.</li>
+</ul>
+<hr />
+<p><em>2022-01-05</em></p>
+<h2 id="3.the-basic-tools">3.The Basic Tools</h2>
+<h3 id="power-of-plain-text">Power of plain text</h3>
+<ul>
+<li>Insurance against obsolescence</li>
+<li>Leverage existing tools</li>
+<li>Easier testing</li>
+</ul>
+<h3 id="shell-games">Shell games</h3>
+<ul>
+<li>A benefit of GUIs is WYSIWYG--what you see is what you get. The disadvantage is WYSIAYG-what you see is all you get.</li>
+</ul>
+<h3 id="power-editing">Power editing</h3>
+<ul>
+<li>In the first edition of this book we recommended using a single editor for everything: code, documentation, memos, system administration, and so on. We've softened that position a little. We're happy for you to use as many editors as you want. We'd just like you to be working toward fluency in each.</li>
+</ul>
+<h3 id="version-control">Version control</h3>
+<ul>
+<li>Shared directories aren't version control</li>
+<li>Branching out</li>
+<li>Use it as a project hub</li>
+</ul>
+<h3 id="debugging">Debugging</h3>
+<ul>
+<li>Debugging mindset: don't panic</li>
+<li>Read the error message</li>
+<li>Binary trop</li>
+<li>logging and/or tracing</li>
+<li>Don't assume it -- prove it</li>
+</ul>
+<h3 id="engineering-daybooks">Engineering Daybooks</h3>
+<ul>
+<li>Benefits of daybook</li>
+<li>it's more reliable than memory</li>
+<li>it gives you a place to store ideas that aren't immediately relevant to the task at hand</li>
+<li>it acts as a kind of rubber duck</li>
+<li>you can look back at what you were doing every now and then for memories and recalls</li>
+</ul>
             </article>
         </main>
 
@@ -137,7 +287,20 @@
             <div class="toc-title">Table of Contents</div>
             <nav class="toc">
 <ul>
-<li><a href="#命运的内核">命运的内核</a></li>
+<li><a href="#the-pragmatic-programmer(https://github.com/askming/personal-reading/issues/4)">[The Pragmatic Programmer](https://github.com/askming/Personal-reading/issues/4)</a></li>
+<ul>
+<li><a href="#1.-a-pragmatic-philosophy">1. A Pragmatic Philosophy</a></li>
+<li><a href="#2.-a-pragmatic-approach">2. A Pragmatic Approach</a></li>
+<li><a href="#3.the-basic-tools">3.The Basic Tools</a></li>
+<ul>
+<li><a href="#power-of-plain-text">Power of plain text</a></li>
+<li><a href="#shell-games">Shell games</a></li>
+<li><a href="#power-editing">Power editing</a></li>
+<li><a href="#version-control">Version control</a></li>
+<li><a href="#debugging">Debugging</a></li>
+<li><a href="#engineering-daybooks">Engineering Daybooks</a></li>
+</ul>
+</ul>
 </ul>
 </nav>
         </aside>
