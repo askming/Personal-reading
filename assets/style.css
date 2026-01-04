@@ -478,26 +478,80 @@ body {
     margin-top: auto;
 }
 
-/* Margin Notes */
-.margin-notes {
+/* Footnotes */
+.footnote {
+    display: inline;
+}
+
+.footnote sup {
+    font-size: 0.85em;
+    margin: 0 2px;
+}
+
+.footnote a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--secondary-color);
+    transition: opacity 0.2s;
+}
+
+.footnote a:hover {
+    opacity: 0.7;
+}
+
+/* Footnote list at bottom of article */
+.footnotes {
     margin-top: 40px;
     padding-top: 20px;
     border-top: 1px solid var(--border-color);
+    font-size: 13px;
+    color: #666;
 }
 
-.margin-notes-title {
-    font-weight: 600;
-    font-size: 14px;
+.footnotes h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
     color: var(--primary-color);
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
 }
 
-.margin-note {
+.footnotes ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+.footnotes li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.footnotes li p {
+    margin: 0;
+    display: inline;
+}
+
+.footnotes li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.footnotes li a:hover {
+    text-decoration: underline;
+}
+
+.footnotes li a.footnote-backref {
+    font-size: 0.9em;
+}
+
+/* Margin Notes - Inline with content */
+.margin-note-inline {
+    float: right;
+    clear: right;
+    width: 300px;
+    margin: 0 0 20px 20px;
+    padding: 15px;
     background-color: #f9f9f9;
-    padding: 12px;
-    margin-bottom: 15px;
     border-left: 3px solid var(--secondary-color);
     border-radius: 3px;
     font-size: 13px;
@@ -505,25 +559,33 @@ body {
     color: #555;
 }
 
-.margin-note p {
+.margin-note-inline p {
     margin: 0 0 8px 0;
+    font-size: 13px;
 }
 
-.margin-note p:last-child {
+.margin-note-inline p:last-child {
     margin-bottom: 0;
 }
 
-.margin-note a {
+.margin-note-inline a {
     color: var(--secondary-color);
     text-decoration: none;
 }
 
-.margin-note a:hover {
+.margin-note-inline a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+/* Responsive: Stack margin notes on tablets and below */
 @media (max-width: 1200px) {
+    .margin-note-inline {
+        float: none;
+        clear: both;
+        width: 100%;
+        margin: 15px 0 15px 0;
+    }
+
     .sidebar-right {
         display: none;
     }
