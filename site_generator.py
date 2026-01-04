@@ -14,25 +14,27 @@ from typing import Dict, List, Tuple
 
 BOOK_DIR = 'book'
 OUTPUT_DIR = 'book/_site'
-YEARS = ['2026', '2025', '2024', '2023', '2022', '2021', '2020', '2019']
-# Base path for GitHub Pages project repository
-# Change this to '' if using a user/org page (askming.github.io)
-BASE_PATH = '/Personal-reading'
 # Base path for GitHub Pages project repository
 # Change this to '' if using a user/org page (askming.github.io)
 BASE_PATH = '/Personal-reading'
 
 
 def get_markdown_files() -> Dict[str, List[str]]:
-    """Get all markdown files organized by year"""
+    """Get all markdown files organized by year (dynamically discovered)"""
     files_by_year = {}
     
-    for year in YEARS:
-        year_dir = os.path.join(BOOK_DIR, year)
-        if os.path.exists(year_dir):
-            files = sorted([f for f in os.listdir(year_dir) if f.endswith('.md')])
-            if files:
-                files_by_year[year] = files
+    # Dynamically discover years from the file system
+    if os.path.exists(BOOK_DIR):
+        for item in os.listdir(BOOK_DIR):
+            item_path = os.path.join(BOOK_DIR, item)
+            # Check if it's a directory and looks like a year (4 digits)
+            if os.path.isdir(item_path) and item.isdigit() and len(item) == 4:
+                files = sorted([f for f in os.listdir(item_path) if f.endswith('.md')])
+                if files:
+                    files_by_year[item] = files
+    
+    # Return sorted by year in ascending order (oldest first)
+    return dict(sorted(files_by_year.items()))
     
     return files_by_year
 
@@ -60,7 +62,7 @@ def markdown_to_html(md_content: str) -> str:
     )
     html = md.convert(md_content)
     
-    # Add anchor IDs to headings
+    # Add anchor IDs to headings that don't already have links
     lines = html.split('\n')
     result = []
     for line in lines:
@@ -71,8 +73,10 @@ def markdown_to_html(md_content: str) -> str:
             if match:
                 level = match.group(1)
                 content = match.group(2)
-                anchor_id = content.lower().replace(' ', '-').replace('[', '').replace(']', '')
-                line = f'<h{level} id="{anchor_id}">{content}</h{level}>'
+                # Only add ID if there's no link in the heading (i.e., no <a> tag)
+                if '<a' not in content:
+                    anchor_id = content.lower().replace(' ', '-').replace('[', '').replace(']', '')
+                    line = f'<h{level} id="{anchor_id}">{content}</h{level}>'
         result.append(line)
     
     return '\n'.join(result)
@@ -199,12 +203,8 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     total_books = sum(len(files) for files in files_by_year.values())
     
     # Prepare data for bar chart
-    years_with_data = []
-    book_counts = []
-    for year in YEARS:
-        if year in files_by_year:
-            years_with_data.append(year)
-            book_counts.append(len(files_by_year[year]))
+    years_with_data = list(files_by_year.keys())  # Already sorted by get_markdown_files()
+    book_counts = [len(files_by_year[year]) for year in years_with_data]
     
     # Create chart data as JSON
     chart_data = json.dumps({
@@ -259,7 +259,7 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
 
     <script src="{base_path}/assets/script.js"></script>
     <script>
-        // Create bar chart
+        // Create minimalistic bar chart
         const chartData = {chart_data};
         const ctx = document.getElementById('statsChart').getContext('2d');
         const chart = new Chart(ctx, {{
@@ -270,9 +270,9 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
                     label: 'Books Read',
                     data: chartData.counts,
                     backgroundColor: '#3498db',
-                    borderColor: '#2c3e50',
-                    borderWidth: 1,
-                    borderRadius: 5
+                    borderColor: 'transparent',
+                    borderWidth: 0,
+                    borderRadius: 2
                 }}]
             }},
             options: {{
@@ -280,14 +280,23 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
                 maintainAspectRatio: true,
                 indexAxis: 'x',
                 scales: {{
+                    x: {{
+                        grid: {{
+                            display: false
+                        }}
+                    }},
                     y: {{
                         beginAtZero: true,
-                        max: Math.max(...chartData.counts) + 2,
+                        max: Math.max(...chartData.counts) + 1,
                         ticks: {{
                             stepSize: 1,
                             callback: function(value) {{
                                 return Number.isInteger(value) ? value : '';
                             }}
+                        }},
+                        grid: {{
+                            color: 'rgba(0, 0, 0, 0.05)',
+                            drawBorder: false
                         }}
                     }}
                 }},
@@ -296,9 +305,20 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
                         display: false
                     }},
                     tooltip: {{
+                        backgroundColor: 'rgba(44, 62, 80, 0.9)',
+                        padding: 8,
+                        titleFont: {{
+                            size: 12
+                        }},
+                        bodyFont: {{
+                            size: 12
+                        }},
                         callbacks: {{
                             label: function(context) {{
-                                return context.parsed.y + ' books';
+                                return context.parsed.y + ' book' + (context.parsed.y !== 1 ? 's' : '');
+                            }},
+                            title: function() {{
+                                return '';
                             }}
                         }}
                     }}
