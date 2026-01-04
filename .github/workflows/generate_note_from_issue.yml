@@ -22,29 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.9
+          python-version: '3.9'
           cache: 'pip'
 
-      - name: Configure pip cache
-        uses: actions/cache@v4
-        id: pip-cache
-        with:
-          path: venv
-          key: pip-1-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            pip-
-      - name: Install dependencies & Run Python script
+      - name: Install dependencies
         run: |
-          python -m venv venv
-          source venv/bin/activate
           pip install --upgrade pip
           pip install -r requirements.txt
-          python main.py ${{ secrets.PERSONAL_READING }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'  
+
+      - name: Run Python script
+        run: python main.py ${{ secrets.PERSONAL_READING }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'  
         
       - name: Push md to folder
         uses: github-actions-x/commit@v2.9
@@ -57,10 +49,7 @@ jobs:
           email: ${{ env.GITHUB_EMAIL }}
 
       - name: Build & Deploy the book
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          jupyter-book build ./book/
+        run: jupyter-book build ./book/
 
       - name: Deploy htmls to gh-pages branch 
         uses: peaceiris/actions-gh-pages@v3.6.1
