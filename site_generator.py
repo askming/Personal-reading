@@ -15,6 +15,12 @@ from typing import Dict, List, Tuple
 BOOK_DIR = 'book'
 OUTPUT_DIR = 'book/_site'
 YEARS = ['2026', '2025', '2024', '2023', '2022', '2021', '2020', '2019']
+# Base path for GitHub Pages project repository
+# Change this to '' if using a user/org page (askming.github.io)
+BASE_PATH = '/Personal-reading'
+# Base path for GitHub Pages project repository
+# Change this to '' if using a user/org page (askming.github.io)
+BASE_PATH = '/Personal-reading'
 
 
 def get_markdown_files() -> Dict[str, List[str]]:
@@ -116,7 +122,7 @@ def generate_sidebar_html(files_by_year: Dict[str, List[str]], current_file: str
                 is_current = (filepath == current_file)
                 css_class = ' active' if is_current else ''
                 file_title = filename[:-3]  # Remove .md extension
-                html += f'<li><a href="/{filepath}.html" class="nav-link{css_class}">{file_title}</a></li>\n'
+                html += f'<li><a href="{BASE_PATH}/{filepath}.html" class="nav-link{css_class}">{file_title}</a></li>\n'
             
             html += '</ul>\n</div>\n'
     
@@ -134,15 +140,15 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} - Reading Notes</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="{base_path}/assets/style.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbar-container">
-            <div class="logo"><a href="/">Reading Notes</a></div>
+            <div class="logo"><a href="{base_path}/">Reading Notes</a></div>
             <nav class="navbar-nav">
-                <a href="/" class="nav-item">Home</a>
-                <a href="/about.html" class="nav-item">About</a>
+                <a href="{base_path}/" class="nav-item">Home</a>
+                <a href="{base_path}/about.html" class="nav-item">About</a>
                 <a href="https://github.com/askming/Personal-reading" class="nav-item" target="_blank">GitHub</a>
             </nav>
         </div>
@@ -168,7 +174,7 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
         <p>Generated on {timestamp}</p>
     </footer>
 
-    <script src="/assets/script.js"></script>
+    <script src="{base_path}/assets/script.js"></script>
 </body>
 </html>'''
     
@@ -180,7 +186,8 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
         sidebar=sidebar_html,
         content=content_html,
         toc=toc_html,
-        timestamp=timestamp
+        timestamp=timestamp,
+        base_path=BASE_PATH
     )
 
 
@@ -208,15 +215,15 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reading Notes</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="{base_path}/assets/style.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbar-container">
-            <div class="logo"><a href="/">Reading Notes</a></div>
+            <div class="logo"><a href="{base_path}/">Reading Notes</a></div>
             <nav class="navbar-nav">
-                <a href="/" class="nav-item active">Home</a>
-                <a href="/about.html" class="nav-item">About</a>
+                <a href="{base_path}/" class="nav-item active">Home</a>
+                <a href="{base_path}/about.html" class="nav-item">About</a>
                 <a href="https://github.com/askming/Personal-reading" class="nav-item" target="_blank">GitHub</a>
             </nav>
         </div>
@@ -243,7 +250,7 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
         <p>Generated on {timestamp}</p>
     </footer>
 
-    <script src="/assets/script.js"></script>
+    <script src="{base_path}/assets/script.js"></script>
 </body>
 </html>'''
     
@@ -253,7 +260,8 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
         sidebar=sidebar_html,
         content=content,
         total=total_books,
-        timestamp=timestamp
+        timestamp=timestamp,
+        base_path=BASE_PATH
     )
 
 
@@ -280,15 +288,15 @@ def generate_about_page(files_by_year: Dict[str, List[str]]) -> str:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Reading Notes</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="{base_path}/assets/style.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbar-container">
-            <div class="logo"><a href="/">Reading Notes</a></div>
+            <div class="logo"><a href="{base_path}/">Reading Notes</a></div>
             <nav class="navbar-nav">
-                <a href="/" class="nav-item">Home</a>
-                <a href="/about.html" class="nav-item active">About</a>
+                <a href="{base_path}/" class="nav-item">Home</a>
+                <a href="{base_path}/about.html" class="nav-item active">About</a>
                 <a href="https://github.com/askming/Personal-reading" class="nav-item" target="_blank">GitHub</a>
             </nav>
         </div>
@@ -311,7 +319,7 @@ def generate_about_page(files_by_year: Dict[str, List[str]]) -> str:
         <p>Generated on {timestamp}</p>
     </footer>
 
-    <script src="/assets/script.js"></script>
+    <script src="{base_path}/assets/script.js"></script>
 </body>
 </html>'''
     
@@ -320,7 +328,8 @@ def generate_about_page(files_by_year: Dict[str, List[str]]) -> str:
     return template.format(
         sidebar=sidebar_html,
         content=content,
-        timestamp=timestamp
+        timestamp=timestamp,
+        base_path=BASE_PATH
     )
 
 
