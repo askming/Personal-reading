@@ -277,9 +277,17 @@ body {
     text-align: center;
 }
 
+.home-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .home-content h2 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: var(--primary-color);
 }
 
@@ -315,6 +323,35 @@ body {
     display: block;
     font-size: 14px;
     color: #666;
+}
+
+/* Chart Styles */
+.chart-container {
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 8px;
+    margin: 30px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.chart-container canvas {
+    max-height: 400px;
+}
+
+.total-stats {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
+
+.total-stats p {
+    font-size: 18px;
+    color: var(--primary-color);
 }
 
 /* About Content */
@@ -488,6 +525,15 @@ body {
 
     .year-stats {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .chart-container {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .home-logo {
+        max-width: 150px;
     }
 }
 

@@ -139,13 +139,13 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title} - Reading Notes</title>
+    <title>{title} - MY's Readings</title>
     <link rel="stylesheet" href="{base_path}/assets/style.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbar-container">
-            <div class="logo"><a href="{base_path}/">Reading Notes</a></div>
+            <div class="logo"><a href="{base_path}/">MY's Readings</a></div>
             <nav class="navbar-nav">
                 <a href="{base_path}/" class="nav-item">Home</a>
                 <a href="{base_path}/about.html" class="nav-item">About</a>
@@ -159,7 +159,6 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
         
         <main class="main-content">
             <article class="article">
-                <h1>{title}</h1>
                 {content}
             </article>
         </main>
@@ -193,19 +192,30 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
 
 def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     """Generate home page"""
-    content = '<div class="home-content">\n<h2>Welcome to Reading Notes</h2>\n'
-    content += '<p>Explore reading summaries organized by year.</p>\n'
-    content += '<div class="year-stats">\n'
+    content = '<div class="home-content">\n'
+    content += '<img src="{base_path}/assets/logo.png" alt="Logo" class="home-logo">\n'
+    content += '<h2>Welcome to My Reading Notes Site!</h2>\n'
     
     total_books = sum(len(files) for files in files_by_year.values())
-    content += f'<div class="stat"><span class="stat-number">{total_books}</span><span class="stat-label">Books Read</span></div>\n'
     
+    # Prepare data for bar chart
+    years_with_data = []
+    book_counts = []
     for year in YEARS:
         if year in files_by_year:
-            count = len(files_by_year[year])
-            content += f'<div class="stat"><span class="stat-number">{count}</span><span class="stat-label">{year}</span></div>\n'
+            years_with_data.append(year)
+            book_counts.append(len(files_by_year[year]))
     
-    content += '</div>\n</div>'
+    # Create chart data as JSON
+    chart_data = json.dumps({
+        'labels': years_with_data,
+        'counts': book_counts
+    })
+    
+    content += '<div class="chart-container">\n'
+    content += '<canvas id="statsChart"></canvas>\n'
+    content += '</div>\n'
+    content += f'<div class="total-stats"><p>Total books read: <strong>{total_books}</strong></p></div>\n'
     
     sidebar_html = generate_sidebar_html(files_by_year)
     
@@ -214,13 +224,14 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reading Notes</title>
+    <title>MY's Readings</title>
     <link rel="stylesheet" href="{base_path}/assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 </head>
 <body>
     <header class="navbar">
         <div class="navbar-container">
-            <div class="logo"><a href="{base_path}/">Reading Notes</a></div>
+            <div class="logo"><a href="{base_path}/">MY's Readings</a></div>
             <nav class="navbar-nav">
                 <a href="{base_path}/" class="nav-item active">Home</a>
                 <a href="{base_path}/about.html" class="nav-item">About</a>
@@ -239,10 +250,6 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
         </main>
 
         <aside class="sidebar-right">
-            <div class="toc-title">Statistics</div>
-            <div class="stats-panel">
-                <p>Total books: <strong>{total}</strong></p>
-            </div>
         </aside>
     </div>
 
@@ -251,6 +258,54 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     </footer>
 
     <script src="{base_path}/assets/script.js"></script>
+    <script>
+        // Create bar chart
+        const chartData = {chart_data};
+        const ctx = document.getElementById('statsChart').getContext('2d');
+        const chart = new Chart(ctx, {{
+            type: 'bar',
+            data: {{
+                labels: chartData.labels,
+                datasets: [{{
+                    label: 'Books Read',
+                    data: chartData.counts,
+                    backgroundColor: '#3498db',
+                    borderColor: '#2c3e50',
+                    borderWidth: 1,
+                    borderRadius: 5
+                }}]
+            }},
+            options: {{
+                responsive: true,
+                maintainAspectRatio: true,
+                indexAxis: 'x',
+                scales: {{
+                    y: {{
+                        beginAtZero: true,
+                        max: Math.max(...chartData.counts) + 2,
+                        ticks: {{
+                            stepSize: 1,
+                            callback: function(value) {{
+                                return Number.isInteger(value) ? value : '';
+                            }}
+                        }}
+                    }}
+                }},
+                plugins: {{
+                    legend: {{
+                        display: false
+                    }},
+                    tooltip: {{
+                        callbacks: {{
+                            label: function(context) {{
+                                return context.parsed.y + ' books';
+                            }}
+                        }}
+                    }}
+                }}
+            }}
+        }});
+    </script>
 </body>
 </html>'''
     
@@ -259,9 +314,9 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     return template.format(
         sidebar=sidebar_html,
         content=content,
-        total=total_books,
         timestamp=timestamp,
-        base_path=BASE_PATH
+        base_path=BASE_PATH,
+        chart_data=chart_data
     )
 
 
@@ -287,13 +342,13 @@ def generate_about_page(files_by_year: Dict[str, List[str]]) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Reading Notes</title>
+    <title>About - MY's Readings</title>
     <link rel="stylesheet" href="{base_path}/assets/style.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbar-container">
-            <div class="logo"><a href="{base_path}/">Reading Notes</a></div>
+            <div class="logo"><a href="{base_path}/">MY's Readings</a></div>
             <nav class="navbar-nav">
                 <a href="{base_path}/" class="nav-item">Home</a>
                 <a href="{base_path}/about.html" class="nav-item active">About</a>
