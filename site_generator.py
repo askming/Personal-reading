@@ -251,7 +251,7 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
 def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     """Generate home page"""
     content = '<div class="home-content">\n'
-    content += '<img src="{base_path}/assets/logo.png" alt="Logo" class="home-logo">\n'
+    content += f'<img src="{BASE_PATH}/assets/logo.png" alt="Logo" class="home-logo">\n'
     content += '<h2>Welcome to My Reading Notes Site!</h2>\n'
     
     total_books = sum(len(files) for files in files_by_year.values())
