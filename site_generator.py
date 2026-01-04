@@ -117,18 +117,17 @@ def generate_sidebar_html(files_by_year: Dict[str, List[str]], current_file: str
     """Generate sidebar navigation HTML"""
     html = '<aside class="sidebar-left">\n<div class="sidebar-content">\n'
     
-    for year in YEARS:
-        if year in files_by_year:
-            html += f'<div class="year-section">\n<h3 class="year-title">{year}</h3>\n<ul>\n'
-            
-            for filename in files_by_year[year]:
-                filepath = f'{year}/{filename[:-3]}'  # Remove .md extension
-                is_current = (filepath == current_file)
-                css_class = ' active' if is_current else ''
-                file_title = filename[:-3]  # Remove .md extension
-                html += f'<li><a href="{BASE_PATH}/{filepath}.html" class="nav-link{css_class}">{file_title}</a></li>\n'
-            
-            html += '</ul>\n</div>\n'
+    for year in files_by_year:
+        html += f'<div class="year-section">\n<h3 class="year-title">{year}</h3>\n<ul>\n'
+        
+        for filename in files_by_year[year]:
+            filepath = f'{year}/{filename[:-3]}'  # Remove .md extension
+            is_current = (filepath == current_file)
+            css_class = ' active' if is_current else ''
+            file_title = filename[:-3]  # Remove .md extension
+            html += f'<li><a href="{BASE_PATH}/{filepath}.html" class="nav-link{css_class}">{file_title}</a></li>\n'
+        
+        html += '</ul>\n</div>\n'
     
     html += '</div>\n</aside>'
     return html
