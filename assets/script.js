@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Active nav item highlighting
+// Active nav item highlighting and sidebar scroll
 document.addEventListener('DOMContentLoaded', function() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.year-section .nav-link');
@@ -97,6 +97,12 @@ document.addEventListener('DOMContentLoaded', function() {
     navLinks.forEach(link => {
         if (link.getAttribute('href') === currentPath) {
             link.classList.add('active');
+            
+            // Scroll the active link into view in the sidebar
+            // Use a small delay to ensure DOM is fully rendered
+            setTimeout(function() {
+                link.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
         }
     });
 });
