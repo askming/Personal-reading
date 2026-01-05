@@ -93,16 +93,28 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.year-section .nav-link');
+    const sidebar = document.querySelector('.sidebar-left');
     
     navLinks.forEach(link => {
         if (link.getAttribute('href') === currentPath) {
             link.classList.add('active');
             
-            // Scroll the active link into view in the sidebar
-            // Use a small delay to ensure DOM is fully rendered
-            setTimeout(function() {
-                link.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 100);
+            // Scroll only within the sidebar container, not the page
+            if (sidebar) {
+                setTimeout(function() {
+                    const linkRect = link.getBoundingClientRect();
+                    const sidebarRect = sidebar.getBoundingClientRect();
+                    
+                    // Only scroll if link is outside the visible sidebar area
+                    if (linkRect.top < sidebarRect.top || linkRect.bottom > sidebarRect.bottom) {
+                        const sidebarContent = sidebar.querySelector('.sidebar-content');
+                        if (sidebarContent) {
+                            const offset = link.offsetTop - (sidebarContent.offsetHeight / 2);
+                            sidebarContent.parentElement.scrollTop = Math.max(0, offset);
+                        }
+                    }
+                }, 100);
+            }
         }
     });
 });
