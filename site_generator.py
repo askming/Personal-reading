@@ -252,7 +252,7 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     """Generate home page"""
     content = '<div class="home-content">\n'
     content += f'<img src="{BASE_PATH}/assets/logo.png" alt="Logo" class="home-logo">\n'
-    content += '<h2>Welcome to My Reading Notes Site!</h2>\n'
+    content += '<h2>Welcome to My Reading Site!</h2>\n'
     
     total_books = sum(len(files) for files in files_by_year.values())
     
@@ -269,7 +269,7 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
     content += '<div class="chart-container">\n'
     content += '<canvas id="statsChart"></canvas>\n'
     content += '</div>\n'
-    content += f'<div class="total-stats"><p>Total books read: <strong>{total_books}</strong></p></div>\n'
+    content += f'<div class="total-stats"><p>Total books read since 2019: <strong>{total_books}</strong></p></div>\n'
     
     sidebar_html = generate_sidebar_html(files_by_year)
     
