@@ -302,9 +302,6 @@ def generate_index_page(files_by_year: Dict[str, List[str]]) -> str:
                 {content}
             </article>
         </main>
-
-        <aside class="sidebar-right">
-        </aside>
     </div>
 
     <footer class="footer">
@@ -439,9 +436,6 @@ def generate_about_page(files_by_year: Dict[str, List[str]]) -> str:
                 {content}
             </article>
         </main>
-
-        <aside class="sidebar-right">
-        </aside>
     </div>
 
     <footer class="footer">
