@@ -56,8 +56,9 @@ def extract_headings(md_content: str) -> List[Tuple[int, str, str]]:
     return headings
 
 
-def extract_margin_notes(md_content: str) -> str:
-    """Convert margin notes in markdown to inline HTML margin note elements
+def extract_margin_notes(md_content: str) -> Tuple[str, List[Dict[str, str]]]:
+    """Extract margin notes from markdown content
+    Returns (cleaned_content, margin_notes_list)
     
     Margin notes are formatted as:
     ```{margin} [Title](url)
@@ -65,9 +66,8 @@ def extract_margin_notes(md_content: str) -> str:
     Content line 2
     ...
     ```
-    
-    Returns cleaned content with margin notes converted to HTML
     """
+    margin_notes = []
     
     # Pattern to match ```{margin} blocks
     pattern = r'```\{margin\}\s*\n(.*?)\n```'
@@ -97,26 +97,29 @@ def extract_margin_notes(md_content: str) -> str:
             if line:
                 html_content += f'<p>{line}</p>\n'
         
-        # Return HTML div that will float as a margin note
-        return f'<div class="margin-note-inline">\n{html_content}</div>\n'
+        margin_notes.append({
+            'content': html_content.rstrip()
+        })
+        # Return empty string to remove the margin block from content
+        return ''
     
     cleaned_content = re.sub(pattern, replace_margin, md_content, flags=re.DOTALL)
     
-    return cleaned_content
+    return cleaned_content, margin_notes
 
 
-def markdown_to_html(md_content: str) -> str:
+def markdown_to_html(md_content: str) -> Tuple[str, List[Dict[str, str]]]:
     """Convert markdown to HTML with anchor IDs for headings, inline margin notes, and footnotes
     
-    Returns HTML content with margin notes positioned inline and footnotes at bottom
+    Returns (html_content, margin_notes)
     """
-    # First process margin notes and convert them to inline HTML divs
-    content_with_margins = extract_margin_notes(md_content)
+    # First extract margin notes
+    cleaned_content, margin_notes = extract_margin_notes(md_content)
     
     md = markdown.Markdown(
         extensions=['tables', 'fenced_code', 'codehilite', 'footnotes']
     )
-    html = md.convert(content_with_margins)
+    html = md.convert(cleaned_content)
     
     # Add anchor IDs to headings that don't already have links
     lines = html.split('\n')
@@ -134,7 +137,7 @@ def markdown_to_html(md_content: str) -> str:
                     line = f'<h{level} id="{anchor_id}">{content}</h{level}>'
         result.append(line)
     
-    return '\n'.join(result)
+    return '\n'.join(result), margin_notes
 
 
 def generate_toc_html(headings: List[Tuple[int, str, str]]) -> str:
@@ -189,8 +192,20 @@ def generate_sidebar_html(files_by_year: Dict[str, List[str]], current_file: str
 
 
 def generate_page_html(title: str, content_html: str, toc_html: str, 
-                      files_by_year: Dict[str, List[str]], current_file: str) -> str:
+                      files_by_year: Dict[str, List[str]], current_file: str,
+                      margin_notes: List[Dict[str, str]] = None) -> str:
     """Generate complete page HTML"""
+    
+    if margin_notes is None:
+        margin_notes = []
+    
+    # Generate margin notes HTML for right sidebar
+    margin_html = ''
+    if margin_notes:
+        margin_html = '<div class="margin-notes">\n'
+        for note in margin_notes:
+            margin_html += f'<div class="margin-note">\n{note["content"]}\n</div>\n'
+        margin_html += '</div>\n'
     
     template = '''<!DOCTYPE html>
 <html lang="en">
@@ -224,6 +239,7 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
         <aside class="sidebar-right">
             <div class="toc-title">Table of Contents</div>
             {toc}
+            {margin}
         </aside>
     </div>
 
@@ -243,6 +259,7 @@ def generate_page_html(title: str, content_html: str, toc_html: str,
         sidebar=sidebar_html,
         content=content_html,
         toc=toc_html,
+        margin=margin_html,
         timestamp=timestamp,
         base_path=BASE_PATH
     )
@@ -491,7 +508,7 @@ def main():
                 md_content = f.read()
             
             # Convert markdown to HTML with inline margin notes
-            content_html = markdown_to_html(md_content)
+            content_html, margin_notes = markdown_to_html(md_content)
             
             # Extract headings for TOC
             headings = extract_headings(md_content)
@@ -500,7 +517,7 @@ def main():
             # Generate page
             title = filename[:-3]  # Remove .md extension
             current_file = f'{year}/{filename[:-3]}'
-            page_html = generate_page_html(title, content_html, toc_html, files_by_year, current_file)
+            page_html = generate_page_html(title, content_html, toc_html, files_by_year, current_file, margin_notes)
             
             # Write to file
             output_file = os.path.join(year_dir, filename[:-3] + '.html')
