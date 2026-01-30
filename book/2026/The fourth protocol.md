@@ -2,4 +2,4 @@
 
 _Started on 2026-01-30; updated on 2026-01-30_
 
-Start: 1/30/2026; Tire center, Forster City Costco
+Start: 1/30/2026; Tire center, Foster City Costco
