@@ -9,8 +9,8 @@ assignees: ''
 
 _按:_
 
-- Start:
-- Finish: 
+- Start: [YYYY/MM/DD]; [location]
+- Finish: [YYYY/MM/DD]; [location]
 
 _Rating_:
 _Review_:
